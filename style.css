@@ -1,4 +1,4 @@
- body {
+body {
     margin: 0;
     font-size: 20px;
     font-weight: bold;
@@ -177,6 +177,7 @@ nav ul li a:hover
     box-sizing: border-box;
     font-weight: 700;
     text-decoration: none;
+    display: block; 
 }
 
 .container nav ul{
