@@ -1,10 +1,67 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Interfaces de Usuario</title>
-    </head>
-    <body>
-        <h1>Bienvenido PARÁSITO!</h1>
-        <h2>jejejejej</h2>
-    </body>
+<html lang="es">
+<meta charset="UTF-8">
+<head>
+<title>My First Web Page</title>
+<link type="text/css" rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font
+-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+ 
+  <header>
+    <a href="#" class="logo">My First Web Page</a>
+    <div class="menu-toggle"></div>
+    <nav class="nav_top">
+<ul>
+    <li><a href="#">Content1</a></li>
+    <li><a href="#">Content2</a></li>
+    <li><a href="#">Content3</a></li>
+</ul>
+    </nav>  
+    <div class="clearfix"></div>
+</header>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script>
+      $(document).ready(function(){
+         $('.menu-toggle').click(function(){
+             $('.menu-toggle').toggleClass('active')
+             $('nav').toggleClass('active')
+         })
+      })
+  </script>
+
+  <div class="container">
+    <nav>
+      <div class="asignatura">Asignatura</div>
+      <ul>
+        <li><a href="#">
+          <i class="fa fa-users"></i>
+          <span>lista de estudiantes</span>
+        </a></li>
+        <br>
+        <li><a href="#">
+          <i class="fa fa-commenting-o"></i>
+          <span>foro de la asignatura</span>
+        </a></li>
+        <br>
+        <li><a href="#">
+          <i class="fa fa-table"></i>
+          <span>calificaciones</span>
+        </a></li>
+    </ul>
+    </nav>
+    <main>Main</main>
+    <aside>Sider</aside>
+  </div>
+  <footer>Footer</footer>
+ 
+</body>
 </html>
+
+
