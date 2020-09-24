@@ -272,11 +272,8 @@ background: rgba(0, 0, 0, .2) !important;
 }
 
 .vjs-default-skin .vjs-big-play-button {
-    width: 80px !important;
-    height: 80px !important;
-    border: none !important;
-    line-height: 8px !important;
-    border-radius: 100% !important;
+    width: 30% !important;
+    height: 50% !important;
 }
 
 .line-dec {
