@@ -5,6 +5,8 @@
 <title>My First Web Page</title>
 <link type="text/css" rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+<script src="assets/js/video.js"></script>
 </head>
 
 <body>
@@ -21,18 +23,6 @@
     </nav>  
     <div class="clearfix"></div>
 </header>
-<script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-  <script>
-      $(document).ready(function(){
-         $('.menu-toggle').click(function(){
-             $('.menu-toggle').toggleClass('active')
-             $('nav').toggleClass('active')
-         })
-      })
-  </script>
 
   <div class="container">
     <nav>
@@ -52,12 +42,80 @@
         </a></li>
     </ul>
     </nav>
-    <main>Main</main>
+    <main>
+      <div class="box-image">
+            <div class="left-image">
+              <img src="assets/images/girl-nature.jpg" alt="Nature Girl" />
+          </div>
+            <div class="right-text">
+              <h4>Best Template for you!</h4>
+              <p>Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique. Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            </div>
+      </div>
+
+      <div class="line-dec"></div>
+    
+      <div class="box-video">
+      <div class="main-preview-player">
+        <video id="preview-player" class=" video-js vjs-default-skin vjs-fluid vjs-big-play-centered" controls
+        preload="auto" poster="assets/images/Chuck_16x9_web_app_Everybody.png"
+        data-setup="{}">
+        <source src="assets/videos/video1.mp4" type='video/mp4'>
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+       </video>
+    </div>
+      <div class="right-text-video">
+        <h4>Best Template for you!</h4>
+        <p>Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique. Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+      </div>
+    </div>
+
+      <div class="line-dec"></div>
+
+      <div class="box-video">
+        <div class="main-preview-player">
+        <video id="preview-player" class="video-js vjs-default-skin vjs-fluid vjs-big-play-centered" controls
+        preload="auto" poster="assets/images/Chuck_16x9_web_app_Everybody.png"
+        data-setup="{}">
+        <source src="assets/videos/video2.mp4" type='video/mp4'>
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+       </video>
+      </div>
+        <div class="right-text-video">
+          <h4>Best Template for you!</h4>
+          <p>Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique. Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+        </div>
+      </div>
+  
+        <div class="line-dec"></div>
+
+        <div class="box-video">
+          <div class="main-preview-player">
+          <video id="preview-player" class="video-js vjs-default-skin vjs-fluid vjs-big-play-centered" controls
+          preload="auto" poster="assets/images/Chuck_16x9_web_app_Everybody.png"
+          data-setup="{}">
+          <source src="assets/videos/video3.mp4" type='video/mp4'>
+          <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+         </video>
+        </div>
+          <div class="right-text-video">
+            <h4>Best Template for you!</h4>
+            <p>Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique. Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+          </div>
+        </div>
+    
+          <div class="line-dec"></div>
+    </main>
     <aside>Sider</aside>
   </div>
   <footer>Footer</footer>
  
 </body>
 </html>
+
+
+
+
+
 
 
