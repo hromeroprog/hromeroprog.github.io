@@ -7,7 +7,7 @@
   .page{
       display: flex;
       flex-direction: column;
-      margin: .5px 0;
+      margin: .5px 40px;
   }
 
   .container {
@@ -106,7 +106,7 @@ color: #262626;
     transition: 0.5s;
 }
 
-
+/*
 
   @media all and (min-width: 768px) {
     .content {
@@ -170,6 +170,7 @@ color: #262626;
         margin: 20px;
     }
 }
+*/
 
 /*Barra lateral*/
 .asignatura{
