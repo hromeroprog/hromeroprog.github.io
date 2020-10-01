@@ -24,8 +24,8 @@
       margin: 0px 4px;
   }
 
-  .container aside,.container nav,
-  .container main, footer,
+  .container aside,.nav_left,
+  .container main,
   header{
     background: #fff;
     box-sizing: border-box;
@@ -56,13 +56,6 @@
     order:3;
     width: 25%;
   }
-  
-  footer {
-      order: 3;
-    height:50px;
-    margin: 20px 10px;
-    padding: 10px;
-  }
 
   
 .logo
@@ -92,7 +85,7 @@
     display: flex;
 }
 .nav_top ul li,
-.container nav ul li {
+.nav_left ul li {
     list-style: none;
 }
 .nav_top ul li a{
@@ -104,9 +97,9 @@ color: #262626;
 }
 
 .nav_top ul li a.active,
-.nav_top ul li a:hover
-nav ul li a.active,
-nav ul li a:hover
+.nav_top ul li a:hover,
+.nav_left ul li a.active,
+.nav_left li a:hover
 {
     background: #069370;
     color: #fff;
@@ -178,20 +171,13 @@ nav ul li a:hover
     }
 }
 
-
- 
-  /* Texto en el centro 
-
-
-
-
 /*Barra lateral*/
 .asignatura{
     text-align: left;
     margin: 20px;
 }
 
-.container nav ul li a{
+.nav_left ul li a{
     color: black;
     font-size: 20px;
     padding: 15px 20px;
@@ -201,7 +187,7 @@ nav ul li a:hover
     display: block; 
 }
 
-.container nav ul{
+.nav_left ul{
     text-align: left;
     display:inline-block;
     margin-top: 100px;
@@ -215,7 +201,7 @@ nav ul li a:hover
     display: flex;
     flex-direction:row;
     align-items: stretch;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 
 .left-image{
@@ -226,27 +212,28 @@ nav ul li a:hover
 
 .left-video{
     width: 40%;
-    height: 50%;
+    height: 60%;
     object-fit: contain;
     margin-top: 30px;
-}
+    margin-right: 20px;
+  }
+
 
 .right-text-video{
     width: 60%;
     text-align: left;
-    margin: 10px;
 
 }
 
 .right-text h4,
 .right-text-video h4{
-    text-align: center;
+    text-align: left;
 }
 
 
 .line-dec {
     height: 3px;
-    width: calc(100% - 40px) ;
+    width: 100% ;
     background: #069370;
     text-align: center;
 
@@ -258,85 +245,65 @@ nav ul li a:hover
     text-align: justify;
 }
 
+  #newevents ul li,
+  #lastnews ul li{
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 700;
+    text-decoration: none;
+    display: block; 
+}
+
+#newevents ul,
+#lastnews ul{
+  padding-left: 0pt;
+  margin-top: 0px;
+}
+
+#newevents,
+#lastnews{
+  padding-left: 0pt;
+  margin-bottom: 10px;
+}
 
 
+#lastnews h4,
+#newevents h4{
+ text-align: center;
+ margin-bottom: 0px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.month {
-    padding: 70px 25px;
-    width: 100%;
-    background: #1abc9c;
-    text-align: center;
-  }
+ /*Pie de pagina*/
   
-  .month ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  .month ul li {
-    color: white;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-  }
-  
-  .month .prev {
-    float: left;
-    padding-top: 10px;
-  }
-  
-  .month .next {
-    float: right;
-    padding-top: 10px;
-  }
-  
-  .weekdays {
-    margin: 0;
-    padding: 10px 0;
-    background-color: #ddd;
-  }
-  
-  .weekdays li {
-    display: inline-block;
-    width: 13.6%;
-    color: #666;
-    text-align: center;
-  }
-  
-  .days {
-    padding: 10px 0;
-    background: #eee;
-    margin: 0;
-  }
-  
-  .days li {
-    list-style-type: none;
-    display: inline-block;
-    width: 13.6%;
-    text-align: center;
-    margin-bottom: 5px;
-    font-size:12px;
-    color: #777;
-  }
-  
-  .days li .active {
-    padding: 5px;
-    background: #1abc9c;
-    color: white !important
-  }
+ footer {
+  height:50px;
+  margin: 20px 0px 0px;
+  padding: 3px;
+  background-color: #262626;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer div a{
+  color: white;
+  font-size: 20px;
+  padding: 15px 20px;
+  font-weight: 700;
+  text-decoration: none;
+  display: block; 
+}
+
+footer div p{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.line-vert {
+  height: 100%;
+  width: 3px;
+  background: white;
+  text-align: center;
+}
