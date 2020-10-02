@@ -38,6 +38,7 @@
     margin: 20px 10px;
     padding: 10px;
     background: linear-gradient(to right, #4e086b 0%,#980366 100%);
+    font-family: Impact, Charcoal, sans-serif;
     /*background: linear-gradient(to right, #4e086b 0%,#930fca 100%);
     */
   }
@@ -70,7 +71,6 @@
     box-sizing: border-box;
     float: left;
     text-decoration: none;
-    font-family: Impact, Charcoal, sans-serif;
     padding-left: 10px;
     font-weight: 100;
 }
@@ -94,6 +94,8 @@
 
 .nav_top{
     float: right;
+    font-weight: 100;
+    font-size: medium;
 }
 .clearfix{
     clear: both;
@@ -113,7 +115,7 @@ display: block;
 margin: 10px 0;
 padding: 10px 20px;
 text-decoration: none;
-color: #262626;
+color: white;
 }
 
 .nav_top ul li a.active,
@@ -121,8 +123,7 @@ color: #262626;
 .nav_left ul li a.active,
 .nav_left li a:hover
 {
-    background: #069370;
-    color: #fff;
+    color: #ecbf17;
     transition: 0.5s;
 }
 
