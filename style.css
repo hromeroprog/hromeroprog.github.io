@@ -65,7 +65,7 @@
 .logo
 {
     height: 60px;
-    width: 125px;
+    width: 190px;
     padding: 0 5px;
     /*text-align: center;*/
     box-sizing: border-box;
@@ -73,6 +73,29 @@
     text-decoration: none;
     padding-left: 10px;
     font-weight: 100;
+    color: #ecbf17;
+}
+
+.logo:hover #bug_report,
+.logo:hover #logo_theory_of
+{
+    color: white;
+}
+
+.logo:hover #logo_errors{
+    color: #ecbf17;
+}
+
+#bug_report{
+    font-size: 60px;
+}
+
+
+
+.material-icons{
+    float: left;
+    
+    height: 200px;
 }
 
 #logo_theory_of{
