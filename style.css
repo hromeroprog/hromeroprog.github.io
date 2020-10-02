@@ -1,7 +1,9 @@
  body {
     margin: 0;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 100;
+    font-family: Impact, Charcoal, sans-serif;
+    color: white;
   }
 
   .page{
@@ -46,6 +48,7 @@
   .nav_left{
     order:1;
     width: 25%;
+    background: linear-gradient(to right, #4e086b 0%,#61076a 100%);
   }
   
   main {
@@ -54,11 +57,13 @@
     margin: 0 8px;
     overflow:hidden;
     height:1%;
+    background: linear-gradient(to right, #61076a 0%,#850467 100%);
   }
   
   aside {
     order:3;
     width: 25%;
+    background: linear-gradient(to right, #850467 0%,#980366 100%);
   }
 
   
