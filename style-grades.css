@@ -1,0 +1,67 @@
+.foto_student img {
+    width: 35px;
+    height:35px; 
+    margin-right: .5rem;
+    border-radius: 50%;
+    border-style: none;
+    vertical-align: middle;
+}
+.foto_student{
+    text-align: left;
+}
+
+.student{
+    font-size: 15px;
+    font-weight: 100;
+    line-height : 25px;
+    border: 1px solid #dee2e6;
+}
+
+.table_grades{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    min-height: 10em;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    text-align: center;
+}
+
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+}
+
+
+.table_grades th {
+    text-align: center;
+    padding: 4px;
+    display: table-cell;
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.table_grades td {
+    padding: 4px;
+    vertical-align: middle;
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+}
+
+.act-1, .act-2, .act-3{
+    text-align: center; 
+    vertical-align: middle;
+    border: 1px solid #dee2e6;
+}
+
+
+#user-1,#user-3,#user-5,#user-7,#user-9,#user-11{
+    background-color: rgba(0,0,0,.2);
+}
+
+
+
+
+
