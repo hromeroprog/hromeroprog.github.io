@@ -27,7 +27,7 @@
   .container aside,.nav_left,
   .container main,
   header{
-    background: #fff;
+    
     box-sizing: border-box;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
@@ -37,6 +37,9 @@
     order: 1;
     margin: 20px 10px;
     padding: 10px;
+    background: linear-gradient(to right, #4e086b 0%,#980366 100%);
+    /*background: linear-gradient(to right, #4e086b 0%,#930fca 100%);
+    */
   }
   
   .nav_left{
@@ -60,16 +63,33 @@
   
 .logo
 {
-    color: #069370;
     height: 60px;
-    font-size: 36px;
-    line-height: 60px;
-    padding: 0 20px;
-    text-align: center;
+    width: 125px;
+    padding: 0 5px;
+    /*text-align: center;*/
     box-sizing: border-box;
     float: left;
-    font-weight: 700;
     text-decoration: none;
+    font-family: Impact, Charcoal, sans-serif;
+    padding-left: 10px;
+    font-weight: 100;
+}
+
+#logo_theory_of{
+    color: #ecbf17;
+    height: 22px;
+    float: left;
+    font-size: 25px;
+    padding-top: -5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    
+}
+#logo_errors{
+    color: white;
+    float: left;
+    height: 22px;
+    font-size: 33px;
 }
 
 .nav_top{
