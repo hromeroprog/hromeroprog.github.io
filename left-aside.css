@@ -14,13 +14,13 @@
 }
 
 .nav_left ul li a{
-    color: black;
     font-size: 20px;
     padding: 15px 20px;
     box-sizing: border-box;
     font-weight: 700;
     text-decoration: none;
     display: block; 
+    color: white;
 }
 
 .nav_left ul{
