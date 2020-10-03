@@ -8,6 +8,14 @@
         margin: 20px 10px 0px 10px;
     }
 
+    .responsive-hidden{
+        display: block;
+    }
+
+    .white-line-responsive{
+        display: block;
+    }
+
    .logo{
     margin: 0px 0px 10px ;
     padding-left: 0;

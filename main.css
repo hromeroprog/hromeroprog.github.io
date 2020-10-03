@@ -46,6 +46,7 @@ main {
     height: 1px;
     width: 100% ;
     background: #ecbf17;
+    opacity: 0.5;
     text-align: center;
 }
 

@@ -9,7 +9,7 @@ header {
     line-height: 1.5;
     border-style: solid;
     border-width: 0px 0px 1px 0px; /* 20px top and bottom, 5px on the sides */
-    border-color: white;
+    border-color: rgba(255,255, 255, 0.5);
     /*background: linear-gradient(to right, #4e086b 0%,#930fca 100%);
     */
   }

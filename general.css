@@ -11,6 +11,10 @@
     background-repeat: repeat;
   }
 
+  .responsive-hidden{
+      display: none;
+  }
+
   .page{
       display: flex;
       flex-direction: column;
@@ -41,9 +45,6 @@
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
     */
   }
-  
-
-
 
 .clearfix{
     clear: both;

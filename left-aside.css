@@ -3,7 +3,6 @@
     width: 25%;
     background: rgba(20, 21, 23, 0.8);
     font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
-    font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
   }
@@ -16,16 +15,18 @@
 }
 
 .nav_left ul li a{
+    font-size: 1rem;
+    letter-spacing: 1em;
     display: block;
     width: 80%;
     margin: 20px auto;
-    padding: 15px 20px;
+    padding: 5% 5%;
     box-sizing: border-box;
     font-weight: 200;
     text-decoration: none;
-    color: white;
+    color: rgba(255,255, 255, 0.7);
     letter-spacing: .02em;
-    text-align: center; 
+    text-align: center;
 }
 
 .nav_left ul{
@@ -36,8 +37,24 @@
 
 .white-line{
     background-color: white;
+    opacity: 0.3;
     margin: 0 auto;
     width: 60%;
+    height: 1px;
+}
+
+#main-white-line{
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+.white-line-responsive{
+    display: none;
+    background-color: white;
+    opacity: 0.3;
+    margin: 0 auto;
+    width: 100%;
     height: 1px;
 }
 
@@ -45,8 +62,9 @@
     text-align: center;
     margin: 30px 20px 30px 20px;
     text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 200;
+    font-size: 1.4rem;
+    font-weight: 100;
+    letter-spacing: .25em;
 }
 
 .nav_left .link-name{
