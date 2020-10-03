@@ -1,8 +1,7 @@
 aside {
     order:3;
     width: 25%;
-    background-color: #141517;
-    opacity: 0.8;
+    background: rgba(20, 21, 23, 0.8);
   }
 
   #newevents ul li,
