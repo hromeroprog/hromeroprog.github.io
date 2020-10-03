@@ -56,13 +56,15 @@ header {
     padding: 10px 20px;
     text-decoration: none;
     color: white;
+    background-color: #ecbf17;
 }
 
 .nav_top ul li a.active,
 .nav_top ul li a:hover
 {
     color: #ecbf17;
-    transition: 0.5s;
+    background-color: #1A1A1A;
+    transition: 0.2s;
 }
 
 #logo_theory_of{
