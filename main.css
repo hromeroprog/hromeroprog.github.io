@@ -1,0 +1,56 @@
+main {
+    order:2;
+    width: 50%;
+    margin: 0 8px;
+    overflow:hidden;
+    height:1%;
+    background-color: #141517;
+}
+
+.box-image,
+.box-video{
+    display: flex;
+    flex-direction:row;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.left-image{
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.left-video{
+    width: 40%;
+    height: 60%;
+    object-fit: contain;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+
+
+.right-text-video{
+    width: 60%;
+    text-align: left;
+
+}
+
+.right-text h4,
+.right-text-video h4{
+    text-align: left;
+}
+
+
+.line-dec {
+    height: 1px;
+    width: 100% ;
+    background: #ecbf17;
+    text-align: center;
+}
+
+.right-text p,
+.right-text-video p{
+    font-size: 15px;
+    text-align: justify;
+}

@@ -2,7 +2,7 @@
     margin: 0;
     font-size: 20px;
     font-weight: 100;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
     color: white;
     background-color: #2d3436;
     background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
@@ -36,132 +36,19 @@
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
   }
-
-  header {
-    order: 1;
-    margin: 0px -45px 10px -45px;
-    padding: 10px;
-    background-color: #1A1A1A;
-    font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    /*background: linear-gradient(to right, #4e086b 0%,#930fca 100%);
-    */
-  }
   
-  .nav_left{
-    order:1;
-    width: 25%;
-    background-color: #141517;
-    letter-spacing: -.01em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  }
-  
-  main {
-    order:2;
-    width: 50%;
-    margin: 0 8px;
-    overflow:hidden;
-    height:1%;
-    background-color: #141517;
-  }
-  
-  aside {
-    order:3;
-    width: 25%;
-    background-color: #141517;
-  }
-
-  
-.logo
-{
-    font-family: Impact, Charcoal, sans-serif;
-    height: 60px;
-    width: 210px;
-    padding: 0 5px;
-    /*text-align: center;*/
-    box-sizing: border-box;
-    float: left;
-    text-decoration: none;
-    padding-left: 30px;
-    font-weight: 100;
-    color: #ecbf17;
-}
-
-.logo:hover #bug_report,
-.logo:hover #logo_theory_of
-{
-    color: white;
-}
-
-.logo:hover #logo_errors{
-    color: #ecbf17;
-}
-
-#bug_report{
-    font-size: 60px;
-}
 
 
 
-.material-icons{
-    float: left;
-    
-    height: 200px;
-}
-
-#logo_theory_of{
-    color: #ecbf17;
-    height: 22px;
-    float: left;
-    font-size: 25px;
-    padding-top: -5px;
-    padding-right: 5px;
-    padding-bottom: 3px;
-    
-}
-#logo_errors{
-    color: white;
-    float: left;
-    height: 22px;
-    font-size: 33px;
-}
-
-.nav_top{
-    float: right;
-    font-weight: 100;
-    font-size: medium;
-}
 .clearfix{
     clear: both;
 }
 
-.nav_top ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
 .nav_top ul li,
 .nav_left ul li {
     list-style: none;
 }
-.nav_top ul li a{
-display: block;
-margin: 10px 0;
-padding: 10px 20px;
-text-decoration: none;
-color: white;
-}
 
-.nav_top ul li a.active,
-.nav_top ul li a:hover,
-.nav_left ul li a.active,
-.nav_left li a:hover
-{
-    color: #ecbf17;
-    transition: 0.5s;
-}
 
 /*
 
@@ -229,139 +116,3 @@ color: white;
 }
 */
 
-/*Barra lateral*/
-.asignatura{
-    text-align: left;
-    margin: 20px;
-}
-
-.nav_left ul li a{
-    color: black;
-    font-size: 20px;
-    padding: 15px 20px;
-    box-sizing: border-box;
-    font-weight: 700;
-    text-decoration: none;
-    display: block; 
-}
-
-.nav_left ul{
-    text-align: left;
-    display:inline-block;
-    margin-top: 100px;
-}
-
-
-/*Main */
-
-.box-image,
-.box-video{
-    display: flex;
-    flex-direction:row;
-    align-items: stretch;
-    margin-bottom: 20px;
-}
-
-.left-image{
-    width: 40%;
-    height: auto;
-    margin-right: 20px;
-}
-
-.left-video{
-    width: 40%;
-    height: 60%;
-    object-fit: contain;
-    margin-top: 30px;
-    margin-right: 20px;
-  }
-
-
-.right-text-video{
-    width: 60%;
-    text-align: left;
-
-}
-
-.right-text h4,
-.right-text-video h4{
-    text-align: left;
-}
-
-
-.line-dec {
-    height: 1px;
-    width: 100% ;
-    background: #ecbf17;
-    text-align: center;
-
-}
-
-.right-text p,
-.right-text-video p{
-    font-size: 15px;
-    text-align: justify;
-}
-
-  #newevents ul li,
-  #lastnews ul li{
-    color: black;
-    font-size: 15px;
-    padding: 10px 20px;
-    font-weight: 700;
-    text-decoration: none;
-    display: block; 
-}
-
-#newevents ul,
-#lastnews ul{
-  padding-left: 0pt;
-  margin-top: 0px;
-}
-
-#newevents,
-#lastnews{
-  padding-left: 0pt;
-  margin-bottom: 10px;
-}
-
-
-#lastnews h4,
-#newevents h4{
- text-align: center;
- margin-bottom: 0px;
-}
-
-
- /*Pie de pagina*/
-  
- footer {
-  height:50px;
-  margin: 20px 0px 0px;
-  padding: 3px;
-  background-color: #262626;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-footer div a{
-  color: white;
-  font-size: 20px;
-  padding: 15px 20px;
-  font-weight: 700;
-  text-decoration: none;
-  display: block; 
-}
-
-footer div p{
-  color: white;
-  font-size: 20px;
-  font-weight: 700;
-}
-.line-vert {
-  height: 100%;
-  width: 3px;
-  background: white;
-  text-align: center;
-}
