@@ -43,6 +43,7 @@ thead {
     display: table-cell;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
+    color: #ecbf17;
 }
 
 #participants td {
@@ -59,7 +60,7 @@ thead {
 
 
 #user-1,#user-3,#user-5,#user-7,#user-9,#user-11{
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0,0,0,.5);
 }
 
 
