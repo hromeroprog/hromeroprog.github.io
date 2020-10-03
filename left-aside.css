@@ -1,10 +1,12 @@
 .nav_left{
+    position: relative;
     order:1;
     width: 25%;
     background: rgba(20, 21, 23, 0.8);
     font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
     font-weight: 400;
     text-decoration: none;
+    margin: 0 10px 0 5px;
   }
 
 .nav_left ul li a.active,
@@ -70,4 +72,13 @@
 .nav_left .link-name{
     display: block;
     margin-top: 8px;
+}
+
+.bug-looking-darken{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    opacity: 0.25;
+    max-width: 80%;
+    filter: grayscale(0.7)
 }

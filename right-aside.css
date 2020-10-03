@@ -1,8 +1,9 @@
 aside {
-    order:3;
-    width: 25%;
-    background: rgba(20, 21, 23, 0.8);
-  }
+  margin: 0 5px 0 10px;
+  order:3;
+  width: 25%;
+  background: rgba(20, 21, 23, 0.8);
+}
 
   #newevents ul li,
   #lastnews ul li{
