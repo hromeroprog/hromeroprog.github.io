@@ -7,6 +7,9 @@ header {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px; /* 20px top and bottom, 5px on the sides */
+    border-color: white;
     /*background: linear-gradient(to right, #4e086b 0%,#930fca 100%);
     */
   }

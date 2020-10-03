@@ -4,6 +4,7 @@
     background-color: #141517;
     font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    opacity: 0.8;
   }
 
 .nav_left ul li a.active,
