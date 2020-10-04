@@ -38,7 +38,14 @@ main {
 
 .right-text h4,
 .right-text-video h4{
+    margin-top: 30px;
     text-align: left;
+    font-weight: 100;
+    font-size: 13px;
+    margin-bottom: 5px;
+    letter-spacing: .2em;
+    color: rgba(233, 200, 80, 0.5);
+
 }
 
 
@@ -52,6 +59,8 @@ main {
 
 .right-text p,
 .right-text-video p{
+    margin-top: 10px;
     font-size: 15px;
     text-align: justify;
+    color: rgba(255, 255, 255, 0.6);
 }
