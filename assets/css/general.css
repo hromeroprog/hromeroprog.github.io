@@ -4,9 +4,7 @@
     font-weight: 100;
     font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
     color: white;
-    /*background-color: #2d3436;
-    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);*/
-    background-image: url(yellow\ smoke\ hard\ darkened\ bg.png);
+    background-image: url(../background-images/yellow\ smoke\ hard\ darkened\ bg.png);
     background-size: contain;
     background-repeat: repeat;
   }
