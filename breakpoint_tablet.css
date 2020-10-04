@@ -19,7 +19,17 @@
    .logo{
     margin: 0px 0px 10px ;
     padding-left: 0;
+    width: 60px;
    }
+
+#logo_errors,
+#logo_theory_of,
+.asignatura,
+#main-white-line{
+
+    display: none;
+}
+
 
     .nav_top{
         display: none;
@@ -101,6 +111,9 @@
 @media all and (min-width: 769px) {
     #events, #news {
         visibility:hidden
+    }
+    .asignatura-movil{
+        display: none;
     }
 }
  
