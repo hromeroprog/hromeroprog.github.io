@@ -78,6 +78,7 @@ main .box-image:hover .right-text p{
     background: #ecbf17;
     opacity: 0.5;
     text-align: center;
+    margin: 3px 0;
 }
 
 .right-text p,
