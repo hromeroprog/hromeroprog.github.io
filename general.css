@@ -32,7 +32,6 @@
   .container main,
   .container aside{
       padding: 20px;
-      margin: 0px 4px;
   }
 
   .container aside,.nav_left,
