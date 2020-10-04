@@ -23,8 +23,128 @@
         cursor: pointer;
         text-align: center;
     }
+
+    label {
+       display: block;
+       width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-right: rgba(0, 0, 0, 0.3);
+    text-align: center;
+   }
+
+   
+
+ label:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.3);
+    }
+
+   #btn-menu{
+    display: none;
+    order: 1;
+}
+
+   .nav_left{
+    position: absolute;
+    margin-left:-70%;
+    background: rgba(20, 21, 23, 0.9);
+}
+
+header{
+    margin-bottom: 0;
+}
+.container{
+    padding: 0;
+}
+
+.asignatura,
+.white-line,
+.white-line-responsive{
+    display: none;
+}
+
+.container main{
+    width: 100%;
+    margin: 10px;
+}
+
+#btn-menu:checked ~ .container .nav_left{
+    margin: 0;
+}
+
+
+    /*
+    .menu-toggle {
+        height: 20px;
+        width: 20px;
+        padding: 20px;
+        float: right;
+        cursor: pointer;
+        color: #069370;
+        order: 1;
+        
+      }
+      .menu-toggle:before {
+        content: "";
+  display: block;
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 4px;
+      }
+      .menu-toggle:after {
+        content: "";
+        display: block;
+        background-color: #f3f3f3;
+        width: 100%;
+        height: 4px;
+        margin-top: 4px;
+        box-shadow: 0px 8px 0 #f3f3f3;
+      }
+
+     .nav_left {
+        background-color: #2b2b2b;
+        margin: 0;
+        max-height: 0;
+        overflow: hidden;
+        clear:both;
+        transition: max-height .3s cubic-bezier(0.63, 0, 0.25, 1);;
+      }
+
+      .nav_left ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: block;
+      }
+      .nav_left li {
+        display: block;
+        margin: 0;
+        text-align: center;
+      }
+      .nav_left a {
+        color: white;
+        display: block;
+        padding: .4em;
+      }
+
+     header input[type=checkbox] {
+        display: none;
+      }
+   
+    .nav_left {
+         position: fixed;
+         display: none;
+     }
+   
+     header input[type=checkbox]:checked ~ .nav_left {
+         display: block;
+     }
+      */
+
+
   
-    .menu-toggle{
+    /*.menu-toggle{
         width: 40px;
         height: 40px;
         margin: 10px;
@@ -54,11 +174,25 @@
     }
     .nav_top.active ul li a{
         margin: 0;  
-    }
+    }*/
 }
 
-@media (min-width: 600px)
-{
+
+@media (min-width: 601px) {
+    .menu-toggle,
+    #sub-navigation {
+      display: none;
+    }
+
+ 
+label {
+    display: none;
     
 }
+
+}
+
+
+
+
 
