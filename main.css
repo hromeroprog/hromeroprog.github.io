@@ -11,7 +11,7 @@ main h2{
     color: rgba(255, 255, 255, 0.7);
     font-weight: 100;
     letter-spacing: .15em;
-
+    margin: 15px 0 0 0;
 }
 
 .box-image,
@@ -26,20 +26,21 @@ main h2{
     width: 30%;
     height: auto;
     margin-right: 20px;
+    margin-top: 30px;
     filter: grayscale(0.6);
     opacity: 0.7;
 }
 
-main .box-image:hover .left-image{
+main .subject-theme:hover .left-image{
     filter: grayscale(0);
     opacity: 1;
 }
 
-main .box-image:hover .right-text h4{
+main .subject-theme:hover .right-text h4{
     color: rgba(233, 200, 80, 0.9);
 }
 
-main .box-image:hover .right-text p{
+main .subject-theme:hover .right-text p, main .subject-theme:hover h2{
     color: rgba(255, 255, 255, 0.9);
 }
 
@@ -61,6 +62,7 @@ main .box-image:hover .right-text p{
 
 .right-text h4,
 .right-text-video h4{
+    padding: 0;
     margin-top: 30px;
     text-align: left;
     font-weight: 100;
