@@ -1,35 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Theory of Errors</title>
 <link rel = "icon" href =  "./assets/images/logo.png" 
         type = "image/x-icon">
-<link type="text/css" rel="stylesheet" href="./assets/css/general.css" media="screen">
-<link type="text/css" rel="stylesheet" href="./assets/css/header.css" media="screen">
-<link type="text/css" rel="stylesheet" href="./assets/css/left-aside.css" media="screen">
-<link type="text/css" rel="stylesheet" href="./assets/css/main.css" media="screen">
-<link type="text/css" rel="stylesheet" href="./assets/css/right-aside.css" media="screen"> 
-<link type="text/css" rel="stylesheet" href="./assets/css/footer.css" media="screen">
-<link type="text/css" rel="stylesheet" href="./assets/css/breakpoint_tablet.css" media="screen">
-<link type="text/css" rel="stylesheet" href="./assets/css/breakpoint_movil.css" media="screen">
+<link type="text/css" rel="stylesheet" href="./assets/css/general.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/header.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/left-aside.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/main.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/right-aside.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/footer.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/breakpoint_tablet.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/breakpoint_movil.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/material-icons.css">
+<link type="text/css" rel="stylesheet" href="./assets/css/all.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body>
   <div class="page">
-  <header>
+  <header> 
+    
     <a href="./index.html" class="logo">
       <i class="material-icons" id = "bug_report">bug_report</i>
-      <nav id = "logo_theory_of">THEORY OF</nav>
-      <nav id="logo_errors"> ERRORS</nav>
+      <nav id= "logo_theory_of">THEORY OF</nav>
+      <nav id= "logo_errors"> ERRORS</nav>
     </a>
 
     <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <h2 class="asignatura-movil">COURSE</h2>
+
+  <a href="./index.html">
+  <h2 class="asignatura-movil">COURSE</h2></a>
+  
     <nav class="nav-movil">
       <ul>
         <li> <a href="./students.html"> <i class="fa fa-users"></i> <span class="link-name">STUDENT LIST</span> </a> </li>
@@ -52,49 +59,55 @@
 
   <div class="container">
     <nav class="nav_left">
-      <div class="sticky-div">
-        <h2 class="asignatura">COURSE</h2>
-        <div class="clearfix"></div>
-        <div class="main-white-line"></div>
-        <ul>
-          <div class="white-line" id="main-white-line"></div>
-          <li>
-            <a href="./students.html">
-              <i class="fa fa-users"></i>
-              <span class="link-name">STUDENT LIST</span>
-            </a>
-          </li>
+      <div class = "sticky-div">
+      <h2 class="asignatura">COURSE</h2>
+      <div class="clearfix"></div>
+      <div class="main-white-line"></div>
+      <div class="white-line" id="main-white-line"></div>
+      <ul>
+        
+        <li>
+          <a href="./students.html">
+            <i class="fa fa-users"></i>
+            <span class="link-name">STUDENT LIST</span>
+          </a>
           <div class="white-line"></div>
-          <li>
-            <a href="#">
-              <i class="far fa-comment-dots"></i>
-              <span class="link-name">FORUM</span>
-            </a>
-          </li>
+        </li>
+        
+        <li>
+          <a href="./forum.html">
+            <i class="far fa-comment-dots"></i>
+            <span class="link-name">FORUM</span>
+          </a>
           <div class="white-line"></div>
-          <li>
-            <a href="./grades.html">
-              <i class="fas fa-table"></i>
-              <span class="link-name">CALIFICATIONS</span>
-            </a>
-          </li>
+        </li>
+        
+        <li>
+          <a href="./grades.html">
+            <i class="fas fa-table"></i>
+            <span class="link-name">CALIFICATIONS</span>
+          </a>
           <div class="white-line"></div>
-          <li class="responsive-hidden">
-            <a href="#">
-              <i class="far fa-newspaper"></i>
-              <span class="link-name">LAST NEWS</span>
-            </a>
-          </li>
+        </li>
+        
+        <li class="responsive-hidden">
+          <a href="#">
+            <i class="far fa-newspaper"></i>
+            <span class="link-name">LAST NEWS</span>
+          </a>
           <div class="white-line-responsive"></div>
-          <li class="responsive-hidden">
-            <a href="#">
-              <i class="far fa-calendar-alt"></i>
-              <span class="link-name">NEW EVENTS</span>
-            </a>
-          </li>
+        </li>
+        
+        <li class="responsive-hidden">
+          <a href="#">
+            <i class="far fa-calendar-alt"></i>
+            <span class="link-name">NEW EVENTS</span>
+          </a>
           <div class="white-line-responsive"></div>
-        </ul>
-      </div>
+        </li>
+        
+      </ul>
+    </div>
         <img class="bug-looking-darken" src="./assets/background-images/bug-looking-darken.png" alt="Looking for bugs" />
     </nav>
 
@@ -114,10 +127,10 @@
           </div>
         </div>
 
-        <div class="line-dec"></div>
+        <div class="line-dec" id="line-foto1"></div>
       
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/video-thumbnails/syntax-runtime-and-logical-errors-in-python-poster.jpg">
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/syntax-runtime-and-logical-errors-in-python-poster.jpg">
             <source src="./assets/videos/syntax-runtime-and-logical-errors-in-python.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
@@ -133,31 +146,31 @@
         <div class="line-dec"></div>
 
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/video-thumbnails/errors-in-programs-part-1-types-of-errors-debugging-tips-poster.jpg">
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/errors-in-programs-part-1-types-of-errors-debugging-tips-poster.jpg">
             <source src="./assets/videos/errors-in-programs-part-1-types-of-errors-debugging-tips.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>GENERAL PERSPECTIVE</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
-          </p>
+              Take a look at the different type of errors from a general perspective. Once you get the general point of a topic, you gain the ability to apply it to several fields that might or might not be related. Don't lose this opportunity.
+            </p>
           </div>
         </div>
     
         <div class="line-dec"></div>
 
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/video-thumbnails/programming-errors-and-implications-poster.png">
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/programming-errors-and-implications-poster.png">
             <source src="./assets/videos/programming-errors-and-implications.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>JUST IGNORE THEM?</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
+              What if I just deal with errors by not dealing with them at all? Well in this video you can learn the dangers of this "non-handle" path, while reviewing once again the main errors we can get in our programms.
           </p>
           </div>
         </div>
@@ -171,23 +184,25 @@
 
         <h2>ERROR HANDLING</h2>
         <div class="box-image">
-          <img class="left-image" src="./assets/images/girl-nature.jpg" alt="Nature Girl" />
+          <img class="left-image" src="./assets/images/Debugging.jpg" alt="Debugging Image" />
           <div class="right-text">
-            <h4>Best Template for you!</h4>
-            <p>Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique. Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <h4>WHAT IS HANDLING ERRORS?</h4>
+            <p>
+              In this lesson, we will learn what to do once a spot of possible errors has been spotted. We will surround the section with some code that achieves our goal of capturing the type of error we got, while not disturbing the normal program flow when the error does not spoil. FOLLOW ALONG!
+            </p>
           </div>
         </div>
 
-        <div class="line-dec"></div>
+        <div class="line-dec" id="line-foto2" ></div>
       
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/images/python-try-catch-poster.jpg">
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/python-try-catch-poster.jpg">
             <source src="./assets/videos/python-try-catch-video.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>HOW TO?</h4>
             <p>
             Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
           </p>
@@ -197,15 +212,15 @@
         <div class="line-dec"></div>
 
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/images/python-try-catch-poster.jpg">
-            <source src="./assets/videos/python-try-catch-video.mp4" type='video/mp4'>
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/rpa-poster.jpg">
+            <source src="./assets/videos/rpa-quick-tips-2-error-handling-basics-automation-anywhere.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>OTHER PERSPECTIVE</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
+              In this video we will give a step forward towards a real application of programming: robotics. This approach of the topic get more visual and intuitive when we enter this beautiful field of knowledge.
           </p>
           </div>
         </div>
@@ -213,15 +228,15 @@
         <div class="line-dec"></div>
 
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/images/python-try-catch-poster.jpg">
-            <source src="./assets/videos/python-try-catch-video.mp4" type='video/mp4'>
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/exceptions.jpg">
+            <source src="./assets/videos/exceptions.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>ALWAYS THE SAME?</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
+              We already know how to handle an error, okay but...What then? What do I do with the catched exception? Different exceptions require different treatments. Learn the Exceptions there are in Python and then extrapolate to any other language.
           </p>
           </div>
         </div>
@@ -234,25 +249,27 @@
       <div class="subject-theme">
         <h2>DEBUGGING</h2>
         <div class="box-image">
-          <img class="left-image" src="./assets/images/girl-nature.jpg" alt="Nature Girl" />
+          <img class="left-image" src="./assets/images/Debugging.jpg" alt="Debugging Image" />
           <div class="right-text">
-            <h4>Best Template for you!</h4>
-            <p>Quisque feugiat nisl at lacus condimentum, eu suscipit odio fringilla. Mauris eu est vitae erat condimentum pellentesque. Fusce vehicula nunc at augue sagittis tristique. Ut imperdiet massa at enim tempus volutpat. Nullam gravida augue quis facilisis commodo. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+            <h4>DEBUG THE PROPER WAY</h4>
+            <p>
+              In this section of Theory Of Errors you will learn the whole path you should follow to deal with errors as a programmer. Starting with finding the errors and then resolving them. There are several tactics we can follow for this proccess, in this lesson we will primarly apply "control flow analysis" and "interactive debugging".
+            </p>
           </div>
         </div>
 
-        <div class="line-dec"></div>
+        <div class="line-dec" id="line-foto3"></div>
       
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/images/python-try-catch-poster.jpg">
-            <source src="./assets/videos/python-try-catch-video.mp4" type='video/mp4'>
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/what-is-debugging-poster.jpg">
+            <source src="./assets/videos/what-is-debugging.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>LET'S FOCUS</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
+              Big constructions start with a single stone. Let's learn debugging step by step, starting with understanding what is it. Can't solve a problem if we dont have the statement.
           </p>
           </div>
         </div>
@@ -260,15 +277,15 @@
         <div class="line-dec"></div>
 
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/images/python-try-catch-poster.jpg">
-            <source src="./assets/videos/python-try-catch-video.mp4" type='video/mp4'>
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/debugging-tips.jpg">
+            <source src="./assets/videos/debugging-tips-what-is-bug-and-debugging.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>GET SOME HELP</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
+              Keep understanding what a bug and debugging is and give another step. Let's face it, we all love tips and tricks when doing a labour, well let's get some usefull tips on debugging.
           </p>
           </div>
         </div>
@@ -276,15 +293,15 @@
         <div class="line-dec"></div>
 
         <div class="box-video">
-          <video class="left-video" controls preload="auto" poster="./assets/images/python-try-catch-poster.jpg">
-            <source src="./assets/videos/python-try-catch-video.mp4" type='video/mp4'>
+          <video class="left-video" controls preload="none" poster="./assets/video-thumbnails/debug-tool.jpg">
+            <source src="./assets/videos/debugging-with-the-step-button-course-a-b.mp4" type='video/mp4'>
             <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
           </video>
 
           <div class="right-text-video">
-            <h4>ERROR HANDLING</h4>
+            <h4>DON'T INVENT THE WHEEL</h4>
             <p>
-            Take a look to the basic error handling methods! This Python-oriented tutorial will make you understand how to deal with errors when programming by using the classic try-catch structure.
+              There is no need to start from the very start and alone in this road. Why not using a car? In this video we will know about a very usefull tool we can use to debug our code easily. Don't go barefoot!
           </p>
           </div>
         </div>

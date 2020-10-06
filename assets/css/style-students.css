@@ -56,13 +56,12 @@ thead {
 .message{
     text-align: center; 
     vertical-align: middle;
+    font-size: 30px;
 }
 
-
-#user-1,#user-3,#user-5,#user-7,#user-9,#user-11{
+tr:nth-child(even) {
     background-color: rgba(0,0,0,.2);
 }
-
 
 
 
