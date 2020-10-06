@@ -25,7 +25,9 @@
     border-collapse: collapse;
     border-spacing: 2px;
 }
-
+.list_students {
+    overflow: auto;
+}
 
 thead {
     display: table-header-group;
