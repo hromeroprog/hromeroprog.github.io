@@ -60,6 +60,19 @@
         list-style: none;
         background: rgba(20, 21, 23, 0.9);
       }
+
+      .left-video{
+        filter: grayscale(0);
+        opacity: 1;
+    }
+    
+   .right-text-video h4{
+        color: rgba(233, 200, 80, 0.9);
+    }
+    
+    main h2{
+        color: white;
+    }
       
       .nav-movil li a {
         display: block;
@@ -75,7 +88,7 @@
 
       .nav-movil{
           position: absolute;
-          margin-left: -70%;
+          margin-left: -100%;
           z-index: 1;
       }
       
@@ -115,7 +128,7 @@
         width: 100%;
       }
 
-      #participants,#grades-act {
+      #participants,#grades-act,#forum-messages {
         border-collapse: collapse;
         margin: 0;
         padding: 0;
@@ -125,7 +138,8 @@
     
 
       #participants  thead,
-      #grades-act thead{
+      #grades-act thead,
+      #forum-messages thead{
         border: none;
         clip: rect(0 0 0 0);
         height: 1px;
@@ -137,7 +151,8 @@
       }
       
       #participants  tr,
-      #grades-act tr{
+      #grades-act tr,
+      #forum-messages tr{
         border-bottom: 3px solid #0c0d0e;
         display: block;
         margin-bottom: .625em;
@@ -146,41 +161,44 @@
       }
       
       #participants td,
-      #grades-act td{
+      #grades-act td,
+      #forum-messages td{
         display: block;
         text-align: right;
       }
       
       #participants  td::before,
-      #grades-act td::before{
+      #grades-act td::before,
+      #forum-messages td::before {
         content: attr(data-label);
         float: left;
-        font-weight: bold;
+        font-weight: 200;
         text-transform: uppercase;
         font-size: 15px;
-        color: #ecbf17;
+        color: rgba(233, 200, 80, 0.8);
       }
       
       #participants td:last-child,
-      #grades-act td:last-child{
+      #grades-act td:last-child,
+      #forum-messages td:last-child {
         border-bottom: 0;
+      }
+      #forum-messages td:first-child {
+        border-top: 0;
       }
 
       #participants .foto_student,
       #grades-act .foto_student{
         text-align: right;
     }
-    #participants .message {
-      padding-right: 100px;
-    }
 
+    #participants .message,
     #grades-act .act-1,
     #grades-act .act-2,
-    #grades-act .act-3 {
+    #grades-act .act-3,
+    #forum-messages .num-message {
       padding-right: 100px;
     }
-
-
   
 }
  
@@ -189,4 +207,10 @@
 #menu-btn {
     display: none;
 }
+#grades-act .act-1,
+#grades-act .act-2,
+#grades-act .act-3{
+  width: 15%;
+}
+
 }

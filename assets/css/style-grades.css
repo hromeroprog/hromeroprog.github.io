@@ -18,7 +18,7 @@
 }
 
 .table_grades{
-    width: 100%;
+    width: calc(100% - 1px);
     max-width: 100%;
     margin-bottom: 1rem;
     background-color: transparent;
@@ -30,6 +30,11 @@
 .list_grades{
     overflow: auto;
 }
+
+.list_grades::-webkit-scrollbar {
+    display: none;
+  }
+
 thead {
     display: table-header-group;
     vertical-align: middle;
@@ -37,12 +42,14 @@ thead {
 
 
 .table_grades th {
+    font-size: 90%;
+    font-weight: 100;
     text-align: center;
     padding: 4px;
     display: table-cell;
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
-    color: #ecbf17;
+    color: rgba(233, 200, 80, 0.8);
 }
 
 .table_grades td {
