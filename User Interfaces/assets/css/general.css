@@ -11,7 +11,7 @@
     color: white;
     background-image: url(../background-images/yellow\ smoke\ hard\ darkened\ bg.png);
     background-color: black;
-    background-size: contain;
+    background-size: auto;
     background-repeat: repeat;
   }
 
