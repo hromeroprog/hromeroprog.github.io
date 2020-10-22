@@ -57,12 +57,14 @@ def parse_file(archivo_de_entrada, categorias):
 
 
 if __name__ == '__main__':
+    JORNADA = 1
     categorias = carpeta_entrada + categorias_entrada
     
     categorias = parse_categorias(categorias)
-    fichero = (carpeta_entrada + datos_entrada).replace("index", str(1))
+    fichero = (carpeta_entrada + datos_entrada).replace("index", str(JORNADA))
     
     df = parse_file(fichero, categorias)
+    df.to_excel(f"../estadisticas_Jornada_{JORNADA}.xlsx", index = False)
     
     
     
