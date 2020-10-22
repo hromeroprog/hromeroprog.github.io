@@ -1,0 +1,27 @@
+Equipo
+Partidos Jugados
+Sets Jugados
+Puntos Totales
+Puntos Break Point
+Puntos Ganados
+Puntos Ganados - Perdidos
+Saques Totales
+Saques Punto
+Saques Errores
+Saques Puntos por Set
+Saques Eficiencia (%)
+Recepcion Totales
+Recepcion Errores
+Recepcion Negativas
+Recepcion Excelente
+Recepcion Excelente (%)
+Recepcion Eficiencia (%)
+Ataques Totales
+Ataques Errores
+Ataques Bloqueados
+Ataques Excelentes
+Ataques Excelentes (%)
+Ataques Eficiencia (%)
+Bloqueos Contacto con la red
+Bloqueos Punto
+Bloqueos Puntos por Set
