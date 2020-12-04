@@ -4,17 +4,13 @@ Created on Mon Nov  2 14:15:18 2020
 
 @author: 2rome
 """
-import pandas as pd
-import numpy as np
 
+result = 1
+personas = 12
 
-x = [1,2,54,2,3]
-y = ["cat", "dog", "bird", "aaa", "you"]
-z = ["juan","paco", "pedro", "luis", "irene"]
+a = 365-personas+1
+for i in range(a, 365, 1):
+    print(i)
+    result = result*(a/365)
 
-datos = {"numeros": x, "palabras": y, "amigos": z}
-
-
-df = pd.DataFrame(datos)
-
-df2 = df.sort_values(by = ["numeros", "palabras"])
+print (1- result)
