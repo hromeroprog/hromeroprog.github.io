@@ -1,10 +1,11 @@
 var canvas = $("canvas")[0];
 var c = canvas.getContext("2d");
+const MAX_COMPUTE_PER_POINT = 80;
 
 $(document).ready(function(){
     var x_scaler = 0.6;
     setupCanvas(x_scaler);
-    var min_x = -2;
+    var min_x = -2.2;
     var max_x = 2;
     var min_y = -(max_x-min_x)*(canvas.height/canvas.width)/2;
 
@@ -38,8 +39,8 @@ function paintMandelbrot(min_x, max_x, min_y){
 
 function obtain_color(x, y){
     var diverge_ratio = diverge(x, y);
-    var red = Math.floor(diverge_ratio*255/50);
-    var green = Math.floor(diverge_ratio*255/50);
+    var red = Math.floor(diverge_ratio*255/MAX_COMPUTE_PER_POINT);
+    var green = 0;
     var blue = 0;
     var color = [red, green, blue];
     return color;
@@ -49,7 +50,7 @@ function diverge(x, y){
     var cont = 1;
     var current_p = [x, y];
     while (true){
-        if (cont >= 50) break;
+        if (cont >= MAX_COMPUTE_PER_POINT) break;
         if (module(current_p) > 4) break;
         current_p = nextTerm([x, y], current_p);
         cont++;
