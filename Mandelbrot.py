@@ -20,6 +20,7 @@ Created on Wed Aug 12 10:51:51 2020
 import numpy as np
 from PIL import Image
 import math
+import time
 
 
 def next_term(c_point, current_term):
@@ -29,7 +30,7 @@ def next_term(c_point, current_term):
     return [a, b]
 
 def module(point):
-    return math.sqrt(point[0]**2 + point[1]**2)
+    return point[0]**2 + point[1]**2
     
 def process_image(data):
     Image.MAX_IMAGE_PIXELS = None
@@ -56,7 +57,7 @@ def diverge(point, max_compute = 75, max_value = 80):
     while True:
         if cont >= max_compute:
             break
-        if module(p) > max_value:
+        if module(p) > 4:
             break
 
         p = next_term(point, p)
@@ -102,12 +103,6 @@ def switch_mode(pixels, diverge_ratio, max_compute, row, col, mode):
             pixel_values = red_blue_mode(pixels, diverge_ratio, max_compute, row, col)
         if mode == 'green_red':
             pixel_values = green_red_mode(pixels, diverge_ratio, max_compute, row, col)
-        if mode == 'green_blue':
-            pixel_values = green_blue_mode(pixels, diverge_ratio, max_compute, row, col)
-        if mode == 'blue_red':
-            pixel_values = blue_red_mode(pixels, diverge_ratio, max_compute, row, col)
-        if mode == 'blue_green':
-            pixel_values = blue_green_mode(pixels, diverge_ratio, max_compute, row, col)
             
     
     
@@ -153,7 +148,10 @@ def compute_mandelbrot(pixels_per_side = 1000, x_wide = 4, y_wide = 4):
     
 
 if __name__ == '__main__':
-    data = compute_mandelbrot(pixels_per_side = 4000)
+    start_time = time.time()
+    data = compute_mandelbrot(pixels_per_side = 500)
     mandelbrot = process_image(data)
+    end_time = time.time()
     
+    print(f"Time = {(end_time- start_time)} s")
     
