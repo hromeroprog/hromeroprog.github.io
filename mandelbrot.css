@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 body{
     background: #333;
     width: 100%;
@@ -20,7 +22,13 @@ canvas{
 }
 
 header{
-    width: 100%;
+    font-size: 28px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #eee;
+    width: 60%;
     box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);
     text-align: center;
+    padding: 2px;
+    margin: 10px auto;
+
 }

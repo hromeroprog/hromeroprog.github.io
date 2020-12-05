@@ -32,7 +32,7 @@ function paintMandelbrot(min_x, max_x, min_y){
             y+=step;
         }
         y = min_y;
-        x+=step;
+        x += step;
     }
 }
 
