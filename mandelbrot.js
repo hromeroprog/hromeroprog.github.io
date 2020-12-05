@@ -1,16 +1,19 @@
 var canvas = $("canvas")[0];
 var c = canvas.getContext("2d");
-const MAX_COMPUTE_PER_POINT = 80;
+var MAX_COMPUTE_PER_POINT = 20;
 
-$(document).ready(function(){
+$(document).ready(async function(){
     var x_scaler = 0.6;
     setupCanvas(x_scaler);
     var min_x = -2.2;
     var max_x = 2;
     var min_y = -(max_x-min_x)*(canvas.height/canvas.width)/2;
 
-    paintMandelbrot(min_x, max_x, min_y);
-    
+    for(var i = 0; i < 4; i++){
+        paintMandelbrot(min_x, max_x, min_y);
+        MAX_COMPUTE_PER_POINT+=20;
+        await sleep(1);
+    }
 });
 
 function setupCanvas(width_resize){
@@ -67,6 +70,10 @@ function nextTerm(c_point, current_term){
 function module(point){
     return point[0]**2 + point[1]**2
 }
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
 
 
 
