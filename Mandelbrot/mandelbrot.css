@@ -7,7 +7,7 @@ body{
 
 canvas{
     margin: 2px;
-    border: 1px solid #eee;
+    border: 2px solid #eee;
 }
 
 .canvas_container{
@@ -29,5 +29,20 @@ header{
     text-align: center;
     padding: 2px;
     margin: 10px auto;
-
 }
+
+.customize{
+    width: 30%;
+    box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);
+    padding: 10px;
+    margin: 10px;
+    height: 70vh;
+}
+
+/*dejeio*/
+  form {
+    margin-top: 20px;
+  }
+  p {
+    clear: both;
+  }

@@ -6,8 +6,11 @@ $(document).ready(async function(){
     var x_scaler = 0.6;
     setupCanvas(x_scaler);
     var min_x = -2.2;
-    var max_x = 2;
+    var max_x = 1.6;
     var min_y = -(max_x-min_x)*(canvas.height/canvas.width)/2;
+
+    $('#colorpicker2').farbtastic({ callback: '#color2', width: 150 });
+    
 
     for(var i = 0; i < 4; i++){
         paintMandelbrot(min_x, max_x, min_y);
