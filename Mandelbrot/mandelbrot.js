@@ -77,6 +77,7 @@ $(document).ready(function(){
             var minX = currentMinX + (currentMaxX - currentMinX)*x_left_percent;
             var maxX = currentMinX + (currentMaxX - currentMinX)*x_right_percent;
             var minY = currentMinY + (currentMaxY - currentMinY)*y_bottom_percent;
+            cursor.hide();
 
             parcialMandelbrot(minX, maxX, minY);
             MAX_COMPUTE_PER_POINT_MAX_ITER += 20;
