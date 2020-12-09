@@ -1,6 +1,6 @@
 var canvas = $("canvas")[0];
 var c = canvas.getContext("2d");
-var MAX_COMPUTE_PER_POINT_MAX_ITER = 100;
+var MAX_COMPUTE_PER_POINT_MAX_ITER = 80;
 var MAX_COMPUTE_PER_POINT;
 
 var currentMinX, currentMaxX, currentMinY, currentMaxY;
@@ -79,6 +79,7 @@ $(document).ready(function(){
             var minY = currentMinY + (currentMaxY - currentMinY)*y_bottom_percent;
 
             parcialMandelbrot(minX, maxX, minY);
+            MAX_COMPUTE_PER_POINT_MAX_ITER += 20;
         });
 
     });
@@ -94,8 +95,8 @@ async function parcialMandelbrot(min_x, max_x, min_y){
     console.log("computing y: " + min_y);
 
     $(canvas).css("cursor", "wait");
-    for(var i = 1; i < 5; i++){
-        MAX_COMPUTE_PER_POINT = Math.floor(MAX_COMPUTE_PER_POINT_MAX_ITER*i/4);
+    for(var i = 1; i < 4; i++){
+        MAX_COMPUTE_PER_POINT = Math.floor(MAX_COMPUTE_PER_POINT_MAX_ITER*i/3);
         paintMandelbrot(min_x, max_x, min_y);
         await sleep(1);
     }
