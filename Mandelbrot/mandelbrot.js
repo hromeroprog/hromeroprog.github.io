@@ -1,5 +1,7 @@
 var canvas = $("canvas")[0];
 var c = canvas.getContext("2d");
+
+var LIMIT_COMPUTATION = 200;
 var MAX_COMPUTE_PER_POINT_MAX_ITER = 80;
 var MAX_COMPUTE_PER_POINT;
 
@@ -80,7 +82,7 @@ $(document).ready(function(){
             cursor.hide();
 
             parcialMandelbrot(minX, maxX, minY);
-            MAX_COMPUTE_PER_POINT_MAX_ITER += 20;
+            if (MAX_COMPUTE_PER_POINT_MAX_ITER < LIMIT_COMPUTATION)MAX_COMPUTE_PER_POINT_MAX_ITER += 20;
         });
 
     });
