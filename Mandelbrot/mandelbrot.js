@@ -3,7 +3,7 @@ var c = canvas.getContext("2d");
 var MAX_COMPUTE_PER_POINT_MAX_ITER = 100;
 var MAX_COMPUTE_PER_POINT;
 
-var currentMinX, currentMaxX;
+var currentMinX, currentMaxX, currentMinY, currentMaxY;
 const defaultMinX = -2.2;
 const defaultMaxX = 1.6;
 
@@ -12,7 +12,9 @@ $(document).ready(function(){
     setupCanvas(x_scaler);
     setupCanvasCursor();
 
-    parcialMandelbrot(defaultMinX, defaultMaxX);
+    var default_min_y = -(defaultMaxX-defaultMinX)*(canvas.height/canvas.width)/2;
+
+    parcialMandelbrot(defaultMinX, defaultMaxX, default_min_y);
     const cursor = $('.cursor');
 
     var left_limit = $(canvas).offset().left + cursor.outerWidth()/2; 
@@ -58,17 +60,38 @@ $(document).ready(function(){
         });
 
         $(cursor).click(function(e){
-            console.log("hi");
+            var x = e.pageX;
+            var y = e.pageY;
+            //cuidado con los casos extremos: falta corregirlos
+            var left_box = x - cursor.outerWidth()/2;
+            var right_box = x + cursor.outerWidth()/2;
+            var bottom_box = y + cursor.outerHeight()/2;
+
+            var x_left_percent = ((left_box-$(canvas).offset().left)/$(canvas).outerWidth());
+            var x_right_percent = ((right_box-$(canvas).offset().left)/$(canvas).outerWidth());
+
+            var y_bottom_percent = (($(canvas).offset().top + $(canvas).outerHeight() - bottom_box)/$(canvas).outerHeight());
+            console.log(y_bottom_percent);
+
+            
+            var minX = currentMinX + (currentMaxX - currentMinX)*x_left_percent;
+            var maxX = currentMinX + (currentMaxX - currentMinX)*x_right_percent;
+            var minY = currentMinY + (currentMaxY - currentMinY)*y_bottom_percent;
+
+            parcialMandelbrot(minX, maxX, minY);
         });
 
     });
 
 });
 
-async function parcialMandelbrot(min_x, max_x){
-    var min_y = -(max_x-min_x)*(canvas.height/canvas.width)/2;
+async function parcialMandelbrot(min_x, max_x, min_y){
     currentMaxX = max_x;
     currentMinX = min_x;
+    currentMinY = min_y;
+
+    console.log("computing x: " + min_x + " - " + max_x);
+    console.log("computing y: " + min_y);
 
     $(canvas).css("cursor", "wait");
     for(var i = 1; i < 5; i++){
@@ -101,10 +124,13 @@ function paintMandelbrot(min_x, max_x, min_y){
             c.fillStyle = color;
             c.fillRect(col, row, 1, 1);
             y+=step;
+
         }
         y = min_y;
         x += step;
     }
+
+    currentMaxY = min_y + step*(canvas.height - 1);
 }
 
 function obtain_color(x, y){
