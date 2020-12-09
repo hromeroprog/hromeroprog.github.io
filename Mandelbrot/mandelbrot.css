@@ -39,10 +39,10 @@ header{
     height: 70vh;
 }
 
-/*dejeio*/
-  form {
-    margin-top: 20px;
-  }
-  p {
-    clear: both;
-  }
+.cursor{
+    border: 2px solid #eee;
+    height: 50px;
+    width: 90px;
+    position: absolute;
+    display: none;
+}
