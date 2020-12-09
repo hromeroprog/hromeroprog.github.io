@@ -41,8 +41,6 @@ header{
 
 .cursor{
     border: 2px solid #eee;
-    height: 50px;
-    width: 90px;
     position: absolute;
     display: none;
 }

@@ -3,19 +3,16 @@ var c = canvas.getContext("2d");
 var MAX_COMPUTE_PER_POINT_MAX_ITER = 100;
 var MAX_COMPUTE_PER_POINT;
 
-$(document).ready(async function(){
+var currentMinX, currentMaxX;
+const defaultMinX = -2.2;
+const defaultMaxX = 1.6;
+
+$(document).ready(function(){
     var x_scaler = 0.6;
     setupCanvas(x_scaler);
-    var min_x = -2.2;
-    var max_x = 1.6;
-    var min_y = -(max_x-min_x)*(canvas.height/canvas.width)/2;
-    $(canvas).css("cursor", "wait");
-    for(var i = 1; i < 5; i++){
-        MAX_COMPUTE_PER_POINT = Math.floor(MAX_COMPUTE_PER_POINT_MAX_ITER*i/4);
-        paintMandelbrot(min_x, max_x, min_y);
-        await sleep(1);
-    }
-    $(canvas).css("cursor", "pointer");
+    setupCanvasCursor();
+
+    parcialMandelbrot(defaultMinX, defaultMaxX);
     const cursor = $('.cursor');
 
     var left_limit = $(canvas).offset().left + cursor.outerWidth()/2; 
@@ -60,18 +57,35 @@ $(document).ready(async function(){
             cursor.hide();
         });
 
-        
+        $(cursor).click(function(e){
+            console.log("hi");
+        });
 
-      
     });
 
 });
 
+async function parcialMandelbrot(min_x, max_x){
+    var min_y = -(max_x-min_x)*(canvas.height/canvas.width)/2;
+    currentMaxX = max_x;
+    currentMinX = min_x;
 
+    $(canvas).css("cursor", "wait");
+    for(var i = 1; i < 5; i++){
+        MAX_COMPUTE_PER_POINT = Math.floor(MAX_COMPUTE_PER_POINT_MAX_ITER*i/4);
+        paintMandelbrot(min_x, max_x, min_y);
+        await sleep(1);
+    }
+    $(canvas).css("cursor", "pointer");
+}
 
 function setupCanvas(width_resize){
     canvas.width = (window.innerWidth * width_resize);
     canvas.height = Math.floor(canvas.width * (2/3));
+}
+
+function setupCanvasCursor(){
+    $(".cursor").css({"width": $(canvas).outerWidth()/6, "height": $(canvas).outerHeight()/6});
 }
 
 function paintMandelbrot(min_x, max_x, min_y){
