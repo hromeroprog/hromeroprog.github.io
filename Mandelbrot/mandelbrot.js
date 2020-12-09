@@ -114,8 +114,10 @@ function setupCanvasCursor(){
 function paintMandelbrot(min_x, max_x, min_y){
     var step = (max_x - min_x) / canvas.width;
 
+    currentMaxY = min_y + step*(canvas.height - 1);
+
     var x = min_x;
-    var y = min_y;
+    var y = currentMaxY;
 
     for (var col = 0; col < canvas.width; col++){
         for(var row = 0; row < canvas.height; row++){
@@ -123,14 +125,15 @@ function paintMandelbrot(min_x, max_x, min_y){
             var color = "rgb(" + computed_color[0] + "," + computed_color[1] + "," + computed_color[2] + ")";
             c.fillStyle = color;
             c.fillRect(col, row, 1, 1);
-            y+=step;
+            y-=step;
 
         }
-        y = min_y;
+        y = currentMaxY;
         x += step;
     }
 
-    currentMaxY = min_y + step*(canvas.height - 1);
+    
+    console.log("currentMaxY: " + currentMaxY);
 }
 
 function obtain_color(x, y){
