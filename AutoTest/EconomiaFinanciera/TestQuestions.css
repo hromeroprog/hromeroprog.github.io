@@ -1,0 +1,35 @@
+.question .respuestas button{
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 100%;
+    text-align: left;
+}
+
+.question{
+    width: 100%;
+}
+
+.question > h2{
+    margin: 10px 0px 50px 20px;
+    color: rgba(255,255,255,0.7);
+}
+
+
+
+.question > div{
+    width: 80%;
+    margin: auto;
+}
+
+.enunciado{
+    color: white;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.respuestas{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

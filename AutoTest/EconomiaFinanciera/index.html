@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../general.css">
+    <link rel="stylesheet" href="../../botones.css">
+    <link rel="stylesheet" href="./TestLandPage.css">
+    <link rel="stylesheet" href="./TestQuestions.css">
+    <script src="../../jquery-3.5.1.min.js"></script>
+    <script src="testEngine.js"></script>
+</head>
+<body>
+    <div class = "setup">
+        <h1>SELECCIONA LOS TEMAS DE LOS QUE TE QUIERES EVALUAR</h1>
+        <form>
+            <div><input type="checkbox" id="Tema1" name="Tema1" value="Tema1">
+            <label for="Tema1"> Tema 1</label><br></div>
+            <div><input type="checkbox" id="Tema2" name="Tema2" value="Tema2">
+            <label for="Tema2"> Tema 2</label><br></div>
+            <div><input type="checkbox" id="Tema3" name="Tema3" value="Tema3">
+            <label for="Tema3"> Tema 3</label><br></div>
+            <div><input type="checkbox" id="Tema4" name="Tema4" value="Tema4">
+            <label for="Tema4"> Tema 4</label><br></div>
+            <div><input type="checkbox" id="Tema5" name="Tema5" value="Tema5">
+            <label for="Tema5"> Tema 5</label><br></div>
+            <div><input type="checkbox" id="Tema6" name="Tema6" value="Tema6">
+            <label for="Tema6"> Tema 6</label><br></div>
+            <div><input type="checkbox" id="Tema7" name="Tema7" value="Tema7">
+            <label for="Tema7"> Tema 7</label><br></div>
+            <div><input type="checkbox" id="Tema8" name="Tema8" value="Tema8">
+            <label for="Tema8"> Tema 8</label><br></div>
+            <div><input type="checkbox" id="SelectAll" name="SelectAll" value="SelectAll">
+            <label for="SelectAll"> Seleccionar Todos</label><br></div>
+        </form>
+        <div class="flex-centered">
+            <button id ="COMENZAR">COMENZAR</button>
+        </div>
+    </div>
+
+    <div class="question">
+        <h2>Pregunta del tema: </h2>
+        <div>
+            <div class="enunciado"></div>
+            <div class= "respuestas"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
