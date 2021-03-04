@@ -1,0 +1,260 @@
+Tema 2 – Matemáticas financieras - Ejercicios
+Tipos de interés
+1.- Calcule la tasa anual equivalente del tipo de interés trimestral del 4%. Use la formula
+del tipo de interés compuesto.
+a. 10.37%.
+b. 4.00%.
+c. 8.16%.
+d. 16.98%.**
+2.- El tipo de interés compuesto mensual equivalente al 5% trimestral es:
+a. 0.84%
+b. 1.29%
+c. 1.57%
+d. 1.64%**
+3.- Determine el valor dentro de 25 años y seis meses de una cantidad igual a 10.000€
+pagada hoy (t0). Asuma que rige capitalización continua, el tipo de interés continuo es
+del 6% anual.
+a. 46181.77 euros**
+b. 2165.35 euros
+c. 44187.51 euros
+d. Ninguna de las anteriores.
+4.- ¿Cuánto tardará una inversión de 300€ en doblarse al tipo de interés anual del
+14.8%? Asuma capitalización compuesta.
+a. 4 años.
+b. 7 años.
+c. 6 años.
+d. 5 años.**
+5.- La diferencia entre capitalización simple y compuesta es,
+a. La capitalización simple capitaliza los intereses generados en cada período
+durante los siguientes períodos.
+b. La capitalización compuesta capitaliza los intereses generados en cada
+período en los períodos siguientes.**
+c. La capitalización simple y la compuesta no difieren entre sí.
+d. Ninguna de las anteriores. 
+6.- El tipo de interés equivalente anual de un tipo semestral del 4% es, bajo capitalización
+compuesta,
+a. 9.34%.
+b. 7.46%.
+c. 8.52%.
+d. 8.16%.**
+8.- El equivalente trimestral del 5% de interés anual es, bajo capitalización compuesta,
+a. 1.23%**
+b. 1.39%
+c. 0.94%
+d. Ninguna de las anteriores.
+9.- La cuenta Naranja de ING Direct ofrece un tipo annual equivalente del 2.60% durante
+los próximos 4 meses. Asumiendo que deposita 100,000 EUR en este fondo durante 4
+meses, calcule el valor final de su inversión. Asuma capitalización compuesta y ausencia
+de impuestos.
+a. 859.26 EUR.
+b. 579.38 EUR.
+c. 1002.35 EUR.
+d. 947.32 EUR.
+10.- El tipo de interés mensual equivalente al 3.93% trimestral es, bajo capitalización
+compuesta,
+a. 0.84%
+b. 1.29%
+c. 1.57%
+d. 1.64%
+11.- El tipo anual equivalente al 3% trimestral es, bajo capitalización compuesta,
+a. 6.40%
+b. Más del 100%
+c. 12.55%
+d. Ninguna de las anteriores
+12.- El tipo mensual equivalente al 5% trimestral es, bajo capitalización compuesta,
+a. 0.84%
+b. 1.29%
+c. 1.57%
+d. 1.64% 
+13.- Calcule el valor futuro de 15,000 EUR si se invierten hoy a un tipo anual del 3%. El
+vencimiento del depósito es 20 años, y la capitalización es contínua.
+a. EUR 46181.77
+b. EUR 2165.35
+c. EUR 44187.51
+d. Ninguna de las anteriores
+Valor presente y futuro
+1.- Usted ha creado una empresa y necesita financiarla. De las siguientes formas de
+financiación, ¿cuál es la menos interesante para usted? Considere un tipo de interés
+anual del 8.5%.
+a. Un pago único de 12,000 EUR en un año.
+b. 12 pagos mensuales de 1,000 EUR cada uno. El primer pago se realizará el
+próximo mes.**
+c. Un pago de 6,000 EUR en un año, y 6,000 EUR en dos años.
+d. 4 pagos trimestrales de 3,000 EUR cada uno. El primer pago se realizará en el
+próximo trimestre.
+2.- Usted ha invertido 1,000 EUR en un depósito. El tipo de interés anual del depósito es
+0.35%. Calcule el número de años necesarios para tener un 10% de rentabilidad sobre
+su capital inicial.
+a. 19,8232 años
+b. 30,0070 años
+c. 27,2791 años**
+d. 28,4159 años
+3.- ¿Cuánto tardará una inversión de 200€ en doblarse? El tipo de interés anual es del
+14.8%.
+a. 4 años.
+b. 5 años.**
+c. 6 años.
+d. 7 años.
+4.- Hoy invertirá 10,000 EUR en una cuenta bancaria con vencimiento 2 años. A
+vencimiento, el pago final será de 11,236 EUR. Determine el tipo de interés anual que
+ha aplicado su banco. Asuma capitalización compuesta.
+a. 6.000% anual.
+b. 0.487% mensual.
+c. A y B son correctas.**
+d. Ninguna de las anteriores. 
+5.- Imagine que hereda 50,000 euros. Asumiendo que el coste del capital es 3%, ¿qué
+opción preferiría?
+a. Un pago único de 50,000 euros hoy.
+b. 10 anualidades de 5,000 euros, comenzando los pagos en un año.
+c. Un pago único de 55,000 euros en tres años.**
+d. 30 pagos semestrales de 1,200 euros. El primer pago será dentro de 6 meses.
+6.- ¿Cuál es el valor futuro de 10,000 Euros pagados al final de 15 años y seis meses
+(contados desde hoy)? Asuma capitalización compuesta y un tipo anual del 6%.
+a. 46,181.77 euros
+b. 2,165.35 euros
+c. 44,187.51 euros
+d. 24,674.08 euros**
+7.- Usted ha ganado la lotería, y tiene la opción de recibir los 100,000 euros de premio
+de diferentes formas. ¿Cuál prefiere? El tipo anual es del 7%.
+a. 100,000 euros pagados hoy.
+b. 10 anualidades de 14,000 cada una, comenzando los pagos hoy.
+c. 4 pagos de 30,000 euros con una frecuencia semestral, comenzando a recibir
+los pagos después de seis meses.**
+d. Un pago único de 120,000 euros después de 5 años. 
+Anualidades
+1.- Félix Pérez ha trabajado durante toda su vida y ahora está planeando retirarse – le
+faltan 7 años. En su retiro desea disponer de un capital de 100,000 euros. Si el tipo de
+interés es del 5%, ¿cuál debe ser la cuantía mensual que deberá aportar, sabiendo que
+comienza a realizar aportaciones al final de este mes?
+a. Entre 3,600 y 3,900 euros
+b. Entre 970 y 1,050 euros**
+c. Entre 500 y 700 euros
+d. Ninguna de las anteriores
+2.- Un chico de 10 años recibirá a partir de los 18 una renta anual perpetua que será
+pagada a principios de cada año, con valor inicial de 4,000 euros, y que crecerá al 5% de
+tasa anual. ¿Cuál es el valor presente de este flujo de caja? Asuma un tipo de interés del
+8%.
+a. Entre 10,000 y 12,000 euros.
+b. Entre 12,000 y 14,000 euros.
+c. Entre 14,000 y 16,000 euros.
+d. Ninguna de las anteriores.**
+4.- Monica tiene una hipoteca con principal 350,000 euros y vencimiento 30 años. La
+frencuencia de los pagos es trimestral. El tipo de interés e Euribor 1-año más un
+diferencial del 0.3% (anual). El tipo Euribor 1-año es 1.0%. Calcule la mensualidad de la
+hipoteca.
+a. Entre 3,500 y 3,600 euros.**
+b. Entre 3,200 y 3,400 euros.
+c. Entre 5,000 y 5,100 euros.
+d. Ninguna de las anteriores.
+5.- Un inversor desea contratar un plan de ahorro para su hijo, que entrará en la
+Universidad dentro de 17 años. El inversor desea disponer de 60,000 euros en el año 17.
+Con esta finalidad, calcule la aportación mensual que deberá hacer el inversor sabiendo
+que el depósito paga un tipo de interés anual del 2%, y que el primer pago se realizará
+el próximo mes.
+a. Entre 2,120 y 2,160 euros.
+b. Entre 2,800 y 3,000 euros.
+c. Entre 240 y 250 euros.**
+d. Ninguna de las anteriores. 
+6.- Uno de sus parientes va a vender las tierras que ha heredado, y está negociando los
+términos de venta con el comprador. Existen cuatro posibilidades diferentes. ¿Cuál le
+recomendaría? Asuma que el tipo de interés annual es del 3%.
+a. 40,000 euros hoy.
+b. 10 anualidades de 4,300 euros comenzando en un año.
+c. 15,000 euros pagados dentro de un año, y 28,000 euros dentro de dos
+años.**
+d. Un pago mensual perpetuo de 98 euros, y que comenzaría dentro de
+un mes.
+7.- Su hipoteca tiene las siguientes características: principal de 200,000 euros; 32 años
+de vencimiento; mensualidad constante, y tipo de interés mensual del 1%. Calcule la
+mensualidad de su hipoteca.
+a. Entre 401 y 475 euros.
+b. Entre 5,970 y 5,972 euros.
+c. Entre 763 y 771 euros.
+d. Ninguna de las anteriores.**
+8.- Señale la respuesta incorrecta.
+a. El factor de descuento es el valor presente de 1 euro en “n” años.
+b. Los préstamos con amortización constante pagan intereses constante
+en cada anualidad.**
+c. Una anualidad es una estructura periódica de pagos que crecen a una
+determinada tasa (que puede ser cero) durante un determinado
+período de tiempo. Este período de tiempo puede ser infinito.
+d. Los préstamos con anualidades constantes pagan más intereses al
+principio de su vida que al final.
+9.- Las condiciones de su hipoteca son: principal, 180,000 euros; vencimiento, 35 años;
+pagos mensuales; tipo de interés: 1% anual. Calcule el valor de cada mensualidad.
+a. 507.73 euros.**
+b. 694.36 euros.
+c. 765.19 euros.
+d. Ninguna de las anteriores.
+10.- Usted desea retirarse dentro de 30 años, y desea disponer de 550,000 euros en ese
+día. Por ello, está invirtiendo en un plan de pensiones con rentabilidad anual del 2%.
+Comenzando en un año, calcule la anualidad que desea pagar.
+a. 14,559.44 euros.
+b. 15,550.25 euros.
+c. 19,119.88 euros.
+d. Ninguna de las anteriores.**
+11.- Su hipoteca tiene un principal de 200,000 euros, pagadero en 35 años a un tipo de
+interés anual del 3%. Determine la mensualidad (constante) de su hipoteca.
+a. Entre 701 y 705 euros.
+b. Entre 5,970 y 5,972 euros.
+c. Entre 763 y 771 euros.
+d. Ninguna de las anteriores.
+12.- Cajamadrid, S.A. emitió acciones preferentes en 2009. Este tipo de producto ofrece
+un pago constante de dividendos a perpetuidad. Dado que cada acción proporciona un
+pago anual de 70 euros, calcule el valor presente de ese flujo de caja asumiendo una
+tasa de descuento del 25%.
+a. 12 euros.
+b. 280 euros.
+c. 75 euros.
+d. Ninguna de las anteriores.
+13.- Usted tiene 65 años y desea retirarse. Para completar su pension, su banco le ofrece
+una hipoteca inversa, en la que el banco le ofrece pagarle 1,100 euros al mes hasta que
+fallezca. Asumiendo que el precio de su casa es 200,000 euros, y el tipo de interés anual
+es del 4%, ¿cuál es la esperanza de vida que se asume en este producto?
+a. Entre 23 y 24 años.**
+b. Menos de 10 años.
+c. Entre 13 y 14 años.
+d. Ninguna de las anteriores.
+14.- Suponga que Cesar tiene una hipoteca a 10 años (con pagos periódicos trimestrales)
+con una deuda inicial de 400.000 € en el banco BBVA. Este banco le cobra un tipo de
+interés anual igual al EURIBOR más un diferencial del 1%. Si el Euribor está en la
+actualidad al 3.5%, determine la cuota constante que debería pagar Cesar.
+a. Entre 12.420 y 12.439 euros
+b. Entre 12.100 y 12.355 euros
+c. 10.700 y 10.800 euros.
+d. Ninguna de las anteriores
+15.- Suponga que un inversor desea crear un plan de pensiones hasta su jubilación
+(dentro de 12 años) para lo que hará aportaciones mensualmente. En realidad este
+inversor lo que desea es poder realizar un viaje de un año por Asia, Africa y Canada
+cuando llegue su jubilación. El precio que tendrá que pagar por este viaje dentro de 12
+años será de 90.000 euros. Determine la cuantía que debe aportar cada mes,
+suponiendo que hace la primera aportación justo dentro de un mes. El tipo de interés
+compuesto anual es del 4%.
+a. Entre 780 y 799 euros.
+b. Entre 3600 y 3780 euros
+c. Entre 485 y 493 euros
+d. Ninguna de las antero 
+16.- Determine cuanto queda por pagar justo después de realizarse el segundo pago en
+un préstamo de 15.000€ a 5 años que se amortiza con una cuota anual constante, si el
+tipo de interés anual es del 8%.
+a. Entre 11.220€ y 11.240€
+b. Entre 10.560€ y 10.580€
+c. Entre 9.870€ y 9.890€
+d. Ninguna de las anteriores
+17.- Estamos a 1-1-2012 y usted es una persona de 50 años que planea ingresar 4000
+euros al final de cada año, en una cuenta de ahorro al 2,5% anual de interés compuesto
+durante los próximos 15 años hasta jubilarse a los 65 años. El capital disponible en ese
+momento se utilizará para disponer de una renta anual constante durante los siguientes
+20 años ¿De cuánto dinero dispondría cada año para complementar su pensión de
+jubilación durante esos 20 años si la tasa de descuento sigue siendo 2,5%?
+a. Entre 4870 y 4890 euros
+b. Entre 4590 y 4610 euros
+c. Entre 4720 y 4740 euros
+d. Ninguna de las anteriores
+18.- ¿De cuánto dinero dispondrá en el momento de su jubilación si deposita 6000 euros
+anualmente en un plan de pensiones con rentabilidad del 6% durante los 35 años de
+vida activa que le quedan?
+a. 86989,47 euros
+b. 210.000,00 euros
+c. 543.862,20 euros
+d. 668608,68 euros 
