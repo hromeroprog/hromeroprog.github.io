@@ -1,0 +1,97 @@
+3. La TIR es:
+a. La tasa de descuento que hace el VAN igual a cero.
+b. La tasa de descuento que iguala el VAN al plazo de recuperación.
+c. La tasa de descuento que hace el VAN positivo.
+d. La tasa de descuento que hace el VAN negativo.
+4. Asuma un proyecto con inversión inicial (t=0) y flujos de caja positivos desde t=1
+hasta vencimiento. Marque la respuesta falsa.
+a. Debemos invertir en el proyecto si el VAN es mayor que cero.
+b. Debemos invertir si el coste del capital es inferior a la TIR.
+c. Si el VAN es cero, la rentabilidad del proyecto es cero.
+d. Si dos empresas desarrollan el proyecto, aquella con menor coste del capital
+tendrá un mayor VAN.
+6. El club Paris Saint-Germain (PSG) desea fichar a un nuevo jugador, y tiene dos
+opciones. Opción A: un jugador argentino que cuesta 50 mill. de euros. Además,
+recibirá 15 mill por temporada (años 1 a 3). Además, el PSG espera vender este
+jugador al precio de 55 mill de euros en el año 3. Opción B: un jugador brasileño, con
+las siguientes condiciones: 60 mill por contratarlo; salario anual de 18 mill de los
+años 1 a 4; se espera venderlo a 75 mill de euros en el año 4. De acuerdo al VAN, ¿a
+quién contrataría? El coste del capital es 3.0%, y sólo puede seleccionar a un jugador.
+a. El jugador brasileño.
+b. El jugador argentino.
+c. Somos indiferentes.
+d. Ninguno, pues ambos reducen el valor económico del club.
+7. Su inversión tiene una probabilidad del 70% de tener éxito, lo que supone un pago
+de 500,000 euros en el próximo año. En el caso contrario, el pago será de cero. Dado
+un coste del capital del 7%, cuál de las siguientes inversiones iniciales dará un mayor
+VAN.
+ a. 467,289.72 EUR
+ b. 483,644.86 EUR
+ c. 420,560.75 EUR
+ d. 405,321.77 EUR
+8. Los proyectos con VAN positivo son más probables cuando ,
+a. Al invertir en activos financieros, pues las barreras de entrada son menores.
+b. Al invertir en activos financieros frente a activos reales.
+c. Al invertir en activos reales, porque las barreras a la entrada son menores.
+d. Cuando las barreras de entrada son altas, no importa la clase de activo.
+12. Calcule la cantidad máxima que invertiría en el siguiente proyecto: si el proyecto
+tiene éxito, lo que ocurrirá con una probabilidad del 45%-, entonces el flujo de caja
+será de 10.5 mill. en un año. En el scenario contrario, el flujo de caja será de 5.0 mill.
+de euros. La tasa de descuento anual es del 14%.
+a. 7.43 mill.
+b. 4.41 mill.
+c. 6.56 mill.
+d. Ninguna de las anteriores.
+14. En los mercados de activos reales,
+a. Existen pocas barreras a la entrada, y potencialmente pocas inversiones con
+VAN positivo.
+b. EL VAN de los proyectos con activos reales converge rápidamente a cero.
+c. Existen muchas barreras a la entrada y, potencialmente, muchas inversions
+con VAN positivo.
+d. Un proyecto con VAN positivo no tiene interés para los inversores, quienes
+no competirán por ese proyecto.
+15. Señale la respuesta incorrecta.
+a. El plazo de recuperación es el número de años necesarios para recuperar la
+inversión inicial.
+b. El plazo de recuperación es atractivo para los gestores que estén evaluados
+en resultados a corto plazo.
+c. El plazo de recuperación se expresa en términos monetarios (ej. euros).
+d. El plazo de recuperación descontado considera el valor temporal del dinero.
+18. El criterio del plazo de recuperación es una metodología habitual para medir la
+calidad de un máster. Asumiendo que un MBA de prestigio puede costar
+aproximadamente 120,000$, y el plazo de recuperación reportado es de 2 años, cual
+es el salario esperado anual después de realizar el MBA?
+a. 50,000$
+b. 61,000$
+c. 175,000$
+d. B y c son correctas.
+19. Un proyecto tendrá éxito con probabilidad 59.25%, produciendo un flujo de caja de
+12.5 millones de euros al final del próximo año. Si el proyecto fracasa, su flujo de
+caja esperado será de 5 millones de euros. Asumiendo un coste de oportunidad
+anual del 12%, calcule la candidad máxima que estará dispuesto a invertir en él.
+a. 8.43 millones, aproximadamente.
+b. 5.41 millones, aproximadamente.
+c. 10.5 millones, aproximadamente.
+d. 3.45 millones, aproximadamente.
+21. Selecciona la respuesta incorrecta.
+a. El criterio del VAN establece que debemos rechazar aquellos proyectos con
+VAN negativo.
+b. Existen muchas barreras de entrada en los mercados de activos reales.
+c. Potencialmente, existen más proyectos con VAN positivo en los mercados
+financieros, pues las barreras de entrada son bajas.
+d. El racionamiento de capital se aplica cuando existe una disposición limitada
+de capital o crédito para la inversión inicial de un proyecto. 
+22. La empresa INCOSA ha encargado un estudio a la consultora Price SA para valorar la
+construcción de una guardería en la localidad de Las Rozas, en la provincia de
+Madrid. El coste de este estudio ha sido de 300.000€, y en él se ha determinado que
+el coste inicial de construcción de esta guardería será de 1 millón de euros (que se
+pagaría en t0), además se sabe que los gastos operativos de la misma serían de
+300.000 euros anuales, y se esperan unos ingresos operativos anuales de 450.000
+euros. Se ha estimado que al final (dentro de 10 años) se podría liquidar todo el
+proyecto por 500.000 euros. Si sabemos que la rentabilidad libre de riesgo es del
+3.5%, y que la rentabilidad ofrecida por este tipo de proyectos es del 8%, determine
+si se debe realizar el proyecto.
+a. Si hay que hacer el proyecto, el VAN es positivo e igual a 238108,9 euros)
+b. No hay que realizar el proyecto, el VAN es negativo, e igual a -61891 euros)
+c. Si hay que realizar el proyecto, el VAN es positivo, e igual a 6512 euros.
+d. Ninguna de las anteriores
