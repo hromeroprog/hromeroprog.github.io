@@ -85,7 +85,7 @@ function setQuestion(questionAndAnswers){
         console.log(option[option.length - 2]);
         console.log(option[option.length-3]);
 
-        if (option[option.length - 2]=="*" && option[option.length-3] == "*"){
+        if (option[option.length - 2]=="*" && option[option.length-1] == "*"){
             break;
         }
     }
