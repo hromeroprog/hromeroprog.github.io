@@ -1,6 +1,6 @@
 1. Una venta en corto es,
 a. Pedir prestado una acción para venderla posteriormente. El objetivo es
-recomprarla después (para devolverla a su propietario) a un precio menor.
+recomprarla después (para devolverla a su propietario) a un precio menor.**
 b. Pedir prestado un activo financiero para comprarlo. El objetivo es revenderlo
 después a un precio menor.
 c. Pedir prestado un activo financiero para venderlo. El objetivo es recomprarlo
@@ -14,13 +14,13 @@ inversión o para fondos de inversión.
 c. Un agente que trabaja para el regulador y que supervise la actividad de los
 bancos de inversión.
 d. Un individuo que busca oportunidades de arbitraje en los mercados y que se
-dedica a explotarlas.
+dedica a explotarlas.**
 3. Selecciona la respuesta correcta
 a. La función principal de los mercados primarios es proporcionar liquidez.
 b. La función principal de los mercados secundarios es permitir a las compañías
 captar fondos.
 c. Una operación de arbitraje implica obtener un beneficio positive sin riesgo y
-sin coste alguno.
+sin coste alguno.**
 d. Un analista financiero es un agente que evalúa las acciones que están
 infravaloradas o sobrevaloradas utilizando los precios históricos de esos
 activos (y en especial los gráficos/charts de esos precios).
@@ -31,23 +31,23 @@ secundarios.
 b. Los mercados primarios no están regulados. Los mercados secundarios sí
 están regulados.
 c. Las empresas se financian en los mercados primarios. Los mercados
-secundarios proporcionan liquidez a los activos financieros.
+secundarios proporcionan liquidez a los activos financieros.**
 d. Los inversores transaccionan las acciones en los mercados primarios. Las
 compañías se financian en los mercados secundarios. 
 5. En términos generales, los activos financieros pueden clasificarse en tres grupos,
-a. Acciones, deuda y derivados.
+a. Acciones, deuda y derivados.**
 b. Acciones, tipos de interés y tipos de cambio.
 c. Commodities, deuda y derivados.
 d. Acciones, acciones preferentes y deuda.
 6. Si vende en corto una acción, es porque piensa que su precio ,
-a. Caerá.
+a. Caerá.**
 b. Se mantendrá constante.
 c. Aumentará.
 d. El precio es indiferente, porque hay que devolver la acción a su propietario.
 7. El valor de mercado de una acción es,
 a. Es el precio de la acción en el mercado primario. Es el valor que los inversores
 institucionales adjudican a la empresa.
-b. Es el precio de la acción en el mercado secundario.
+b. Es el precio de la acción en el mercado secundario.**
 c. Es el precio de la acción en el mercado primario. Es el valor que los propietarios
 le dan a la compañía.
 d. Ninguna de las anteriores.
@@ -57,13 +57,13 @@ bajo y vendiéndola a un precio mayor.
 b. Un inversor puede obtener un beneficio sin riesgo comprando una acción a
 un precio bajo y vendiéndola a un precio mayor.
 c. Un inversor puede obtener un beneficio soportando un riesgo.
-d. Un inversor obtiene un beneficio sin riesgo y sin una inversion inicial.
+d. Un inversor obtiene un beneficio sin riesgo y sin una inversion inicial.**
 9. Selecciona la respuesta correcta.
 a. La venta en corto (short-selling) es una estrategia correcta cuando creemos
 que el precio de la acción aumentará en el futuro.
 b. Una oportunidad de arbitraje permite obtener beneficios sin riesgo con una
 cierta inversión inicial.
-c. Los activos financieros se emiten en los mercados primarios.
+c. Los activos financieros se emiten en los mercados primarios.**
 d. De acuerdo al nivel de regulación, los mercados financieros pueden ser
 mercados de deuda soberanos (o corporativos), mercados de acciones y
 mercados de derivados. 
@@ -72,7 +72,7 @@ a. Un mercado OTC es un mercado organizado.
 b. En los mercados OTC, los contratos financieros están estandarizados, la
 liquidez es alta y el nivel de regulación es alto.
 c. Un mercado OTC es un mercado no-regulado donde cada operación es única
-(no están estandarizadas).
+(no están estandarizadas).**
 d. Los mercados OTC no son mercados.
 11. La acción de Santander, S.A. vale 11.15 EUR en el mercado de acciones español.
 Simultáneamente, el precio de la acción es de 11.07 EUR en el mercado de acciones
@@ -81,7 +81,7 @@ diferencia, señale la estrategia adecuada.
 a. Vender la acción de Santander en España, y comprarla en Alemania. El
 beneficio será de 0.03 EUR por acción.
 b. Comprar Santander en Alemania, y venderlo en España. El beneficio será de
-0.08 EUR por acción.
+0.08 EUR por acción.**
 c. No es posible implementar una estrategia de arbitraje con estos datos.
 d. Comprar Santander en España, y venderlo en Alemania. El beneficio será de
 0.08 EUR por acción.
@@ -90,7 +90,7 @@ correcto. Asuma que no existe incertidumbre en los precios futuros de las accion
 a. Hoy compra una acción a 25.00 EUR, y la vende mañana a 30.00 EUR. El
 rendimiento esperado es de 25.00%.
 b. Hoy vende en corto una acción a 25.00 EUR, y la recompra mañana a 30.00
-EUR. El rendimiento esperado es de -20.00%.
+EUR. El rendimiento esperado es de -20.00%.**
 c. Hoy vende en corto una acción a 25.00 EUR, y lo recompra mañana a 30.00
 EUR. El rendimiento esperado es de -16.67%.
 d. Ninguna de las anteriores.
@@ -101,12 +101,12 @@ posición se cierra.
 b. Permite al inversor beneficiarse de una caída en los precios de las acciones.
 c. Permite al inversor beneficiarse de un aumento en los precios de las
 acciones.
-d. A y b son correctas. 
+d. A y b son correctas.**
 14. Indique la respuesta correcta.
 a. Se recomienda vender en corto cuando pensamos que el precio de un activo
 aumentará en futuro.
 b. Una oportunidad de arbitraje permite obtener beneficios sin riesgo sin una
-inversión inicial.
+inversión inicial.**
 c. Los activos financieros se emiten en los mercados secundarios.
 d. El grado de regulación determina si un mercado financiero es de derivados,
 de deuda o de acciones.
@@ -119,10 +119,10 @@ b. Comprar Telefónica en España y venderla en corto en Alemana, obteniendo
 0.03 Euros.
 c. No es posible realizar una estrategia de arbitraje dados los datos anteriores.
 d. Comprar Telefonica en España y venderla en Alemania, obteniedno 0.09
-Euros.
+Euros.**
 16. Si el precio de las acciones de Microsoft en el NASDAQ es de 34,6$ y,
 simultáneamente, en el NYSE es de 34,5$. Existe una oportunidad de arbitraje:
 a. Siempre que el total de comisiones no exceda 0,1$.
 b. Si vendemos en corto en el NASDAQ y compramos en NYSE.
-c. Ambas son ciertas.
+c. Ambas son ciertas.**
 d. Ambas son falsas. 

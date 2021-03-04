@@ -7,7 +7,7 @@ d. La tasa de descuento que hace el VAN negativo.
 hasta vencimiento. Marque la respuesta falsa.
 a. Debemos invertir en el proyecto si el VAN es mayor que cero.
 b. Debemos invertir si el coste del capital es inferior a la TIR.
-c. Si el VAN es cero, la rentabilidad del proyecto es cero.
+c. Si el VAN es cero, la rentabilidad del proyecto es cero.**
 d. Si dos empresas desarrollan el proyecto, aquella con menor coste del capital
 tendrá un mayor VAN.
 6. El club Paris Saint-Germain (PSG) desea fichar a un nuevo jugador, y tiene dos
@@ -20,7 +20,7 @@ quién contrataría? El coste del capital es 3.0%, y sólo puede seleccionar a u
 a. El jugador brasileño.
 b. El jugador argentino.
 c. Somos indiferentes.
-d. Ninguno, pues ambos reducen el valor económico del club.
+d. Ninguno, pues ambos reducen el valor económico del club.**
 7. Su inversión tiene una probabilidad del 70% de tener éxito, lo que supone un pago
 de 500,000 euros en el próximo año. En el caso contrario, el pago será de cero. Dado
 un coste del capital del 7%, cuál de las siguientes inversiones iniciales dará un mayor
@@ -28,26 +28,26 @@ VAN.
  a. 467,289.72 EUR
  b. 483,644.86 EUR
  c. 420,560.75 EUR
- d. 405,321.77 EUR
+ d. 405,321.77 EUR**
 8. Los proyectos con VAN positivo son más probables cuando ,
 a. Al invertir en activos financieros, pues las barreras de entrada son menores.
 b. Al invertir en activos financieros frente a activos reales.
 c. Al invertir en activos reales, porque las barreras a la entrada son menores.
-d. Cuando las barreras de entrada son altas, no importa la clase de activo.
+d. Cuando las barreras de entrada son altas, no importa la clase de activo.**
 12. Calcule la cantidad máxima que invertiría en el siguiente proyecto: si el proyecto
 tiene éxito, lo que ocurrirá con una probabilidad del 45%-, entonces el flujo de caja
 será de 10.5 mill. en un año. En el scenario contrario, el flujo de caja será de 5.0 mill.
 de euros. La tasa de descuento anual es del 14%.
 a. 7.43 mill.
 b. 4.41 mill.
-c. 6.56 mill.
+c. 6.56 mill.**
 d. Ninguna de las anteriores.
 14. En los mercados de activos reales,
 a. Existen pocas barreras a la entrada, y potencialmente pocas inversiones con
 VAN positivo.
 b. EL VAN de los proyectos con activos reales converge rápidamente a cero.
 c. Existen muchas barreras a la entrada y, potencialmente, muchas inversions
-con VAN positivo.
+con VAN positivo.**
 d. Un proyecto con VAN positivo no tiene interés para los inversores, quienes
 no competirán por ese proyecto.
 15. Señale la respuesta incorrecta.
@@ -55,7 +55,7 @@ a. El plazo de recuperación es el número de años necesarios para recuperar la
 inversión inicial.
 b. El plazo de recuperación es atractivo para los gestores que estén evaluados
 en resultados a corto plazo.
-c. El plazo de recuperación se expresa en términos monetarios (ej. euros).
+c. El plazo de recuperación se expresa en términos monetarios (ej. euros).**
 d. El plazo de recuperación descontado considera el valor temporal del dinero.
 18. El criterio del plazo de recuperación es una metodología habitual para medir la
 calidad de un máster. Asumiendo que un MBA de prestigio puede costar
