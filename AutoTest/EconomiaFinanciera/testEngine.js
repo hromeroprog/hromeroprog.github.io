@@ -81,9 +81,6 @@ function setQuestion(questionAndAnswers){
     var correcta;
     for(correcta = 1; correcta < questionAndAnswers.length; correcta++){
         option = questionAndAnswers[correcta];
-        console.log(option);
-        console.log(option[option.length - 2]);
-        console.log(option[option.length-3]);
 
         if (option[option.length - 2]=="*" && option[option.length-1] == "*"){
             break;
