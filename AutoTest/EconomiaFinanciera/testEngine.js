@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $("#SelectAll").click(function(){
-            console.log("entering");
             var inputs = $('form input');
             for(i = 0; i < inputs.length - 1; i++){
                 $(inputs[i]).prop("checked", $("#SelectAll").prop("checked"));  
@@ -16,11 +15,15 @@ $(document).ready(function(){
             }
         }
         if(temas.length > 0){
-            comenzarCuestionario(temas, 20);
+            comenzarCuestionario(temas, 5);
         }
         $("body .setup").hide();
+        $("body .question").show();
+        $("body .fin_de_cuestionario").show();
         
     });
+
+    
 
 });
 
@@ -57,7 +60,6 @@ function parseFile(text){
             indexes_of_start_of_question.push(i);
         }
     }
-    console.log(indexes_of_start_of_question);
     index = getRandomInt(0, indexes_of_start_of_question.length-1)
     startOfQuestion = indexes_of_start_of_question[index]
     endOfQuestion = 0
@@ -94,23 +96,18 @@ function setQuestion(questionAndAnswers){
         //METER OPCION EN EL HTML
         html_to_inyect += option + "</button>"
         var object_topic_message = $(".question .respuestas");
-        console.log("INYECTANDO");
         $(object_topic_message).append(html_to_inyect);
     }
     
 }
 
 function getQuestiondAndAnswersFromLines(questionLines){
-    console.log("Question_lines");
-    console.log(questionLines.length);
     var i;
     for(i = 0; i < questionLines.length; i++){
         if(questionLines[i].indexOf("a.") == 0)
             break;
     }
     end_of_question = i;
-    console.log("End of question:")
-    console.log(end_of_question);
     
     lines_of_question = questionLines.slice(0, end_of_question);
     question = lines_of_question.join("\n");
@@ -144,9 +141,62 @@ function getRandomInt(min, max) {
 function comenzarCuestionario(temas, numero_de_preguntas){
     tema = temas[getRandomInt(0, temas.length-1)];
     $("body .question h2").html("Pregunta del tema: " + tema.slice(4, tema.length));
+    $("body .question .nota_actual").html("Nota: 0/0");
+    $("body .question .avance_cuestionario").html("Avance: 1/" + numero_de_preguntas);
     file = "./BaseDeDatos/" + tema + ".txt";
     text = askQuestion(file);
+    not_answered = true;
+    question_number = 1;
+    aciertos = 0;
 
     //parseFile(file);
-    
+    $(document).on("click", ".respuestas button" , function() {
+        if ($(this).attr("class") == "correcta"){
+            $(this).css({"color": "rgba(20, 240,20,0.8)", "border-color":"rgba(20, 240,20,0.5)"});
+            if(not_answered){
+                aciertos++;
+            }
+        }
+        else{
+            $(this).css({"color": "rgba(240, 20,20,0.8)", "border-color":"rgba(240, 20,20,0.5)"});
+        }
+        
+        html_to_inyect = "<button id = 'siguiente'> SIGUIENTE </button>"
+        var object_topic_message = $(".question .respuestas");
+        if(not_answered){
+            $(object_topic_message).after(html_to_inyect);
+            not_answered = false;
+            question_number++;
+        }
+        string_current_nota = "Nota: " + aciertos + "/" + (question_number - 1);
+        console.log(string_current_nota);
+        $("body .question .nota_actual").html(string_current_nota);
+    });
+
+    $(document).on("click", "#siguiente" , function() {
+        $(".respuestas button").remove();
+        $("#siguiente").remove();
+        not_answered = true;
+        if (question_number <= numero_de_preguntas){
+            tema = temas[getRandomInt(0, temas.length-1)];
+            $("body .question h2").html("Pregunta del tema: " + tema.slice(4, tema.length));
+            string_avance = "Avance: " + question_number + "/" + numero_de_preguntas;
+            console.log(string_avance);
+            $("body .question .avance_cuestionario").html(string_avance);
+            file = "./BaseDeDatos/" + tema + ".txt";
+            text = askQuestion(file); 
+        }
+        else{
+            nota_final = "" + aciertos + "/" + numero_de_preguntas;
+            $(".nota_final").html(nota_final);
+            $(".enunciado").html("");
+        }
+
+    });
+
+    $(".fin_de_cuestionario").click(function(){
+        $("body .setup").show();
+        $("body .question").hide();
+        $("body .fin_de_cuestionario").hide();
+    })
 }
