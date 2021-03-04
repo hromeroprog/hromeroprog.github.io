@@ -80,14 +80,19 @@ function setQuestion(questionAndAnswers){
     var correcta;
     for(correcta = 1; correcta < questionAndAnswers.length; correcta++){
         option = questionAndAnswers[correcta];
-        if (option[option.length-1]=="*" && option[option.length-2]== "*") break;
+        if (option[option.length-2]=="*" && option[option.length-3]== "*"){
+            break;
+        }
+    }
+    if(correcta == questionAndAnswers.length){
+        alert("Esta pregunta no tiene guardada la respuesta correcta, si quieres mandame el resultado y trataré de añadirlo cuanto antes");
     }
     
     for(i = 1; i < questionAndAnswers.length; i++){
         var html_to_inyect = "<button class ='";
         option = questionAndAnswers[i];
         if(i == correcta){
-            option = option.slice(0, option.length-2);
+            option = option.slice(0, option.length-3);
             html_to_inyect+="correcta'>"
         }
         else{
