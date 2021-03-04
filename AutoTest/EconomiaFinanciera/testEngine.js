@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    LONGITUD_CUESTIONARIO = 10;
     $("#SelectAll").click(function(){
             var inputs = $('form input');
             for(i = 0; i < inputs.length - 1; i++){
@@ -15,7 +16,7 @@ $(document).ready(function(){
             }
         }
         if(temas.length > 0){
-            comenzarCuestionario(temas, 5);
+            comenzarCuestionario(temas, LONGITUD_CUESTIONARIO);
         }
         $("body .setup").hide();
         $("body .question").show();
@@ -195,6 +196,7 @@ function comenzarCuestionario(temas, numero_de_preguntas){
             nota_final = "" + aciertos + "/" + numero_de_preguntas;
             $(".nota_final").html(nota_final);
             $(".enunciado").html("");
+            $("body .question h2").html("");
         }
 
     });
