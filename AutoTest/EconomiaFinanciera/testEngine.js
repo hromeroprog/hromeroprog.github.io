@@ -87,7 +87,16 @@ function setQuestion(questionAndAnswers){
         }
     }
     if(correcta == questionAndAnswers.length){
-        alert("Esta pregunta no tiene guardada la respuesta correcta, si quieres mandame el resultado y trataré de añadirlo cuanto antes");
+        for(correcta = 1; correcta < questionAndAnswers.length; correcta++){
+            option = questionAndAnswers[correcta];
+    
+            if (option[option.length-1] == "*"){
+                break;
+            }
+        }
+        if(correcta == questionAndAnswers.length){
+            alert("Esta pregunta no tiene guardada la respuesta correcta, si quieres mandame el resultado y trataré de añadirlo cuanto antes");
+        }
     }
     
     for(i = 1; i < questionAndAnswers.length; i++){
