@@ -115,11 +115,9 @@ cotiza en el mercado alemán a 11.15€. Asumiendo que no existen costes de
 transacción, señale la estrategia adecuada.
 a. Vender en corto Telefónica en España, y comprarla en Alemania, generando
 un beneficio de 0.07 Euros.
-b. Comprar Telefónica en España y venderla en corto en Alemana, obteniendo
-0,03 Euros.
+b. Comprar Telefónica en España y venderla en corto en Alemana, obteniendo 0,03 Euros.
 c. No es posible realizar una estrategia de arbitraje dados los datos anteriores.
-d. Comprar Telefonica en España y venderla en Alemania, obteniedno 0.09
-Euros.**
+d. Comprar Telefonica en España y venderla en Alemania, obteniedno 0.09 Euros.**
 16. Si el precio de las acciones de Microsoft en el NASDAQ es de 34,6$ y,
 simultáneamente, en el NYSE es de 34,5$. Existe una oportunidad de arbitraje:
 a. Siempre que el total de comisiones no exceda 0,1$.
