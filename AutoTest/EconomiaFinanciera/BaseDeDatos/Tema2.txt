@@ -232,7 +232,7 @@ suponiendo que hace la primera aportación justo dentro de un mes. El tipo de in
 compuesto anual es del 4%.
 a. Entre 780 y 799 euros.
 b. Entre 3600 y 3780 euros
-c. Entre 485 y 493 euross**
+c. Entre 485 y 493 euros**
 d. Ninguna de las anteriores 
 16.- Determine cuanto queda por pagar justo después de realizarse el segundo pago en
 un préstamo de 15.000€ a 5 años que se amortiza con una cuota anual constante, si el
