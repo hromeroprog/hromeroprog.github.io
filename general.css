@@ -14,6 +14,21 @@ body{
     min-height: 100vh;
 }
 
+.evenly-spaced{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10% 0 10%;
+    flex-wrap: wrap;
+}
+
+.evenly-spaced > *{
+    flex: 1 1 0px;
+    margin: 5px 5% 5px 5%;
+    height: 100%;
+}
+
 .flex-centered{
     display: flex;
     align-items: center;

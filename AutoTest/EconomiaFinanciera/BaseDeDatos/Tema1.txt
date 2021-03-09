@@ -79,12 +79,12 @@ Simultáneamente, el precio de la acción es de 11.07 EUR en el mercado de accio
 alemán. Asumiendo que no existen costes de transacción, y que desea arbitrar la
 diferencia, señale la estrategia adecuada.
 a. Vender la acción de Santander en España, y comprarla en Alemania. El
-beneficio será de 0.03 EUR por acción.
+beneficio será de 0,03 EUR por acción.
 b. Comprar Santander en Alemania, y venderlo en España. El beneficio será de
-0.08 EUR por acción.**
+0,08 EUR por acción.**
 c. No es posible implementar una estrategia de arbitraje con estos datos.
 d. Comprar Santander en España, y venderlo en Alemania. El beneficio será de
-0.08 EUR por acción.
+0,08 EUR por acción.
 12. De acuerdo a las siguientes transacciones, señale el rendimiento esperado que sea
 correcto. Asuma que no existe incertidumbre en los precios futuros de las acciones.
 a. Hoy compra una acción a 25.00 EUR, y la vende mañana a 30.00 EUR. El
@@ -116,7 +116,7 @@ transacción, señale la estrategia adecuada.
 a. Vender en corto Telefónica en España, y comprarla en Alemania, generando
 un beneficio de 0.07 Euros.
 b. Comprar Telefónica en España y venderla en corto en Alemana, obteniendo
-0.03 Euros.
+0,03 Euros.
 c. No es posible realizar una estrategia de arbitraje dados los datos anteriores.
 d. Comprar Telefonica en España y venderla en Alemania, obteniedno 0.09
 Euros.**

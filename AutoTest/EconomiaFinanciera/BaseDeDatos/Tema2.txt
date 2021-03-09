@@ -19,7 +19,7 @@ b. 2165.35 euros
 c. 44187.51 euros
 d. Ninguna de las anteriores.
 4.- ¿Cuánto tardará una inversión de 300€ en doblarse al tipo de interés anual del
-14.8%? Asuma capitalización compuesta.
+14,8%? Asuma capitalización compuesta.
 a. 4 años.
 b. 7 años.
 c. 6 años.
@@ -43,35 +43,35 @@ b. 1.39%
 c. 0.94%
 d. Ninguna de las anteriores.
 9.- La cuenta Naranja de ING Direct ofrece un tipo annual equivalente del 2.60% durante
-los próximos 4 meses. Asumiendo que deposita 100,000 EUR en este fondo durante 4
+los próximos 4 meses. Asumiendo que deposita 1000,00 EUR en este fondo durante 4
 meses, calcule el valor final de su inversión. Asuma capitalización compuesta y ausencia
 de impuestos.
-a. 859.26 EUR.
+a. 859.26 EUR.**
 b. 579.38 EUR.
 c. 1002.35 EUR.
 d. 947.32 EUR.
 10.- El tipo de interés mensual equivalente al 3.93% trimestral es, bajo capitalización
 compuesta,
 a. 0.84%
-b. 1.29%
+b. 1.29%**
 c. 1.57%
 d. 1.64%
 11.- El tipo anual equivalente al 3% trimestral es, bajo capitalización compuesta,
 a. 6.40%
 b. Más del 100%
-c. 12.55%
+c. 12.55%**
 d. Ninguna de las anteriores
 12.- El tipo mensual equivalente al 5% trimestral es, bajo capitalización compuesta,
 a. 0.84%
 b. 1.29%
 c. 1.57%
-d. 1.64% 
-13.- Calcule el valor futuro de 15,000 EUR si se invierten hoy a un tipo anual del 3%. El
+d. 1.64%**
+13.- Calcule el valor futuro de 15.000 EUR si se invierten hoy a un tipo anual del 3%. El
 vencimiento del depósito es 20 años, y la capitalización es contínua.
 a. EUR 46181.77
 b. EUR 2165.35
 c. EUR 44187.51
-d. Ninguna de las anteriores
+d. Ninguna de las anteriores**
 Valor presente y futuro
 1.- Usted ha creado una empresa y necesita financiarla. De las siguientes formas de
 financiación, ¿cuál es la menos interesante para usted? Considere un tipo de interés
@@ -197,7 +197,7 @@ d. Ninguna de las anteriores.**
 interés anual del 3%. Determine la mensualidad (constante) de su hipoteca.
 a. Entre 701 y 705 euros.
 b. Entre 5,970 y 5,972 euros.
-c. Entre 763 y 771 euros.
+c. Entre 763 y 771 euros.**
 d. Ninguna de las anteriores.
 12.- Cajamadrid, S.A. emitió acciones preferentes en 2009. Este tipo de producto ofrece
 un pago constante de dividendos a perpetuidad. Dado que cada acción proporciona un
@@ -206,7 +206,7 @@ tasa de descuento del 25%.
 a. 12 euros.
 b. 280 euros.
 c. 75 euros.
-d. Ninguna de las anteriores.
+d. Ninguna de las anteriores.**
 13.- Usted tiene 65 años y desea retirarse. Para completar su pension, su banco le ofrece
 una hipoteca inversa, en la que el banco le ofrece pagarle 1,100 euros al mes hasta que
 fallezca. Asumiendo que el precio de su casa es 200,000 euros, y el tipo de interés anual
@@ -222,7 +222,7 @@ actualidad al 3.5%, determine la cuota constante que debería pagar Cesar.
 a. Entre 12.420 y 12.439 euros
 b. Entre 12.100 y 12.355 euros
 c. 10.700 y 10.800 euros.
-d. Ninguna de las anteriores
+d. Ninguna de las anteriores**
 15.- Suponga que un inversor desea crear un plan de pensiones hasta su jubilación
 (dentro de 12 años) para lo que hará aportaciones mensualmente. En realidad este
 inversor lo que desea es poder realizar un viaje de un año por Asia, Africa y Canada
@@ -232,15 +232,15 @@ suponiendo que hace la primera aportación justo dentro de un mes. El tipo de in
 compuesto anual es del 4%.
 a. Entre 780 y 799 euros.
 b. Entre 3600 y 3780 euros
-c. Entre 485 y 493 euros
-d. Ninguna de las antero 
+c. Entre 485 y 493 euross**
+d. Ninguna de las anteriores 
 16.- Determine cuanto queda por pagar justo después de realizarse el segundo pago en
 un préstamo de 15.000€ a 5 años que se amortiza con una cuota anual constante, si el
 tipo de interés anual es del 8%.
 a. Entre 11.220€ y 11.240€
 b. Entre 10.560€ y 10.580€
 c. Entre 9.870€ y 9.890€
-d. Ninguna de las anteriores
+d. Ninguna de las anteriores**
 17.- Estamos a 1-1-2012 y usted es una persona de 50 años que planea ingresar 4000
 euros al final de cada año, en una cuenta de ahorro al 2,5% anual de interés compuesto
 durante los próximos 15 años hasta jubilarse a los 65 años. El capital disponible en ese
@@ -248,7 +248,7 @@ momento se utilizará para disponer de una renta anual constante durante los sig
 20 años ¿De cuánto dinero dispondría cada año para complementar su pensión de
 jubilación durante esos 20 años si la tasa de descuento sigue siendo 2,5%?
 a. Entre 4870 y 4890 euros
-b. Entre 4590 y 4610 euros
+b. Entre 4590 y 4610 euros**
 c. Entre 4720 y 4740 euros
 d. Ninguna de las anteriores
 18.- ¿De cuánto dinero dispondrá en el momento de su jubilación si deposita 6000 euros
@@ -257,4 +257,4 @@ vida activa que le quedan?
 a. 86989,47 euros
 b. 210.000,00 euros
 c. 543.862,20 euros
-d. 668608,68 euros 
+d. 668608,68 euros**
