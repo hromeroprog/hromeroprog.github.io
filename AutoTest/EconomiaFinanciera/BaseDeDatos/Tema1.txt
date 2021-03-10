@@ -80,11 +80,9 @@ alemán. Asumiendo que no existen costes de transacción, y que desea arbitrar l
 diferencia, señale la estrategia adecuada.
 a. Vender la acción de Santander en España, y comprarla en Alemania. El
 beneficio será de 0,03 EUR por acción.
-b. Comprar Santander en Alemania, y venderlo en España. El beneficio será de
-0,08 EUR por acción.**
+b. Comprar Santander en Alemania, y venderlo en España. El beneficio será de 0,08 EUR por acción.**
 c. No es posible implementar una estrategia de arbitraje con estos datos.
-d. Comprar Santander en España, y venderlo en Alemania. El beneficio será de
-0,08 EUR por acción.
+d. Comprar Santander en España, y venderlo en Alemania. El beneficio será de 0,08 EUR por acción.
 12. De acuerdo a las siguientes transacciones, señale el rendimiento esperado que sea
 correcto. Asuma que no existe incertidumbre en los precios futuros de las acciones.
 a. Hoy compra una acción a 25.00 EUR, y la vende mañana a 30.00 EUR. El
