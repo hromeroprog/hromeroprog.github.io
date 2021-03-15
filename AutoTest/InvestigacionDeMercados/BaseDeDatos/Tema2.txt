@@ -36,8 +36,19 @@ b.	Las encuestas periódicas pueden ser de Panel u Omnibus
 c.	Una ventaja de las encuestas de Panel es que no existe sesgo de respuesta debido a entradas incompletas. **
 d.	Para el muestreo tendremos que tener en cuenta tres aspectos clave: el alcance de muestra, la selección de muestra y el tamaño de muestra.
 
-6. se quiere realizar un experimento, para ello (escoge la correcta):
+6. Se quiere realizar un experimento, para ello (escoge la correcta):
 a.	Lo mejor es realizarlo en un ambiente donde haya las máximas variables posibles, incluso aquellas que no hemos valorado inicialmente.
 b.	Recogeremos los resultados lo antes posible, nada más haya terminado el experimento.
 c.	Mediremos repetidamente a los participantes para asegurarnos de la correcta recogida de datos.
 d.	Hay que tener especialmente cuidado con la asignación de las unidades de prueba en los grupos de tratamiento.**
+7.Una empresa de autobuses ha recibido varias quejas debido a que los autobuses de una determinada línea suelen ir siempre llenos no cumpliendo las medidas de seguridad. La empresa pretende resolver el problema de la manera más óptima posible ¿Qué debería hacer la empresa? 
+a. la empresa deberá aumentar la frecuencia de los autobuses inmediatamente en todas las franjas horarias.
+b. La empresa debería revisar las grabaciones de las cámaras de los autobuses de esa línea identificando qué franjas horarias son las afectadas por la problemática para poder resolver el problema.**
+c. La empresa puede hacer entrevistas en profundidad a los pasajeros de la línea durante el horario de mañana para identificar durante qué franjas horarias la línea se encuentra congestionada.
+d. La empresa debería realizar una serie de focus groups heterogéneos mezclando pasajeros y conductores para obtener la información deseada.
+
+8.Seleccione la opción verdadera sobre Panel:
+a. Es un estudio ad hoc con una muestra representativa que tiene como objetivo el observar las tendencias de hábitos de consumo.
+b. Es un método cualitativo que tiene como objetivo el observar las tendencias de hábitos de consumo sobre una muestra representativa fija.
+c. Es un estudio continuo en el tiempo con una muestra representativa fija que tiene como objetivo observar las tendencias de hábitos de consumo.**
+d. Es un método cuantitativo que tiene como objetivo el observar las tendencias de hábitos de consumo sobre una muestra no representativa fija.

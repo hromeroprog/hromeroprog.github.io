@@ -1,7 +1,7 @@
 1. ¿Cual de los siguientes estadisticos NO es interesante si queremos estudiar
 las respuestas de una pregunta nominal?
 a. Frecuencia absoluta
-b. Media**
+b. Media **
 c. Moda
 d. Frecuencia relativa
 
