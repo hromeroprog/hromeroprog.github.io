@@ -14,16 +14,14 @@ $(document).ready(function(){
     async function run_simulation(){
         console.log("Running");
         escape_simulation = false;
-        current_map = JSON.parse(JSON.stringify(map));
         processed_map = JSON.parse(JSON.stringify(map));
         while(!escape_simulation){
-            for(row = 0; row < current_map.length;row++){
-                for(col = 0; col< current_map[0].length; col++){
-                    processed_map[row][col] = stepCell(row, col, current_map);
+            for(row = 0; row < map.length;row++){
+                for(col = 0; col< map[0].length; col++){
+                    processed_map[row][col] = stepCell(row, col, map);
                 }
             }
             map = JSON.parse(JSON.stringify(processed_map));
-            current_map = JSON.parse(JSON.stringify(processed_map));
             await new Promise(r => setTimeout(r, 150));
             applyMap(map);
             iteration++;
