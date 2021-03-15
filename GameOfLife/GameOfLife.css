@@ -1,0 +1,45 @@
+.life_container{
+    background-color: lightgray;
+}
+
+#game-of-life{
+    height: 100vh;
+}
+
+#comenzar, #parar{
+    margin: 30px 50px 10px 50px;
+}
+
+header{
+    font-size: 28px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #eee;
+    width: 60%;
+    box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);
+    text-align: center;
+    padding: 2px;
+    margin: 10px auto;
+}
+
+.life_container{
+    background-color:#333;
+    width: 80%;
+    height: 50%;
+    margin: 30px auto;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px 10px rgba(238, 238, 238, .1);
+}
+
+.life_container > .cell{
+    float: left;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 1px rgba(238, 238, 238, .4);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.life_container > .active{
+    background-color: rgba(238, 238, 238, .4);
+}

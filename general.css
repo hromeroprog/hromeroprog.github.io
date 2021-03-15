@@ -38,7 +38,6 @@ body{
 a{
 
     font-size: 18px;
-    font-family: 'Rajdhani', sans-serif;
     color: #eee;
     text-decoration: none;
     font-weight: 500;
@@ -48,4 +47,8 @@ a{
 
 a, h1, h2, h3, button, label, div{
     font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+    width: 100%;
 }
