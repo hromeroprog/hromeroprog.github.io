@@ -4,3 +4,9 @@ a. Frecuencia absoluta
 b. Media**
 c. Moda
 d. Frecuencia relativa
+
+2.Seleccione la respuesta correcta
+a.	Las escalas de intervalo son utilizadas en variables sociales Y en rangos de datos.
+b.	Si tengo una muestra dividida entre mujer y hombre, es muy útil hacer la media de la variable para ver si hay equidad de respuesta.
+c.	Las escalas de mayor precisión y variabilidad son las de razón e intervalos. **
+d.	En escalas no comparativas, el diferencial semántico propone dos adjetivos similares que difieren en pequeños detalles para determinar la imagen real de la marca.

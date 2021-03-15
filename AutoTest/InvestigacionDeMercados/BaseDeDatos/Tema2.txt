@@ -23,3 +23,21 @@ c. La metodología de los cuatro grupos de solomon es un tipo de diseño experim
 Dos son experimentales y Dos son de control
 Dos son con medida pre y pos-tratamiento y Dos sólo con medida pos-tratamiento**
 d. El diseño factorial es un tipo de diseño experimental estadistico que se utiliza para medir los efectos de dos o más variables independientes en varios niveles.
+
+4. Escoge la respuesta Correcta:
+a.	Los procedimientos de investigación cualitativa ocultos/indirectos consistes en sesiones de grupo y técnicas proyectivas.
+b.	La investigación cuantitativa permite comprender el qué, el quién el por qué y el dónde.
+c.	En términos de utilidad general, las sesiones de grupo son las más útiles de las técnicas proyectivas.**
+d.	El método Delphi busca entender en mayor profundidad el conocimiento de una sola persona.
+
+5.Escoge la respuesta incorrecta
+a.	Las encuestaras Ad-hoc son encuestas que se realizan solo en un periodo determinado de tiempo, es decir, no se repiten periódicamente.
+b.	Las encuestas periódicas pueden ser de Panel u Omnibus
+c.	Una ventaja de las encuestas de Panel es que no existe sesgo de respuesta debido a entradas incompletas. **
+d.	Para el muestreo tendremos que tener en cuenta tres aspectos clave: el alcance de muestra, la selección de muestra y el tamaño de muestra.
+
+6. se quiere realizar un experimento, para ello (escoge la correcta):
+a.	Lo mejor es realizarlo en un ambiente donde haya las máximas variables posibles, incluso aquellas que no hemos valorado inicialmente.
+b.	Recogeremos los resultados lo antes posible, nada más haya terminado el experimento.
+c.	Mediremos repetidamente a los participantes para asegurarnos de la correcta recogida de datos.
+d.	Hay que tener especialmente cuidado con la asignación de las unidades de prueba en los grupos de tratamiento.**
