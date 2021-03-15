@@ -1,4 +1,3 @@
-
 $(document).ready(function(){
 
     var down = false;
@@ -9,7 +8,7 @@ $(document).ready(function(){
     dim = insertarCelulas(escenario);
     map = createMap(dim[0], dim[1]);
     escape_simulation = false;
-    
+    timeout = getTimeOut();
     iteration = 0;
     async function run_simulation(){
         console.log("Running");
@@ -22,13 +21,17 @@ $(document).ready(function(){
                 }
             }
             map = JSON.parse(JSON.stringify(processed_map));
-            await new Promise(r => setTimeout(r, 150));
+            await new Promise(r => setTimeout(r, timeout));
             applyMap(map);
             iteration++;
             console.log(iteration);
         } 
         console.log("Escaping");
     }
+
+    $('input[type=range]').on('input', function () {
+        timeout = getTimeOut();
+    });
 
     $("#comenzar").on("click", run_simulation);
 
@@ -63,6 +66,14 @@ $(document).ready(function(){
     }
 
 });
+
+function getTimeOut(){
+    speed_val = $("#speed-slide")[0].value;
+    console.log(speed_val);
+    timeOut = 1600 / (2**speed_val);
+    console.log(timeOut);
+    return timeOut;
+}
 
 function applyMap(map){
     for(row = 0; row < map.length;row++){
