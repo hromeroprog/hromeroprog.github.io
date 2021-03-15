@@ -1,8 +1,8 @@
 1.Cuando tratamos de hacer una investigación exploratoria del mercado:
-a) Utilizaremos técnicas proyectivas para que el usuario pueda ver el producto en tiempo real.
-b) Utilizaremos técnicas proyectivas para que el usuario pueda imaginar el producto que realmente desea.
-c) Utilizaremos técnicas proyectivas si queremos saber los sentimientos de la persona frente a un tema de interes.**
-d) Utilizaremos técnicas proyectivas si queremos tomar una decisión de forma grupal.
+a. Utilizaremos técnicas proyectivas para que el usuario pueda ver el producto en tiempo real.
+b. Utilizaremos técnicas proyectivas para que el usuario pueda imaginar el producto que realmente desea.
+c. Utilizaremos técnicas proyectivas si queremos saber los sentimientos de la persona frente a un tema de interes.**
+d. Utilizaremos técnicas proyectivas si queremos tomar una decisión de forma grupal.
 2. Te ha llegado una encuesta en la que hay una pregunta que te pide que marques de cuales de las siguientes marcas recuerdas haber visto publicidad:
 -Renault
 -Citroen
@@ -10,16 +10,16 @@ d) Utilizaremos técnicas proyectivas si queremos tomar una decisión de forma g
 -Audi
 
 ¿Qué clasificación de las siguientes se ajusta más al tipo de pregunta?
- a) Dicotómica en sugerido
- b) Abierta y espontánea
- c) De respuesta única de control
- d) De respuesta múltiple en sugerido**
+ a. Dicotómica en sugerido
+ b. Abierta y espontánea
+ c. De respuesta única de control
+ d. De respuesta múltiple en sugerido**
 
  3.Escoge la opción falsa:
-a) El cuadrado latino es un tipo de diseño experimental estadistico que permite al investigador controlar estadísticamente dos variables externas que no interactúan,
+a. El cuadrado latino es un tipo de diseño experimental estadistico que permite al investigador controlar estadísticamente dos variables externas que no interactúan,
 además de la manipulación de la variable independiente.
-b) El bloque aleatorizado es un tipo de diseño experimental estadistico en el que las unidades de prueba se disponen en bloque o se agrupan con base en la variable externa.
-c) La metodología de los cuatro grupos de solomon es un tipo de diseño experimental estadistico que consta de 4 grupos, donde:
+b. El bloque aleatorizado es un tipo de diseño experimental estadistico en el que las unidades de prueba se disponen en bloque o se agrupan con base en la variable externa.
+c. La metodología de los cuatro grupos de solomon es un tipo de diseño experimental estadistico que consta de 4 grupos, donde:
 Dos son experimentales y Dos son de control
 Dos son con medida pre y pos-tratamiento y Dos sólo con medida pos-tratamiento**
-d) El diseño factorial es un tipo de diseño experimental estadistico que se utiliza para medir los efectos de dos o más variables independientes en varios niveles.
+d. El diseño factorial es un tipo de diseño experimental estadistico que se utiliza para medir los efectos de dos o más variables independientes en varios niveles.
