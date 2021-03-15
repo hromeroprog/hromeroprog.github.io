@@ -8,3 +8,25 @@ a.	Las relaciones espurias no tienen relación lógica ni estadística
 b.	Una relación concomitante es condición necesaria pero no suficiente para que se genere una relación entre variables. **
 c.	Las áreas de investigación consisten en MKK estratégico (relacionado principalmente con el microentorno) y MKK operativo (relacionado principalmente con el macroentorno).
 d.	Una técnica de investigación para la resolución de problemas en el mercado consiste en hacer un análisis de ventas.
+3.Los servicios sindicados son:
+a. Empresas que reúnen y venden conjuntos de datos de valor comercial conocido, diseñados para cubrir a varios clientes**
+b. Empresas especializadas en procesos de Investigación de Mercados
+c. Empresas que reúnen los datos primarios de otra empresa a petición de esta última
+d. conjuntos de datos excesivamente caros pero que están listos para ser utilizados en la investigación.
+4.Coca Cola quiere obtener resultados concluyentes para tomar decisiones estratégicas sobre el lanzamiento de una nueva línea de bebidas a base de café. Ha realizado una primera investigación donde se le ha preguntado a seis personas sobre sus expectativas, gustos y deseos respecto a este tipo de bebidas. Indique cuál de las siguientes proposiciones es correcta:
+a. Debe de implementar un focus group a un grupo de personas.
+b. Coca cola debe de observar lo que compran las personas en el supermercado y en base a ello tomar decisiones.
+c. La compañía debe hacer una encuesta a pie de tienda para obtener datos sobre el posible lanzamiento.**
+d. Coca cola debe preguntar en sus redes sociales si le gustaría comprar nueva bebida.
+
+4.Si subway quiere buscar formas de captar al público joven, qué  foque de aproximación al problema precisa:
+a. el objetivo es descriptivo, debemos describir las características del mercado joven, por tanto podría formular una hipótesis y testearla. 
+b. el objetivo es exploratorio para descubrir las ideas y tendencias del público joven, por tanto podría realizar investigación cuantitativa como un focus group
+c. Necesitamos definir con mayor precisión el problema, identificar cursos alternativos de acción y posteriormente será posible desarrollar hipótesis y estudiarlas individualmente.**
+d. Se precisa un enfoque causal y concluyente no exploratorio
+
+5.¿Cual de las siguientes afirmaciones es falsa con respecto a la Investigación de Mercados?
+a. Ayuda a supervisar el desempeño del marketing
+b. Mejora la comprensión del proceso del marketing
+c. No permite identificar/ tomar decisiones a los problemas**
+d. Se utiliza tanto para identificar como para evaluar acciones
