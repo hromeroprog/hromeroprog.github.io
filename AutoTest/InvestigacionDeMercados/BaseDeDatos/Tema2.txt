@@ -15,7 +15,7 @@ d. Utilizaremos técnicas proyectivas si queremos tomar una decisión de forma g
  c. De respuesta única de control
  d. De respuesta múltiple en sugerido**
 
- 3.Escoge la opción falsa:
+3.Escoge la opción falsa:
 a. El cuadrado latino es un tipo de diseño experimental estadistico que permite al investigador controlar estadísticamente dos variables externas que no interactúan,
 además de la manipulación de la variable independiente.
 b. El bloque aleatorizado es un tipo de diseño experimental estadistico en el que las unidades de prueba se disponen en bloque o se agrupan con base en la variable externa.
