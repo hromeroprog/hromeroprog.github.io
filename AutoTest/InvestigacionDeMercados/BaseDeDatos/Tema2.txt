@@ -10,10 +10,10 @@ d. Utilizaremos técnicas proyectivas si queremos tomar una decisión de forma g
 -Audi
 
 ¿Qué clasificación de las siguientes se ajusta más al tipo de pregunta?
- a. Dicotómica en sugerido
- b. Abierta y espontánea
- c. De respuesta única de control
- d. De respuesta múltiple en sugerido**
+a. Dicotómica en sugerido
+b. Abierta y espontánea
+c. De respuesta única de control
+d. De respuesta múltiple en sugerido**
 
 3.Escoge la opción falsa:
 a. El cuadrado latino es un tipo de diseño experimental estadistico que permite al investigador controlar estadísticamente dos variables externas que no interactúan,
