@@ -64,17 +64,14 @@ a. Inferior al 5%.**
 b. Mayor que el 8%, y menor que el 10%.
 c. Mayor que el 5%.
 d. Ninguna de las anteriores.
-8. Calcule el precio de la acción XSL considerando un dividendo de 3.0 euros en el
-próximo año; un crecimiento del dividendo anual del 3.5%, y un coste del capital del
-5%.
+8. Calcule el precio de la acción XSL considerando un dividendo de 3.0 euros en el próximo año; un crecimiento del dividendo anual del 3.5%, y un coste del capital del 5%.
 a. 85.7 euros.
 b. 200.00 euros.**
 c. 100.00 euros.
 d. 142.90 euros.
-9. Una compañía de carburantes tiene planeado pagar los siguientes dividendos: Año
-1: 4€; Año 2: 5€; Año 3 y siguientes (4, 5, 6…infinito): 2€. El rendimiento del sector
-es del 11%. Calcule el precio de la acción de esta compañía en el mercado
-secundario:
+9. Una compañía de carburantes tiene planeado pagar los siguientes dividendos: Año 1: 4€; Año 2: 5€; Año 3 y siguientes (4, 5, 6…infinito): 2€.
+El rendimiento del sector
+es del 11%. Calcule el precio de la acción de esta compañía en el mercado secundario:
 a. 22.42 euros.**
 b. 23.45 euros.
 c. 20.35 euros.

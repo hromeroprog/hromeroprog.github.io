@@ -191,7 +191,7 @@ function setQuestionToShowAll(questionAndAnswers){
         var html_to_inyect = "<button class ='";
         option = questionAndAnswers[i];
         if(i == correcta){
-            option = option.slice(0, option.length-3);
+            option = option.slice(0, option.length-2);
             html_to_inyect+="correcta'>"
         }
         else{
@@ -211,7 +211,7 @@ function setQuestion(questionAndAnswers){
         var html_to_inyect = "<button class ='";
         option = questionAndAnswers[i];
         if(i == correcta){
-            option = option.slice(0, option.length-3);
+            option = option.slice(0, option.length-2);
             html_to_inyect+="correcta'>"
         }
         else{
