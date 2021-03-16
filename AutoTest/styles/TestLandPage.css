@@ -1,9 +1,10 @@
-h1{
+h1, h2{
     color: white;
     margin-top: 10px;
     width: 100;
     text-align: center;
 }
+
 body{
     display: block;
 }
@@ -32,8 +33,11 @@ form input:first-child{
 
 body button{
     color: white;
-    padding: 10px 20px;
     cursor: pointer;
-
     margin-top: 50px;
+}
+
+#mostrar-todas{
+    margin-left: 10%;
+    font-size: 15px;
 }

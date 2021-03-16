@@ -27,7 +27,13 @@
     color: rgba(255,255,255,0.7);
 }
 
-
+.question #siguiente{
+    padding: 10px 20px;
+    border: solid 1px #eee;
+    width: 30%;
+    text-align: center;
+    margin: 25px auto 0 0;
+}
 
 .question > div{
     width: 80%;
@@ -45,4 +51,39 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.show_all{
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show_all h3{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 90%;
+    color: #eee;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#volver{
+    padding: 0;
+    border: none;
+    margin: 5px 5% 20px auto;
+    width: 30%;
+    
+}
+.show_all button{
+    width: 90%;
+    padding: 5px;
+}
+.show_all button,
+.respuestas button{
+    margin: 5px 0 5px 0;
+    padding: 5px;
+    border: solid 1px #eee;
 }

@@ -6,14 +6,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../general.css">
     <link rel="stylesheet" href="../../botones.css">
-    <link rel="stylesheet" href="./TestLandPage.css">
-    <link rel="stylesheet" href="./TestQuestions.css">
+    <link rel="stylesheet" href="../styles/TestLandPage.css">
+    <link rel="stylesheet" href="../styles/TestQuestions.css">
     <script src="../../jquery-3.5.1.min.js"></script>
-    <script src="testEngine.js"></script>
+    <script src="../scripts/testEngine.js"></script>
 </head>
 <body>
     <div class = "setup">
-        <h1>SELECCIONA LOS TEMAS DE LOS QUE TE QUIERES EVALUAR</h1>
+        <h1>ECONOMÍA FINANCIERA</h1>
+        <h2>SELECCIONA LOS TEMAS DE LOS QUE TE QUIERES EVALUAR</h2>
         <form>
             <div><input type="checkbox" id="Tema1" name="Tema1" value="Tema1">
             <label for="Tema1"> Tema 1</label><br></div>
@@ -26,6 +27,7 @@
             <label for="Tema4"> Tema 4</label><br></div>
             <div><input type="checkbox" id="Tema5" name="Tema5" value="Tema5">
             <label for="Tema5"> Tema 5</label><br></div>
+            
             <div><input type="checkbox" id="Tema6" name="Tema6" value="Tema6">
             <label for="Tema6"> Tema 6</label><br></div>
             <div><input type="checkbox" id="Tema7" name="Tema7" value="Tema7">
@@ -37,8 +39,27 @@
             <label for="SelectAll">Seleccionar Todos</label><br></div>
         </form>
         <div class="flex-centered">
-            <button id ="COMENZAR">COMENZAR</button>
+            <button class = "squared-link" id = "COMENZAR">
+                <div class="pseudo-addition">
+                    COMENZAR TEST
+                </div>
+            </button>
         </div>
+        <button class = "squared-link" id = "mostrar-todas">
+            <div class="pseudo-addition">
+                MOSTRAR TODAS
+                <br>
+                (DE LOS SELECCIONADOS)
+            </div>
+        </button>
+        
+    </div>
+    <div class="show_all">
+        <button class = "squared-link" id = "volver">
+            <div class="pseudo-addition">
+                VOLVER
+            </div>
+        </button>
     </div>
 
     <div class="question">
