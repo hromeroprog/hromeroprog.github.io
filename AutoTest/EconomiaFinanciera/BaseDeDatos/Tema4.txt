@@ -1,0 +1,188 @@
+T4. El modelo de Gordon. Riesgo y rentabilidad.
+1. Determine el precio teórico de las acciones de una empresa sabiendo que acaba de
+pagar un dividendo de 1.5€, se espera que sus beneficios para el próximo periodo
+sean de 1.5 millones de €, y para el siguiente de 2.5 millones de euros. A partir de
+ahí, ha anunciado que espera que sus beneficios se incrementarán cada año a una
+tasa del 4% anual para el futuro previsible. Sabemos que la tasa de reparto de
+dividendos de esta empresa es del 60% y será constante toda su vida. Además, el
+número de acciones en circulación es de 1 millón. La rentabilidad de empresas del
+mismo sector es del 8% y la rentabilidad del activo libre de riesgo del 2%.
+a. Entre 35.2€ y 36.0€**
+b. Entre 40.5€ y 43€
+c. Entre 66.53 y 69.53€
+d. Ninguna de las anteriores.
+2. Las acciones de la empresa URALITAN cotizan en la actualidad a 11 euros en el
+mercado secundario. Si la empresa ha anunciado que el dividendo que pagará el
+próximo ejercicio será de 0.5 euros, y que a partir de ahí y para los años siguientes
+su dividendo crecerá en un 10% anual, determine la tasa de descuento que está
+utilizando el mercado.
+a. Menor del 5%
+b. Mayor del 10% y menor del 13%
+c. Mayor del 22%
+d. Ninguna de las anteriores**
+3. En enero 2012 se consideró privatizar la Lotería Nacional. Esta compañía preveía
+unos beneficios anuales de 3000 millones de euros a finales de 2012, y estos flujos
+de caja crecerían a una tasa constante y perpetua del 3%. Asumiendo que i) la tasa
+de descuento de este tipo de negocios es del 15%, y ii) el Gobierno español planea
+emitir 10 millones de acciones, calcule el precio de la acción de Lotería Nacional
+estimado por los analistas en Enero 2012. Asuma que todos los flujos de caja se
+destinan al pago de dividendos.
+a. 20000 euros por acción.
+b. 2500 euros por acción.**
+c. 34,75 euros por acción.
+d. Ninguna de las anteriores.
+4. Un analista estima que hoy (t=0) los beneficios por acción de la compañía CICISA
+serán de 40€ en el primer año (t=1), y 50€ en el segundo (t=2). Este analista predice
+que después del segundo año los beneficios crecerán al 2% a perpetuidad.
+Historicamente, el ratio pay-out de esta compañía ha sido del 55%, y se asume que
+no cambiará en el futuro. Calcule el precio de mercado de esas acciones, asumiendo
+un coste del capital del 9%.
+a. 125.30 euros.
+b. 350.84 euros.
+c. 380.60 euros.**
+d. Ninguna de las anteriores. 
+5. Cajamadrid, S.A. emitió acciones preferentes en 2009. Una acción preferente es
+simplemente una anualidad constante y perpetua. Asumiendo que obtendrá 37
+euros al año en términos de dividendo, calcule el precio de la acción preferente en
+el mercado. La tasa de descuento de las acciones preferentes es del 22% anual.
+a. 168 euros.**
+b. 280 euros.
+c. 75 euros.
+d. Ninguna de las anteriores.
+6. Asuma que la acción de una compañía vale 52.35€. La tasa de crecimiento de los
+dividendos es constante e igual a 8.25% anual. Si el rendimiento esperado de otras
+compañías del sector es 19.12%, ¿cuánto será el próximo dividendo?
+a. Entre 5.66€ y 5.74€.**
+b. Entre 4.30€ y 5.32€.
+c. Entre €10.00 y 10.02€.
+d. Ninguna de las anteriores.
+7. Las acciones de la compañía XYZ cotizan a 5.00€ en el mercado secundario. La
+compañía ha anunciado que el dividendo para el próximo año (t=1) será de 0.10€. El
+dividendo se espera que crezca al 2% anual desde entonces. Determine la tasa de
+descuento de la acción que está aplicando elmercado.
+a. Inferior al 5%.**
+b. Mayor que el 8%, y menor que el 10%.
+c. Mayor que el 5%.
+d. Ninguna de las anteriores.
+8. Calcule el precio de la acción XSL considerando un dividendo de 3.0 euros en el
+próximo año; un crecimiento del dividendo anual del 3.5%, y un coste del capital del
+5%.
+a. 85.7 euros.
+b. 200.00 euros.**
+c. 100.00 euros.
+d. 142.90 euros.
+9. Una compañía de carburantes tiene planeado pagar los siguientes dividendos: Año
+1: 4€; Año 2: 5€; Año 3 y siguientes (4, 5, 6…infinito): 2€. El rendimiento del sector
+es del 11%. Calcule el precio de la acción de esta compañía en el mercado
+secundario:
+a. 22.42 euros.**
+b. 23.45 euros.
+c. 20.35 euros.
+d. Ninguna de las anteriores. 
+10. El ratio pay-out de una compañía es,
+a. La cantidad de dinero invertida menos el precio que se obtiene al vender una
+acción.
+b. La proporción de acciones que tiene un inversor.
+c. El resultado de dividir los dividendos por acción por los beneficios por acción.**
+d. Ninguna de las anteriores.
+11. Asuma que invierte en una cartera con activo arriesgado con rendimiento esperado
+del 18% y desviación del 4%, y activo libre de riesgo con rentabilidad 3%. Calcule la
+rentabilidad de su cartera cuando tiene una desviación típica del 2%.
+a. 12.30%.
+b. 11.30%.
+c. 10.50%.**
+d. 14.30%.
+13. Esta es la matriz de varianzas-covarianzas de los activos A, B y C. Calcule la
+volatilidad de una cartera equiponderada formada por esos tres activos.
+A B C
+A 0,04 -0,002 0
+B -0,002 0,0225 0,003
+C 0 0,003 0,0625
+a. Entre 8% y 9%.
+b. Entre 11% y 12%.**
+c. Entre 14% y 15%.
+d. Entre 17% y 18%. 
+14. Considere una cartera compuesta por un número elevado de activos. En esta cartera,
+a. El riesgo total de la cartera es siempre igual a cero.
+b. El riesgo idiosincrático tiende a infinito.
+c. El riesgo sistemático es cero.
+d. El riesgo idiosincrático tiende a cero.
+15. ¿En qué caso es posible construir una cartera libre de riesgo?
+a. Cuando el coeficiente de correlación es cero.
+b. Cuando el coeficiente de correlación está dentro del intervalo (-1, 1).
+c. Cuando el coeficiente de correlación es igual a 1 y las ventas en corto no están
+permitidas.
+d. Ninguna de las anteriores.
+16. Señale la respuesta correcta.
+a. El riesgo sistemático puede reducirse incluyendo más activos en la cartera.
+b. El riesgo total de la cartera aumenta cuando aumenta el número total de
+activos de la cartera.
+c. El riesgo total de una cartera disminuye cuando el número de activos de la
+cartera aumenta.
+d. Ninguna de las anteriores.
+17. Determina la volatilidad de una cartera formada por las siguientes acciones: 65% en
+BBVA, 25% en Banco Santander, y el resto en bonos del tesoro. El rendimiento de los
+activos es 3.5% (BBVA), 5.5% (Santander) y 0.5%(Bonos del tesoro). Las volatilidades
+son: 15% (BBVA); 25% (Santander), y la covarianza entre BBVA y Banco Santander es
+0.002.
+a. Necesito más datos. No es posible calcularlo.
+b. Entre 11.5% y 12.5%.
+c. Entre 10.20% y 11.20%.
+d. Ninguna de las anteriores.
+18. Asuma que su cartera está formada por el índice IBEX35 y bonos del tesoro (sin
+riesgo). Si desea que la volatilidad total de su cartera sea 9%, calcule el peso del
+índice IBEX35 en la cartera. El rendimiento del IBEX35 es 2.5%, y su volatidad es 13%.
+a. 6.9%
+b. Más del 100%.
+c. 69.2%.
+d. Ninguna de las anteriores
+19. Calcule la rentabilidad y riesgo de una cartera compuesta por los activos A, B y C.
+Esta cartera es equiponderada. 
+Activo Rentabilidad
+A 2%
+B 12%
+C 20%
+Matriz varianzas-covarianzas
+ A B C
+A 0.0064 0 0
+B 0 0.0169 -0.0050
+C 0 -0.0050 0.0049
+a. Rentabilidad = 11.33%; volatilidad = 4.50%.
+b. Rentabilidad = 13.58%; volatilidad = 17.20%.
+c. Rentabilidad = -6.83%; volatilidad = 8.60%.
+d. Ninguna de las anteriores.
+20. Señale la respuesta correcta.
+a. El riesgo sistemático o de mercado es diversificable.
+b. El riesgo idiosincrático o específico aumenta cuando añadimos más
+acciones arriesgadas a nuestra cartera.
+c. El riesgo total de nuestra cartera se reduce cuando aumentamos el
+número de activos arriesgados. Nota: asumimos que las correlaciones
+difieren entre sí.
+d. El modelo de Gordon no utiliza los dividendos de la acción para calcular
+su precio.
+21. Si vamos incrementando el número de activos que componen una cartera de
+inversión podemos
+a. Eliminar todo el riesgo
+b. Reducir el riesgo sistemático
+c. Transformar parte del riesgo sistemático en riesgo diversificable.
+d. Ninguna de las anteriores es cierta.
+22. Calcule la volatilidad de una cartera equiponderada formada por bonos de Jazztel,
+acciones de BME y Letras del Tesoro (activo libre de riesgo). El coeficiente de
+correlación entre los Bonos de Jazztel y acciones BME es del 0.5. Tome los datos de
+la siguiente tabla:
+ Bonos Jazztel Acciones BME
+Rentabilidad
+Esperada
+10% 15%
+Volatilidad 15% 25% 
+a. Entre 11.3% y 11.9%.
+b. Imposible calcularlo, faltan algunos datos.
+c. Entre 1.3 y 1.5%.
+d. Entre 32% y 36%.
+23. Se desea formar una cartera con riesgo nulo, combinando solamente 2 activos (A y
+B). La volatilidad de A es del 10% y de B del 18%. El coeficiente de correlación entre
+ambos es de -1. Determine el peso en A para conseguir la cartera con riesgo cero.
+a. Imposible hacer una cartera con riesgo cero.
+b. Entre 63% y 65%.
+c. Entre 32% y 38%.
+d. Ninguna de las anteriores. 
