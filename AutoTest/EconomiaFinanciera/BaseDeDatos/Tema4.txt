@@ -106,19 +106,19 @@ d. Entre 17% y 18%.
 a. El riesgo total de la cartera es siempre igual a cero.
 b. El riesgo idiosincrático tiende a infinito.
 c. El riesgo sistemático es cero.
-d. El riesgo idiosincrático tiende a cero.
+d. El riesgo idiosincrático tiende a cero.**
 15. ¿En qué caso es posible construir una cartera libre de riesgo?
 a. Cuando el coeficiente de correlación es cero.
 b. Cuando el coeficiente de correlación está dentro del intervalo (-1, 1).
 c. Cuando el coeficiente de correlación es igual a 1 y las ventas en corto no están
 permitidas.
-d. Ninguna de las anteriores.
+d. Ninguna de las anteriores.**
 16. Señale la respuesta correcta.
 a. El riesgo sistemático puede reducirse incluyendo más activos en la cartera.
 b. El riesgo total de la cartera aumenta cuando aumenta el número total de
 activos de la cartera.
 c. El riesgo total de una cartera disminuye cuando el número de activos de la
-cartera aumenta.
+cartera aumenta.**
 d. Ninguna de las anteriores.
 17. Determina la volatilidad de una cartera formada por las siguientes acciones: 65% en
 BBVA, 25% en Banco Santander, y el resto en bonos del tesoro. El rendimiento de los
@@ -126,7 +126,7 @@ activos es 3.5% (BBVA), 5.5% (Santander) y 0.5%(Bonos del tesoro). Las volatilid
 son: 15% (BBVA); 25% (Santander), y la covarianza entre BBVA y Banco Santander es
 0.002.
 a. Necesito más datos. No es posible calcularlo.
-b. Entre 11.5% y 12.5%.
+b. Entre 11.5% y 12.5%.**
 c. Entre 10.20% y 11.20%.
 d. Ninguna de las anteriores.
 18. Asuma que su cartera está formada por el índice IBEX35 y bonos del tesoro (sin
@@ -134,7 +134,7 @@ riesgo). Si desea que la volatilidad total de su cartera sea 9%, calcule el peso
 índice IBEX35 en la cartera. El rendimiento del IBEX35 es 2.5%, y su volatidad es 13%.
 a. 6.9%
 b. Más del 100%.
-c. 69.2%.
+c. 69.2%.**
 d. Ninguna de las anteriores
 19. Calcule la rentabilidad y riesgo de una cartera compuesta por los activos A, B y C.
 Esta cartera es equiponderada. 
@@ -147,7 +147,7 @@ Matriz varianzas-covarianzas
 A 0.0064 0 0
 B 0 0.0169 -0.0050
 C 0 -0.0050 0.0049
-a. Rentabilidad = 11.33%; volatilidad = 4.50%.
+a. Rentabilidad = 11.33%; volatilidad = 4.50%.**
 b. Rentabilidad = 13.58%; volatilidad = 17.20%.
 c. Rentabilidad = -6.83%; volatilidad = 8.60%.
 d. Ninguna de las anteriores.
@@ -157,7 +157,7 @@ b. El riesgo idiosincrático o específico aumenta cuando añadimos más
 acciones arriesgadas a nuestra cartera.
 c. El riesgo total de nuestra cartera se reduce cuando aumentamos el
 número de activos arriesgados. Nota: asumimos que las correlaciones
-difieren entre sí.
+difieren entre sí.**
 d. El modelo de Gordon no utiliza los dividendos de la acción para calcular
 su precio.
 21. Si vamos incrementando el número de activos que componen una cartera de
@@ -165,7 +165,7 @@ inversión podemos
 a. Eliminar todo el riesgo
 b. Reducir el riesgo sistemático
 c. Transformar parte del riesgo sistemático en riesgo diversificable.
-d. Ninguna de las anteriores es cierta.
+d. Ninguna de las anteriores es cierta.**
 22. Calcule la volatilidad de una cartera equiponderada formada por bonos de Jazztel,
 acciones de BME y Letras del Tesoro (activo libre de riesgo). El coeficiente de
 correlación entre los Bonos de Jazztel y acciones BME es del 0.5. Tome los datos de
@@ -175,7 +175,7 @@ Rentabilidad
 Esperada
 10% 15%
 Volatilidad 15% 25% 
-a. Entre 11.3% y 11.9%.
+a. Entre 11.3% y 11.9%.**
 b. Imposible calcularlo, faltan algunos datos.
 c. Entre 1.3 y 1.5%.
 d. Entre 32% y 36%.
@@ -185,4 +185,4 @@ ambos es de -1. Determine el peso en A para conseguir la cartera con riesgo cero
 a. Imposible hacer una cartera con riesgo cero.
 b. Entre 63% y 65%.
 c. Entre 32% y 38%.
-d. Ninguna de las anteriores. 
+d. Ninguna de las anteriores.**
