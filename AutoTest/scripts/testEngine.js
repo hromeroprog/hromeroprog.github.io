@@ -177,7 +177,7 @@ function getCorrectAnswer(questionAndAnswers){
         }
         if(correcta == questionAndAnswers.length){
 
-            alert("Esta pregunta no tiene guardada la respuesta correcta, si quieres mandame el resultado y trataré de añadirlo cuanto antes:\n" + questionAndAnswers[0]);
+            alert("Esta pregunta no tiene guardada la respuesta correcta, si quieres mandame el resultado y trataré de añadirlo cuanto antes:\n" + questionAndAnswers[0] + "...\n");
         }
     }
     return correcta
@@ -330,5 +330,6 @@ function comenzarCuestionario(temas, numero_de_preguntas){
         $("body .setup").show();
         $("body .question").hide();
         $("body .fin_de_cuestionario").hide();
+        location.reload();
     });
 }
