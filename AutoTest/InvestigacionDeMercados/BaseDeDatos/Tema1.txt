@@ -3,6 +3,7 @@ a. Secundaria Interna
 b. Secundaria Externa
 c. Primaria Cualitativa Directa**
 d. Primaria Cualitativa Indirecta
+
 2.Seleccione la respuesta correcta:
 a.	Las relaciones espurias no tienen relación lógica ni estadística
 b.	Una relación concomitante es condición necesaria pero no suficiente para que se genere una relación entre variables. **
@@ -34,11 +35,11 @@ d. Se utiliza tanto para identificar como para evaluar acciones
 6.¿Cuál de las siguientes afirmaciones es FALSA con respecto a la IM?
 a. Ayuda a supervisar el desempeño del Marketing
 b. Mejora la comprensión del proceso del Marketing
-c. No permite identificar problemas**
+c. No permite identificar problemas.**
 d. Se utiliza tanto para supervisar como para evaluar acciones
 
 7.Indica la respuesta incorrecta en relacion a la investigacion exploratoria:
 a. La investigacion exploratoria sirve para formular una pregunta
 b. Las encuestas piloto forman parte de los metodos de investigacion exploratoria
-c. La investigacion exploratoria es flexible, pero no versátil**
+c. La investigacion exploratoria es flexible, pero no versátil.**
 d. Todas las anteriores son incorrectas
