@@ -18,8 +18,8 @@ a. 46181.77 euros**
 b. 2165.35 euros
 c. 44187.51 euros
 d. Ninguna de las anteriores.
-4.- ¿Cuánto tardará una inversión de 300€ en doblarse al tipo de interés anual del
-14,8%? Asuma capitalización compuesta.
+4.- ¿Cuánto tardará una inversión de 300€ en doblarse al tipo de interés anual del 14,8%?
+Asuma capitalización compuesta.
 a. 4 años.
 b. 7 años.
 c. 6 años.
@@ -72,6 +72,7 @@ a. EUR 46181.77
 b. EUR 2165.35
 c. EUR 44187.51
 d. Ninguna de las anteriores**
+
 Valor presente y futuro
 1.- Usted ha creado una empresa y necesita financiarla. De las siguientes formas de
 financiación, ¿cuál es la menos interesante para usted? Considere un tipo de interés
@@ -132,8 +133,7 @@ c. Entre 500 y 700 euros
 d. Ninguna de las anteriores
 2.- Un chico de 10 años recibirá a partir de los 18 una renta anual perpetua que será
 pagada a principios de cada año, con valor inicial de 4,000 euros, y que crecerá al 5% de
-tasa anual. ¿Cuál es el valor presente de este flujo de caja? Asuma un tipo de interés del
-8%.
+tasa anual. ¿Cuál es el valor presente de este flujo de caja? Asuma un tipo de interés del 8%.
 a. Entre 10,000 y 12,000 euros.
 b. Entre 12,000 y 14,000 euros.
 c. Entre 14,000 y 16,000 euros.
