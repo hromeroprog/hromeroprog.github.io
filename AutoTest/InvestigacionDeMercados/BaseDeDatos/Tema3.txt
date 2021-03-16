@@ -10,3 +10,15 @@ a.	Las escalas de intervalo son utilizadas en variables sociales Y en rangos de 
 b.	Si tengo una muestra dividida entre mujer y hombre, es muy útil hacer la media de la variable para ver si hay equidad de respuesta.
 c.	Las escalas de mayor precisión y variabilidad son las de razón e intervalos. **
 d.	En escalas no comparativas, el diferencial semántico propone dos adjetivos similares que difieren en pequeños detalles para determinar la imagen real de la marca.
+
+3. ¿Cuál de las siguientes afirmaciones es FALSA?
+a. La escala nominal nos permite contar
+b. La escala ordinal también permite hacer conteo e incluye estadísticas basadas en centiles
+c. En la escala de intervalo el punto 0 coincide con el origen natural**
+d. Sobre los datos de razón se pueden aplicar todas las técnicas estadísticas
+
+4.Señale la afirmación correcta de la escala de Stapel:
+a. Es una escala comparativa
+b. Tiene un punto neutral
+c. Se suele representar de manera horizontal
+d. Todas son incorrectas**
