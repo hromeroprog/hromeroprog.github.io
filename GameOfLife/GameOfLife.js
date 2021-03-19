@@ -2,14 +2,16 @@ $(document).ready(function(){
 
     var down = false;
     var escenario = $("div.life_container");
+    cell_size = 20;
     width = escenario.width();
     height = escenario.height();
-    setProperDimensions(escenario, width, height);
-    dim = insertarCelulas(escenario);
+    setProperDimensions(escenario, width, height, cell_size);
+    dim = insertarCelulas(escenario, cell_size);
     map = createMap(dim[0], dim[1]);
     escape_simulation = false;
     timeout = getTimeOut();
     iteration = 0;
+    
     async function run_simulation(){
         console.log("Running");
         escape_simulation = false;
@@ -65,7 +67,28 @@ $(document).ready(function(){
         map[row][col] = (map[row][col]+1)%2;
     }
 
+    $( window ).resize(function() {
+        escenario = $("div.life_container");
+
+        setProperDimensions(escenario, $("body").width()*0.8, $("body").height()*0.5, cell_size);
+        new_dims = insertarCelulas(escenario, cell_size);
+
+        map = resizeMap(map, new_dims[0], new_dims[1]);
+        applyMap(map);
+    });
+
 });
+
+
+function resizeMap(map, rows, cols){
+    new_map = createMap(rows, cols);
+    for(row = 0; row< rows; row++){
+        for(col = 0; col < cols; col++){
+            new_map[row][col] = map[row][col];
+        }
+    }
+    return new_map;
+}
 
 function getTimeOut(){
     speed_val = $("#speed-slide")[0].value;
@@ -118,18 +141,17 @@ function stepCell(row, col, current_map){
 }
 
 
-function setProperDimensions(escenario, width, height){
-    cell_size = 20;
+function setProperDimensions(escenario, width, height, cell_size){
+
     new_width = width - width%cell_size + cell_size;
     new_height = height - height%cell_size + cell_size;
     escenario.width(new_width + "px");
     escenario.height(new_height + "px");
 }
 
-function insertarCelulas(escenario){
-    cell_size = 20;
-    rows = escenario.height()/20;
-    cols = escenario.width()/20;
+function insertarCelulas(escenario, cell_size){
+    rows = escenario.height()/cell_size;
+    cols = escenario.width()/cell_size;
     result = "";
     escenario.html("");
     for (row = 0; row < rows; row++){
@@ -140,12 +162,6 @@ function insertarCelulas(escenario){
     }
     return [rows, cols];
 }
-
-$( window ).resize(function() {
-    escenario = $("div.life_container");
-    setProperDimensions(escenario, $("body").width()*0.8, $("body").height()*0.5);
-    insertarCelulas(escenario);
-});
 
 function createMap(rows, cols){
     return Array(rows).fill().map(() => Array(cols).fill(0));
