@@ -9,3 +9,9 @@ a.	El error de tipo 2 ocurre cuando el test conduce a rechazar la hipótesis nul
 b.	Para representar una variable de ratio en tablas de frecuencias se debe transformar en variable de intervalo.
 c.	Si la curtosis es positiva, los valores centrales se encuentran con gran frecuencia.
 d.	La asimetría mide si las frecuencias se encuentran más agrupadas en torno a los valores altos o bajos de la variable.
+
+3. Seleccione la respuesta correcta:
+a. La desviación estándar se utiliza para determinar qué tan dispersos están los datos con respecto a la media.**
+b. La desviación estándar se utiliza para determinar qué tan dispersos están los datos con respecto a la curtosis.
+c. La desviación estándar se utiliza para determinar qué tan dispersos están los datos con respecto a la varianza.
+d. La desviación estándar se utiliza para determinar qué tan dispersos están los datos con respecto a la mediana.

@@ -110,3 +110,20 @@ a.	El efecto Pigmalión consiste en que los individuos se comportan de forma dif
 b.	Regresión en la media ocurre cuando en un experimento las puntuaciones extremas se acercan al promedio.**
 c.	La instrumentación se refiere a la pérdida de unidades de prueba mientras el experimento está en progreso.
 d.	La aleatorización es una de las amenazas que se pueden dar en un experimento.
+19.Imaginemos que se nos encarga realizar un cuestionario. Indique la respuesta correcta:
+a.A veces, puede ser recomendable usar preguntas dobles y así, recabar el doble de información.
+b.No se debe facilitar material de apoyo a los encuestados porque pueden condicionar sus respuestas.
+c.Las preguntas filtro sirven tanto para seleccionar la muestra como para agilizar el cuestionario.**
+d.Las preguntas filtro se sitúan aproximadamente por la mitad de la encuesta para reconectar a nuestro público objetivo y conseguir reducir la tasa de error de sus respuestas.
+
+20.La investigación exploratoria implica:
+a. Solo datos cuantitativos
+b. Cuantitativos y cualitativos
+c. Descriptivos y causales
+d. Solo cualitativos**
+
+21.¿Cuáles de los siguientes conjuntos de limitaciones pertenecen a la investigación experimental?
+a. Factor de confusión, maduración, instrumentación, efectos de la muestra
+b. Factor de confusión, innovación, efecto pigmalión, mortalidad
+c. Factor de aprobación, maduración, efecto pigmalión, regresión en la media
+d. Efectos de la prueba, maduración, instrumentación, mortalidad**
