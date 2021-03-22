@@ -66,9 +66,9 @@ c. Para la redacción de las preguntas, es mejor utilizar enunciados positivos o
 d. La pregunta que se ramifica debe colocarse lo más lejos posible de la ramificación para que los encuestados no se anticipen a la información adicional que se les pedirá
 
 11. ¿Cuál de las siguientes afirmaciones relativas al experimento de 4 grupos de Solomon es INCORRECTA?
-a. Consta de 2 grupos experimentales y 2 de control (verdad)
+a. Consta de 2 grupos experimentales y 2 de control.
 b. La medida pre-tratamiento se realiza a 1 grupo experimental y 1 grupo de control.
-c. El tratamiento se aplica a los 2 grupos experimentales, pero uno tendrá medida pre-tratamiento y pos-tratamiento y el otro solo medida pre-tratamiento (no, pos-tratamiento).**
+c. El tratamiento se aplica a los 2 grupos experimentales, pero uno tendrá medida pre-tratamiento y pos-tratamiento y el otro solo medida pre-tratamiento.**
 d. Si la medida pre-tratamiento no ha influido, no debería haber diferencias significativas entre el grupo experimental con medida pre-tratamiento y el grupo experimental sin ella.
 
 12.Cual de las siguientes NO es una ventaja de los focus group:
