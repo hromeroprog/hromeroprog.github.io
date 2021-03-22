@@ -1,0 +1,5 @@
+1. Deseamos obtener una conclusión a partir de unos datos mediante la aplicación de un contraste de hipótesis:
+a. La conclusión será la hipótesis nula y si logramos rechazarla habremos obtenido la conclusion deseada.
+b. La conclusión será la hipótesis alternativa y si logramos rechazar la hipótesis nula habremos obtenido la conclusion deseada.**
+c. La conclusión será la hipótesis nula y si logramos rechzar la hipótesis alternativa habremos obtenido la conclusion deseada.
+d. La conclusión será la hipótesis alternativa y si logramos rechzarña habremos obtenido la conclusión deseada.
