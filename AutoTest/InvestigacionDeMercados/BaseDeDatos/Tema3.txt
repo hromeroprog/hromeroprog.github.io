@@ -22,3 +22,9 @@ a. Es una escala comparativa
 b. Tiene un punto neutral
 c. Se suele representar de manera horizontal
 d. Todas son incorrectas**
+
+5.En un cuestionario se asigna a cada persona un identificador para poder distinguirla del resto y asegurar el anonimato de las personas. Seleccione a qué tipo de escala pertenece la variable “identificador”:
+a.	Nominal.**
+b.	Ordinal.
+c.	De intervalo.
+d.	De ratio o razón.

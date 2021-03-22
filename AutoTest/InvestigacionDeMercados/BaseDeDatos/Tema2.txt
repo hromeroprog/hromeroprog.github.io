@@ -94,3 +94,19 @@ a. Ad-hoc.**
 b. Omnibus.
 c. Panel.
 d. Ninguna de las anteriores.
+
+16.¿Cuál de estas NO es una variante del Focus Group?
+a.	Grupos de sesiones a distancia.
+b.	Sesiones con un número elevado de participantes.**
+c.	Grupo con doble moderador.
+d.	Grupos en los que se pide a los participantes que actúen como moderadores temporalmente.
+17.Seleccione la afirmación correcta:
+a.	Una encuesta telefónica proporciona una baja cantidad de datos.**
+b.	Una encuesta por correo tiene una tasa de respuesta elevada.
+c.	Los usuarios que hacen una encuesta por internet perciben un bajo nivel de anonimato.
+d.	Una encuesta por correo electrónico permite tener un gran control de la muestra.
+18.Seleccione la afirmación correcta en cuanto a los experimentos:
+a.	El efecto Pigmalión consiste en que los individuos se comportan de forma diferente cuando son observados.
+b.	Regresión en la media ocurre cuando en un experimento las puntuaciones extremas se acercan al promedio.**
+c.	La instrumentación se refiere a la pérdida de unidades de prueba mientras el experimento está en progreso.
+d.	La aleatorización es una de las amenazas que se pueden dar en un experimento.

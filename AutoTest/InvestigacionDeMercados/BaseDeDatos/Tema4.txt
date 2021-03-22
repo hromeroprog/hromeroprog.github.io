@@ -3,3 +3,9 @@ a. La conclusión será la hipótesis nula y si logramos rechazarla habremos obt
 b. La conclusión será la hipótesis alternativa y si logramos rechazar la hipótesis nula habremos obtenido la conclusion deseada.**
 c. La conclusión será la hipótesis nula y si logramos rechzar la hipótesis alternativa habremos obtenido la conclusion deseada.
 d. La conclusión será la hipótesis alternativa y si logramos rechzarña habremos obtenido la conclusión deseada.
+
+2. Seleccione la afirmación incorrecta:
+a.	El error de tipo 2 ocurre cuando el test conduce a rechazar la hipótesis nula cuando es verdadera.**
+b.	Para representar una variable de ratio en tablas de frecuencias se debe transformar en variable de intervalo.
+c.	Si la curtosis es positiva, los valores centrales se encuentran con gran frecuencia.
+d.	La asimetría mide si las frecuencias se encuentran más agrupadas en torno a los valores altos o bajos de la variable.

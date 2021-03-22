@@ -39,7 +39,13 @@ c. No permite identificar problemas.**
 d. Se utiliza tanto para supervisar como para evaluar acciones
 
 7.Indica la respuesta incorrecta en relacion a la investigacion exploratoria:
-a. La investigacion exploratoria sirve para formular una pregunta
-b. Las encuestas piloto forman parte de los metodos de investigacion exploratoria
+a. La investigacion exploratoria sirve para formular una pregunta.
+b. Las encuestas piloto forman parte de los metodos de investigacion exploratoria.
 c. La investigacion exploratoria es flexible, pero no versátil.**
-d. Todas las anteriores son incorrectas
+d. Todas las anteriores son incorrectas.
+
+8.Señale la afirmación correcta:
+a.	Una entrevista en profundidad es una fuente de datos secundaria y cualitativa.
+b.	Una encuesta es una fuente de datos primaria y cualitativa.
+c.	Los estados contables es una fuente de datos secundaria e interna.**
+d.	Las técnicas proyectivas es una fuente de datos primaria y cuantitativa.
