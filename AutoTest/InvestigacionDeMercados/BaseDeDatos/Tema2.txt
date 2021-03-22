@@ -88,3 +88,9 @@ a. La precedencia temporal, variables concomitantes y factor de confusión son c
 b. Las variables independientes son aquellas que pueden influir en los efectos de las variables extrañas.
 c. La correlación se presenta cuando la ocurrencia de un evento X modifica la probabilidad de ocurrencia de un evento Y.
 d. Todas las anteriores son falsas.**
+
+15. Un estudio U&A (Usos y hábitos) es un estudio específico que permite establecer la situación actual del mercado e identificar oportunidades de crecimiento profundizando en el comportamiento y actitudes del consumidor de la categoría investigada. ¿Qué tipo de encuesta es?
+a. Ad-hoc.**
+b. Omnibus.
+c. Panel.
+d. Ninguna de las anteriores.

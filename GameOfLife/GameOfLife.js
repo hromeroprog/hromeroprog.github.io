@@ -73,6 +73,8 @@ $(document).ready(function(){
         setProperDimensions(escenario, $("body").width()*0.8, $("body").height()*0.5, cell_size);
         new_dims = insertarCelulas(escenario, cell_size);
 
+
+        
         map = resizeMap(map, new_dims[0], new_dims[1]);
         applyMap(map);
     });
