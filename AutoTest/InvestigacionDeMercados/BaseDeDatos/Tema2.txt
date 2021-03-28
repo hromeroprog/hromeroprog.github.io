@@ -127,3 +127,21 @@ a. Factor de confusión, maduración, instrumentación, efectos de la muestra
 b. Factor de confusión, innovación, efecto pigmalión, mortalidad
 c. Factor de aprobación, maduración, efecto pigmalión, regresión en la media
 d. Efectos de la prueba, maduración, instrumentación, mortalidad**
+
+22.FastMkt, una empresa dedicada a la consultoría, quiere obtener información exploratoria sobre los altos directivos de los bancos españoles. A continuación indique cual sería el método que mejor se ajusta a la investigación:
+a. Observación directa
+b. Entrevistas en profundidad**
+c. Focus Group
+d. Experimentos
+
+23.FlyJet, quiere hacer un proyecto de investigación de mercados sobre el sector aéreo. Desea realizar encuestas para obtener datos primarios que puedan ser utilizados para inferir a la población. Actualmente no dispone de muchos recursos presupuestados para efectuar las encuestas, y no tiene problema en compartir resultados con otras empresas del sector aéreo. Diga cuál de las siguientes afirmaciones es correcta:
+a. FlyJet debe hacer encuestas por correo, son muy baratas y eficientes. 
+b. Realizar una encuesta ómnibus sería la mejor alternativa para FlyJet.**
+c. La compañía aérea debe dirigirse a los aeropuertos y encuestar a los viajeros.
+d. Ninguna de las anteriores 
+
+24.A continuación, indique la afirmación correcta:
+a. La mejor forma de seleccionar las unidades a las que se va a aplicar el tratamiento es mediante conveniencia del investigador.
+b. El mejor ejemplo para validez interna es el laboratorio, porque puedes controlar más eficientemente las variables extrañas.**
+c. El método de diseño factorial es un tipo de diseño preexperimental
+d. Los experimentos se utilizan para medir la correlación entre dos variables dependientes.
