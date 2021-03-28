@@ -49,3 +49,9 @@ a.	Una entrevista en profundidad es una fuente de datos secundaria y cualitativa
 b.	Una encuesta es una fuente de datos primaria y cualitativa.
 c.	Los estados contables es una fuente de datos secundaria e interna.**
 d.	Las técnicas proyectivas es una fuente de datos primaria y cuantitativa.
+
+9.Coca Cola quiere obtener resultados concluyentes para tomar decisiones estratégicas sobre el lanzamiento de una nueva línea de bebidas a base de café. Ha realizado una primera investigación donde se le ha preguntado a 6 personas sobre sus expectativos, gustos y deseos respecto a este tipo de bebidas. Indique cuál de las siguientes proposiciones son correctas:
+a. Debe implementar un Focus Group a un grupo de personas.
+b.Coca cola debe observar lo que compran las personas en el supermercado, y en baso a ello tomar decisiones.
+c.La compañía debe hacer una encuesta a pie de tienda para obtener datos sobre el posible lanzamiento.**
+d.Coca Cola debe preguntar en sus redes sociales si le gustaría comprar la nueva bebida. 
