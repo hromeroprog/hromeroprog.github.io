@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUGO ROMERO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="../botones.css">
+    <link rel="stylesheet" href="Snake.css">
+    <script src="../jquery-3.5.1.min.js"></script>
+    <script src="Snake.js"></script>
+</head>
+<body>
+    <div class="container" id="game-of-life">
+        <a href="../projects.html" class="back"><i class="fas fa-chevron-left"></i><i class="fas fa-chevron-circle-left"></i></a>
+        <header>GAME OF LIFE</header>
+        <div class="speed_control">
+            <h3>FASTER!</h3>
+            <input type="range" min="1" max="5" step="1" id="speed-slide">
+        </div>
+        <div class="evenly-spaced">
+            <button class = "squared-link" id = "comenzar">
+                <div class="pseudo-addition">
+                    COMENZAR
+                </div>
+            </button>
+            <button class = "squared-link" id = "parar">
+                <div class="pseudo-addition">
+                PARAR
+                </div>
+            </button>
+        </div>
+        
+        <div class="life_container">
+        </div>
+    </div>
+</body>
+</html>
