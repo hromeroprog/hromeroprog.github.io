@@ -1,0 +1,216 @@
+T5 - El modelo de Markowitz
+1. Determine la cartera de mínimo riesgo si posee dos activos con riesgo y el coeficiente
+de correlación entre ambos es de 0.8. ACTIVO 1: Rentabilidad esperada del 6%, y una
+desviación típica de 14%. ACTIVO 2: Rentabilidad esperada del 15% y una desviación
+típica del 25%.
+a. W1=100%, porque es el de menor riesgo.
+b. W1=63,77% y W2= 36,23%.
+c. W1=151,23% y W2= -51,23%.
+d. W1=132,18% y W2= -32,18%.**
+2. Determine la cantidad a invertir en activo libre de riesgo si la rentabilidad esperada
+de la cartera óptima con riesgo (en el Modelo Media-Varianza) es del 15%, la
+rentabilidad de las Letras del Tesoro del 5%. Además, la volatilidad de la cartera
+óptima con riesgo es del 22%, y se desea obtener una cartera final con un riesgo del 12%.
+a. 80%
+b. Entre 60% y 70%.
+c. 45.45%**
+d. Ninguna de las anteriores
+3. En el modelo de Markowitz dos inversores con diferente coeficiente de aversión al
+riesgo, elegirán:
+a. La misma cartera final (compuesta por la cartera óptima con riesgo y
+activo libre de riesgo).
+b. La misma cartera óptima con riesgo, siempre que exista un activo libre de
+riesgo en la economía.**
+c. Una cartera óptima con riesgo diferente, siempre que exista un activo
+libre de riesgo en la economía.
+d. La respuesta A y B son correctas.
+4. Señale la respuesta correcta.
+a. El riesgo sistemático o de mercado es diversificable.
+b. El riesgo idiosincrático o específico aumenta cuando añadimos más
+activos arriesgados a nuestra cartera.
+c. El riesgo total de la cartera se reduce cuando aumentamos el número da
+activos arriesgados. Nota: asumimos que las correlaciones entre ellos son
+diferentes.**
+d. El modelo de Gordon no utliza los dividiendos de la acción para calcular
+su precio. 
+5. Asuma que existe un mercado con "n" activos arriegados y un activo libre de riesgo.
+Bajo el modelo media-varianza:
+a. Todos los inversores amantes del riesgo siempre invertirán en una
+cartera que invierte el 100% en activo libre de riesgo.
+b. Los inversores aversos al riesgo invertirán en una cartera con una
+proporción de cartera óptima (cartera tangente).**
+c. Los inversores aversos al riesgo nunca invertirán en una cartera con una
+proporción de cartera óptima (cartera tangente).
+d. Todos los inversores aversos al riesgo invertirán el 100% de su riqueza en
+la cartera óptima.
+6. Un cliente de un banco quiere invertir sus ahorros en un fondo de inversión de renta
+variable (una cartera de renta variable) pero debe elegir entre tres fondos de
+inversión. Suponiendo que esta inversión se puede combinar con inversiones en
+letras del tesoro, que ofrecen una rentabilidad del 4%, determine qué fondo debería
+elegir:
+Fondos RENTABILIDAD ESPERADA VOLATILIDAD
+FONDO 101 12% 21%
+FONDO 102 15% 26%
+FONDO 103 21% 30%
+a. Fondo 101
+b. Fondo 102
+c. Fondo 103**
+d. Ninguno es superior a otro, la elección depende del coeficiente de
+aversión al riesgo del inversor.
+7. Determine la cartera de mínima varianza entre dos activos (GAGO y LUCO). La
+correlación es -1, y la volatilidad de GAGO(LUCO) es 18%(25%).
+a. La ponderación en GAGO está entre 10% y 15%.
+b. La ponderación en GAGO está entre 18% y 25%.
+c. La ponderación en GAGO está entre 57.5% y 59%.
+d. Ninguna de las anteriores
+8. Considere un conjunto de oportunidades de inversión compuesto únicamente por
+activos arriesgados. Todas las correlaciones (ρ) están comprendidas entre -1 < ρ <
++1. Señale la respuesta correcta.
+a. La cartera de mínima varianza tiene volatilidad cero.
+b. Una vez en la frontera eficiente, no se puede obtener más rentabilidad
+sin aumentar el riesgo. 
+c. Las carteras dominadas ofrecen más rentabilidad para el mismo nivel de
+riesgo.
+d. Todos los inversores el 100% en la cartera óptima, sin importar el nivel
+de aversión al riesgo.
+
+9. Imagine un mercado financiero cuyo activo libre de riesgo da una rentabilidad del
+1.00% anual. Señale la Capital Allocation Line (CAL) formada por el activo libre de
+riesgo y una cartera arriesgada con una rentabilidad anual del 10%, y la desviación
+típica del 15% anual.
+a. E(ri) = 0.01 + 0.67σi
+b. E(ri) = 0.01 + 0.60σi
+c. E(ri) = 0.02 + 0.67σi
+d. E(ri) = 0.02 + 0.60σi
+10. Un banco le ofrece invertir en tres fondos. La tasa libre de riesgo es 2% anual. ¿Qué
+fondo elegiría?
+Fundos Rendimiento esperado Volatilidad
+A 12% 20%
+B 22% 24%
+C 25% 32%
+a. Fondo A.
+b. Fondo B.
+c. Fondo C.
+d. Faltan datos para calcularlo.
+11. En una economía sin activo libre de riesgo,
+a. Del conjunto de activos arriesgados, existe uno que óptimo y es la cartera
+tangente.
+b. Todas las carteras eficientes están en la frontera del conjunto de
+posibilidades de inversión. Esta frontera maximiza la rentabilidad para un
+nivel de riesgo dado, y minimiza el riesgo para un nivel de rentabilidad
+dada.
+c. A y b son correctas.
+d. Ninguna de las anteriores.
+12. Determine la cartera de mínima varianza dados los siguientes activos,
+Activo Rendimiento (anual) Volatilidad (anual)
+A 6% 27%
+B 9% 32%
+Correlación = Corr(A,B) = 30%
+a. WA = 58.35%.
+b. WA = 38.05%. 
+c. WA = -38.05%.
+d. Ninguna de las anteriores.
+13. Determine la cantidad que debe ser invertida en activo libre de riesgo si la
+rentabilidad de la cartera óptima (en el modelo de Markowitz) es 15%, y la
+rentabilidad de los bonos del Tesoro es del 5%. Además, la volatilidad de la cartera
+óptima es 22% anual, y la volatilidad objetivo de la cartera es 12% anual.
+a. Entre 54% y 56%.
+b. Entre 65% y 67%.
+c. Entre 44% y 46%.
+d. Ninguna de las anteriores.
+14. Asuma que se cumple el modelo de Markowitz. Asuma que la cartera tangente tiene
+una rentabilidad esperada del 12% y una desviación estándar del 25%; la
+rentabilidad del activo libre de riesgo es 2% anual. ¿Qué pesos asignaría a cada activo
+para alcanzar un 20% de rentabilidad en la cartera?
+a. 25% en el activo arriesgado.
+b. 50% en el activo libre de riesgo.
+c. 80% en el activo libre de riesgo.
+d. 180% en el activo arriesgado.
+15. Suponga que los inversores pueden acceder al mismo conjunto de oportunidades de
+inversión, que incluye activo arriesgado y libre de riesgo. De acuerdo al modelo
+media-varianza, señale la respuesta correcta:
+a. La cartera óptima depende del nivel de aversión al riesgo.
+b. En ausencia de activo libre de riesgo, existe un conjunto de carteras eficientes,
+pero no cartera óptima.
+c. Las carteras dominadas son eficientes en sentido media-varianza.
+d. La cartera de mínima varianza es la cartera óptima, no importa el nivel de
+aversión al riesgo del inversor.
+16. Suponga que tiene una cartera formada por 60% en acciones de la empresa Danone,
+30% en el commodities, y el resto en Letras del Tesoro. Si la rentabilidad esperada
+de las acciones Danone es 15%, de los commodities 11%, y de las letras del tesoro
+4%, la volatilidad de Danone es del 22%, de los commodities del 31%, y la covarianza
+entre Danone y los commodities es de 0.015. Determine la volatilidad de esta
+cartera.
+a. Faltan datos es imposible calcularlo.
+b. Entre 17.60% y 17.80%
+c. Entre 11.20% y 11.60%
+d. Ninguna de las anteriores. 
+17. Asumiendo que podemos invertir en el índice S&P500 y en Letras del Tesoro. ¿Cual
+será la proporción a invertir en el S&P500 (con rentabilidad esperada del 12%, y
+volatilidad del 25%) si queremos formar una cartera con una volatilidad del 16%?
+a. 6.40%
+b. Más del 100%
+c. 64%
+d. Ninguna de las anteriores
+18. En una economía donde no existe activo libre de riesgo:
+a. La cartera óptima con riesgo es la cartera tangente (donde la CAL es
+tangente a la frontera eficiente) y es la misma cartera para todos los
+inversores.
+b. La cartera óptima será una cartera de la frontera eficiente, y será la
+misma para todos los inversores.
+c. La cartera óptima será una cartera de la frontera eficiente, y será
+diferente para cada inversor, dependiendo de sus preferencias.
+d. La cartera óptima siempre es la cartera de mínima varianza ya que todos
+los inversores son aversos al riesgo.
+19. Un cliente de un banco quiere invertir sus ahorros en un fondo de inversión de renta
+variable (una cartera de renta variable) pero debe elegir entre tres fondos de
+inversión. Suponiendo que esta inversión se puede combinar con inversiones en
+letras del tesoro, que ofrecen una rentabilidad del 4%, determine qué fondo debería
+elegir:
+Fondos RENTABILIDAD ESPERADA VOLATILIDAD
+FONDO 101 12% 21%
+FONDO 102 15% 26%
+FONDO 103 21% 30%
+a. Fondo 101
+b. Fondo 102
+c. Fondo 103
+d. Ninguno es superior a otro, la elección depende del coeficiente de
+aversión al riesgo del inversor.
+20. El riesgo sistemático,
+a. Es posible diversificarlo inviertiendo en diferentes activos.
+b. No puede ser eliminado por diversificación.
+c. Es el riesgo idiosincrático o individual de una compañía.
+d. Respuestas B y C son correctas. 
+21. Suponga que el rendimiento esperado de la cartera óptima es 15%, el tipo de interés
+libre de riesgo es del 4%, y la desviación estándar de la cartera óptima es del 3%.
+Encuentre el rendimiento esperado de una cartera que tiene desviación estandard
+del 2%, y que está formada por el activo libre de riesgo y la cartera óptima.
+a. 12.25%.
+b. 13.25%.
+c. 11.25%.
+d. 11.33%.
+22. Un inversor tiene dos acciones (Telefónica y Repsol), cuyos rendimientos esperados
+son -10% y 25%, respectivamente. Además, sus desviaciones estándar son 40% y
+27%, respectivamente. Calcule los pesos para formar la cartera de mínima varianza.
+a. WTEL = -2.08 y WREP = 3.07, si la correlación es 1, y la venta en corto está
+permitida.
+b. WTEL = 0.4 y WREP = 0.6, si la correlación es -1, y la venta en corto permitida.
+c. WTEL = 2.08 y WREP = 3.07, si la correlación es 1, y la venta en corto permitida.
+d. a y b son correctas.
+23. Asuma que la correlación entre Telefónica y Repsol es igual a 0. Dados los datos del
+ejercicio anterior, el rendimiento esperado y la volatilidad de una cartera
+equiponderada de Telefónica y Repsol será:
+a. Rendimiento 5.00%, y volatilidad 15.00%.
+b. Rendimiento 7.50%, y volatilidad 24.13%.
+c. Rendimiento -1.15%, y volatilidad 30.47%.
+d. Rendimiento 8.03%, y volatilidad 22.79%.
+24. Un gestor decide invertir en activo libre de riesgo “rf” y activo arriesgado “i”.
+Asumiendo que rf=5%, y dados los siguientes datos,
+Activo 1 2 3 4
+E[Ri] 15% 20% 16% 13%
+σi 40% 50% 30% 15%
+ Determine el conjunto de oportunidades de inversión óptimo para este inversor:
+a. Activo libre de riesgo y activo 1, que generan la CAL E[Rp]= rf+0.38σp
+b. Activo libre de riesgo y activo 2, que generan la CAL E[Rp]= rf+0.40σp
+c. Activo libre de riesgo y activo 3, que generan la CAL E[Rp]= rf+0.37σp
+d. Activo libre de riesgo y activo 4, que generan la CAL [ERp]= rf+0.53σp
