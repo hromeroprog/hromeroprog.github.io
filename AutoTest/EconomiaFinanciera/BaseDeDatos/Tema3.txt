@@ -75,8 +75,7 @@ a. 50,000$
 b. 61,000$**
 c. 175,000$
 d. B y c son correctas.
-19. Un proyecto tendrá éxito con probabilidad 59.25%, produciendo un flujo de caja de
-12,5 millones de euros al final del próximo año. Si el proyecto fracasa, su flujo de
+19. Un proyecto tendrá éxito con probabilidad 59.25%, produciendo un flujo de caja de 12,5 millones de euros al final del próximo año. Si el proyecto fracasa, su flujo de
 caja esperado será de 5 millones de euros. Asumiendo un coste de oportunidad
 anual del 12%, calcule la candidad máxima que estará dispuesto a invertir en él.
 a. 8.43 millones, aproximadamente.**

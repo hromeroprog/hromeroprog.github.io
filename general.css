@@ -52,3 +52,29 @@ a, h1, h2, h3, button, label, div{
 .container{
     width: 100%;
 }
+
+
+.back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+}
+
+.back i.fa-chevron-circle-left{
+    font-size: 25px;
+    color:rgba(238, 238, 238, .7);
+    z-index: 2;
+}
+
+.back i.fa-chevron-left{
+    z-index: 4;
+    position: relative;
+    left: 15px;
+}
+
+.back i:hover{
+    color:rgba(238, 238, 238, .9);
+}

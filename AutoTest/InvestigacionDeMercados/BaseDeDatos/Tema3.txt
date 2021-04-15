@@ -22,3 +22,15 @@ a. Es una escala comparativa
 b. Tiene un punto neutral
 c. Se suele representar de manera horizontal
 d. Todas son incorrectas**
+
+5.En un cuestionario se asigna a cada persona un identificador para poder distinguirla del resto y asegurar el anonimato de las personas. Seleccione a qué tipo de escala pertenece la variable “identificador”:
+a.	Nominal.**
+b.	Ordinal.
+c.	De intervalo.
+d.	De ratio o razón.
+
+6.A continuación, indique cuál de las siguientes frases es incorrecta:
+a. La escala de Likert, se clasifica como una escala no comparativa, de intervalo.
+b. Entre una de las escalas comparativas se encuentra la de suma constante.
+c. La escala de Stapel es de tipo nominal, y nos permite identificar y clasificar objetos.**
+d. Las escalas de ratio tienen un punto cero absoluto, en otras palabras, el punto cero denota ausencia de valor.
