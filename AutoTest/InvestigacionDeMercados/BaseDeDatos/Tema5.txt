@@ -1,0 +1,5 @@
+1. En qué caso puede tener sentido hacer el analisis de la varianza ANOVA:
+a. dos variables de escala
+b. dos variables nominales
+c. una variable nominal y una ordinal**
+d. ninguna
