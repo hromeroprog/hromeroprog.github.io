@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #333;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.evenly-spaced{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 10% 0 10%;
+    flex-wrap: wrap;
+}
+
+.evenly-spaced > *{
+    flex: 1 1 0px;
+    margin: 5px 5% 5px 5%;
+    height: 100%;
+}
+
+.flex-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+
+    font-size: 18px;
+    color: #eee;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 0 0 1px rgba(238, 238, 238, .1);
+    margin: 1px;
+}
+
+a, h1, h2, h3, button, label, div{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+
+.back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+}
+
+.back i.fa-chevron-circle-left{
+    font-size: 25px;
+    color:rgba(238, 238, 238, .7);
+    z-index: 2;
+}
+
+.back i.fa-chevron-left{
+    z-index: 4;
+    position: relative;
+    left: 15px;
+}
+
+.back i:hover{
+    color:rgba(238, 238, 238, .9);
+}
