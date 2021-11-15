@@ -3,6 +3,34 @@
 body{
     background: #333;
     width: 100%;
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.explicacion{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+    margin:  0 auto;
+    padding: 0;
+}
+
+.explicacion p{
+    width: 100%;
+    color: rgba(238, 238, 238, .8);
+    margin: 0;
+    
+}
+
+.explicacion p sup{
+    margin-left: -5px;
+    font-size: 10px;
+}
+
+.explicacion p sub{
+    font-size: 10px;
 }
 
 canvas{
