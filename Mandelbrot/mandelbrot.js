@@ -111,6 +111,8 @@ function setupCanvas(width_resize){
     canvas.height = Math.floor(canvas.width * (2/3));
 }
 
+
+
 function setupCanvasCursor(){
     $(".cursor").css({"width": $(canvas).outerWidth()/6, "height": $(canvas).outerHeight()/6});
 }
