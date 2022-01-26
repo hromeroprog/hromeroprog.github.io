@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-family: 'Morganite ExtraLight';
+    height: 80px;
+    align-items: center;
+}
+
+nav > *:first-child{
+    margin-left: 64px;
+}
+
+nav > *:last-child{
+    margin-right: 64px;
+}
+
+nav > *:nth-child(2){
+    margin-left: 20%;
+}
+
+.logo img{
+    width: 100px;
+}
+
+nav a{
+    box-shadow: none;
+    font-family: 'Morganite ExtraLight';
+    font-size: 30px;
+    letter-spacing: .1em;
+    padding: 5px;
+}
