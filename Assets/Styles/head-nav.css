@@ -31,4 +31,10 @@ nav a{
     font-size: 30px;
     letter-spacing: .1em;
     padding: 5px;
+    color: rgba(255, 255, 255, .8)
+}
+
+nav a:hover{
+    text-shadow: 0 0 5px white;
+    color: white;
 }

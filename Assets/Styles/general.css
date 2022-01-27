@@ -5,7 +5,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #1D1D1D;
+    
+    
 }
 
 
@@ -13,13 +14,27 @@ body{
     min-height: 100vh;
     position: relative;
     padding-top: 30px;
+    background-color: #1D1D1D;
+}
+
+body::before {    
+    content: "";
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+    z-index: -1;
 }
 
 body img.foto-pie{
     width: 230px;
     position: absolute;
     bottom: 0px;
-    left: 50px;
+    left: 72px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
@@ -28,15 +43,15 @@ body div.texto-pie{
     position: absolute;
     font-family: Morganite ExtraLight;
     color: white;
-    letter-spacing: .1em;
-    left:80px;
+    letter-spacing: .15em;
+    left:74px;
     bottom: 250px;
     z-index: 3;
     border-left: 3px solid white;
     padding-left: 10px;
 }
 body div.texto-pie p:first-child{
-    font-size: 55px;
+    font-size: 62px;
 }
 
 .evenly-spaced{
