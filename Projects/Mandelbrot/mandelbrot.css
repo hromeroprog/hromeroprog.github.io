@@ -1,11 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
-
-body{
-    background: #333;
-    width: 100%;
-    margin: 0;
-    font-family: 'Rajdhani', sans-serif;
-}
 
 .explicacion{
     display: flex;
@@ -21,16 +13,16 @@ body{
     width: 100%;
     color: rgba(238, 238, 238, .8);
     margin: 0;
-    
+    font-size: 13px;
 }
 
 .explicacion p sup{
     margin-left: -5px;
-    font-size: 10px;
+    font-size: 8px;
 }
 
 .explicacion p sub{
-    font-size: 10px;
+    font-size: 8px;
 }
 
 canvas{
@@ -50,7 +42,8 @@ canvas{
 
 header{
     font-size: 28px;
-    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Morganite Light';
+    letter-spacing: .2em;
     color: #eee;
     width: 60%;
     box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);

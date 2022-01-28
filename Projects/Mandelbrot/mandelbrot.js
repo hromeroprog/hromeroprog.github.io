@@ -98,8 +98,8 @@ async function parcialMandelbrot(min_x, max_x, min_y){
     console.log("computing y: " + min_y);
 
     $(canvas).css("cursor", "wait");
-    for(var i = 1; i < 4; i++){
-        MAX_COMPUTE_PER_POINT = Math.floor(MAX_COMPUTE_PER_POINT_MAX_ITER*i/3);
+    for(var i = 1; i < 3; i++){
+        MAX_COMPUTE_PER_POINT = Math.floor(MAX_COMPUTE_PER_POINT_MAX_ITER*i/2);
         paintMandelbrot(min_x, max_x, min_y);
         await sleep(1);
     }
