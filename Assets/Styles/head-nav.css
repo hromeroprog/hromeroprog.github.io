@@ -23,6 +23,11 @@ nav > *:nth-child(2){
 
 .logo img{
     width: 100px;
+    opacity: .8;
+}
+
+.logo img:hover{
+    opacity: 1;
 }
 
 nav a{
