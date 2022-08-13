@@ -43,3 +43,8 @@ nav a:hover{
     text-shadow: 0 0 5px white;
     color: white;
 }
+
+.active-nav-a{
+    text-shadow: 0 0 5px white;
+    color: white;
+}

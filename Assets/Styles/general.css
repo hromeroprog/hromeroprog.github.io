@@ -80,6 +80,14 @@ body div.texto-pie p:nth-child(3){
     border-radius: 20px;
 }
 
+.pdf-download{
+    width: 100px;
+    
+    margin-left: 50%;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+}
+
 .carousel>* img{
     width: 100%;
     height: 50vh;
