@@ -19,6 +19,11 @@ body{
 p, h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    color: white;
+}
+
+.center-text{
+    text-align: center;
 }
 
 body::before {    
