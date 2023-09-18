@@ -40,15 +40,16 @@ canvas{
     justify-content: center;
 }
 
-header{
+header {
     font-size: 28px;
-    font-family: 'Morganite Light';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     letter-spacing: .2em;
     color: #eee;
     width: 60%;
     box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);
     text-align: center;
-    padding: 2px;
+    padding: 10px;
     margin: 10px auto;
 }
 
