@@ -1,0 +1,216 @@
+
+
+@media (max-width: 600px)
+{
+    .nav_left,.logo,
+    .box-image, #line-foto1,
+     #line-foto2,#line-foto3, 
+     .right-text-video p{
+        display: none;
+    }
+      /* menu icon */
+      
+      .menu-icon {
+        cursor: pointer;
+        display: inline-block;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+      
+      .menu-icon .navicon {
+        background: #fff;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+      }
+
+     
+      .menu-icon .navicon:before,
+      .menu-icon .navicon:after {
+        background:  #fff;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+      }
+      
+      .menu-icon .navicon:before {
+        top: 5px;
+      }
+      
+      .menu-icon .navicon:after {
+        top: -5px;
+      }
+      
+      /* menu btn */
+     
+      .menu-btn {
+        display: none;
+      }
+
+      .nav-movil ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background: rgba(20, 21, 23, 0.9);
+      }
+
+      .left-video{
+        filter: grayscale(0);
+        opacity: 1;
+    }
+    
+   .right-text-video h4{
+        color: rgba(233, 200, 80, 0.9);
+    }
+    
+    main h2{
+        color: white;
+    }
+      
+      .nav-movil li a {
+        display: block;
+        padding: 20px 20px;
+        border-right: 1px solid #ecbf17;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .nav-movil li a:hover{
+          color: #ecbf17;
+      }
+
+      .nav-movil{
+          position: absolute;
+          margin-left: -100%;
+          z-index: 1;
+      }
+      
+      .nav-movil li a:hover,
+      .menu-icon:hover  {
+        background-color: rgba(0, 0, 0, 0.4);
+      }
+
+      .menu-btn:checked ~ .nav-movil {
+        width: auto;
+        min-height: 100vh;
+        margin: 0px;
+        transition: all 0.3s;
+       
+      }
+      
+      .menu-btn:checked ~ .menu-icon .navicon {
+        background: transparent;
+      }
+      
+      .menu-btn:checked ~ .menu-icon .navicon:before {
+        transform: rotate(-45deg);
+        background:  #ecbf17;
+      }
+      
+      .menu-btn:checked ~ .menu-icon .navicon:after {
+        transform: rotate(45deg);
+        background:  #ecbf17;
+      }
+      
+      .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+      .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+        top: 0;
+      }
+
+      .container main{
+        width: 100%;
+      }
+
+      #participants,#grades-act,#forum-messages {
+        border-collapse: collapse;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        table-layout: fixed;
+      }
+    
+
+      #participants  thead,
+      #grades-act thead,
+      #forum-messages thead{
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      #participants  tr,
+      #grades-act tr,
+      #forum-messages tr{
+        border-bottom: 3px solid #0c0d0e;
+        display: block;
+        margin-bottom: .625em;
+        border: 1px solid #ddd;
+        padding: .35em;
+      }
+      
+      #participants td,
+      #grades-act td,
+      #forum-messages td{
+        display: block;
+        text-align: right;
+      }
+      
+      #participants  td::before,
+      #grades-act td::before,
+      #forum-messages td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 200;
+        text-transform: uppercase;
+        font-size: 15px;
+        color: rgba(233, 200, 80, 0.8);
+      }
+      
+      #participants td:last-child,
+      #grades-act td:last-child,
+      #forum-messages td:last-child {
+        border-bottom: 0;
+      }
+      #forum-messages td:first-child {
+        border-top: 0;
+      }
+
+      #participants .foto_student,
+      #grades-act .foto_student{
+        text-align: right;
+    }
+
+    #participants .message,
+    #grades-act .act-1,
+    #grades-act .act-2,
+    #grades-act .act-3,
+    #forum-messages .num-message {
+      padding-right: 100px;
+    }
+  
+}
+ 
+@media (min-width: 601px) {
+.nav-movil,
+#menu-btn {
+    display: none;
+}
+#grades-act .act-1,
+#grades-act .act-2,
+#grades-act .act-3{
+  width: 15%;
+}
+
+}

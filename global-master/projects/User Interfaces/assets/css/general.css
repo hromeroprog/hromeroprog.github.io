@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+ 
+ body {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    color: white;
+    background-image: url(../background-images/yellow\ smoke\ hard\ darkened\ bg.png);
+    background-color: black;
+    background-size: auto;
+    background-repeat: repeat;
+  }
+
+  .responsive-hidden{
+      display: none;
+  }
+
+  .page{
+      display: flex;
+      flex-direction: column;
+      margin: 5px 40px;
+      min-height: calc(100vh - 75px);
+  }
+
+  .container {
+    order: 2;
+    display:flex;
+    margin: .5px 0;
+    padding: 5px;
+  }
+
+  .nav_left,
+  .container main,
+  .container aside{
+      padding: 20px;
+  }
+
+  .container aside,.nav_left,
+  .container main,
+  header{
+    
+    box-sizing: border-box;
+    /*border-radius: 5px;
+    
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.5);
+    */
+  }
+
+.clearfix{
+    clear: both;
+}
+
+.nav_top ul li,
+.nav_left ul li {
+    list-style: none;
+}
+
+.sticky-div{
+  padding: 10px 0 10px 0;
+  position: sticky;
+  top: 0;
+}
+
+

@@ -1,0 +1,135 @@
+header {
+    order: 1;
+    margin: 20px 10px;
+    padding: 10px;
+    background-color: #1A1A1A;
+    font-family: Plain,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: rgba(255,255, 255, 0.5);
+    /*background: linear-gradient(to right, #4e086b 0%,#930fca 100%);
+    */
+  }
+
+  .logo
+{
+    font-family: Impact, Charcoal, sans-serif;
+    height: 65px;
+    width: 210px;
+    padding: 0 5px;
+    /*text-align: center;*/
+    box-sizing: border-box;
+    float: left;
+    text-decoration: none;
+    padding-left: 30px;
+    font-weight: 100;
+    color: #ecbf17;
+    margin-top: -5px;
+    overflow: hidden;
+}
+
+.logo:hover #bug_report,
+.logo:hover #logo_theory_of
+{
+    color: white;
+}
+
+.logo:hover #logo_errors{
+    color: #ecbf17;
+}
+
+#bug_report{
+    font-size: 60px;
+    padding-top: 5px;
+    
+}
+
+.material-icons{
+    float: left;
+    height: 60px;
+}
+
+.nav_top ul li a{
+    font-size: 13px;
+    display: block;
+    margin: 10px 3px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+
+
+    background: linear-gradient(264.51deg, #FFE580 4.38%, #FF7571 11.51%, #FF7270 25.06%, #EA5DAD 36.04%, #C2A0FD 47.63%, #9867F0 59.03%, #3BF0E4 69.96%, #33CE43 83.74%, #B2F4B6 95.62%);
+    background-position: 58% 50%;
+    background-size: 500%;
+    -webkit-background-clip: text;
+    animation: gradient-shift 30s ease infinite;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav_top ul li a.active,
+.nav_top ul li a:hover
+{
+    color: #ecbf17;
+    transition: 0.2s;
+    
+}
+
+#logo_theory_of{
+    color: #ecbf17;
+    height: 22px;
+    float: left;
+    font-size: 25px;
+
+    padding-right: 5px;
+    padding-bottom: 3px;
+    
+}
+#logo_errors{
+    color: white;
+    float: left;
+    height: 22px;
+    font-size: 33px;
+}
+
+.nav_top{
+    float: right;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: .35em;
+    font-size: 0.94vw;
+}
+.nav_top ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.asignatura-movil{
+    display: inline-block;
+    text-align: center;
+    margin: 15px 20px 10px 10px;
+    text-decoration: none;
+    font-size: 3.5vw;
+    font-weight: 100;
+    letter-spacing: .25em;
+    vertical-align: top;
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes gradient-shift{
+    0% {
+        background-position: 58% 50%;
+    }
+    25% {
+        background-position: 100% 0%;
+    }
+    75% {
+        background-position: 10% 50%;
+    }
+    100% {
+        background-position: 58% 50%;
+    }
+}

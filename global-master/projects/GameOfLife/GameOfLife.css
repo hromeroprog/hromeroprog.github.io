@@ -1,0 +1,83 @@
+.life_container{
+    background-color: lightgray;
+}
+
+#game-of-life{
+    height: 100vh;
+}
+
+#comenzar, #parar{
+    margin: 30px 50px 10px 50px;
+    background-color: #333;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#comenzar:hover, #parar:hover{
+    background-color: rgba(238, 238, 238, .4);
+}
+
+header{
+    font-size: 28px;
+    color: #eee;
+    width: 60%;
+    text-align: center;
+    padding: 2px;
+    margin: 10px auto;
+}
+
+.life_container{
+    background-color:#333;
+    width: 80%;
+    height: 70%;
+    margin: 30px auto;
+    box-sizing: content-box;
+    box-shadow: 0 0 10px 10px rgba(238, 238, 238, .1);
+}
+
+.life_container > .cell{
+    float: left;
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 1px rgba(238, 238, 238, .4);
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.life_container > .active{
+    background-color: rgba(238, 238, 238, .4);
+}
+
+.speed_control{
+    margin-left: 10px;
+    width: 10%;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #eee;
+}
+
+#info-button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+}
+
+#info-content {
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
+
+
+

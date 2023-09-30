@@ -1,0 +1,40 @@
+canvas{
+    margin: 2px;
+    border: 2px solid #eee;
+}
+
+.canvas_container{
+    margin-top: 30px;
+}
+
+.flex_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: .2em;
+    color: #eee;
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.customize{
+    width: 30%;
+    box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);
+    padding: 10px;
+    margin: 10px;
+    height: 70vh;
+    display: none;
+}
+
+.cursor{
+    border: 2px solid #eee;
+    position: absolute;
+    display: none;
+}

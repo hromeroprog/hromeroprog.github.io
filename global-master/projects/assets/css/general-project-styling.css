@@ -1,0 +1,78 @@
+.evenly-spaced{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 0 10% 0 10%;
+    flex-wrap: wrap;
+}
+
+.evenly-spaced > *{
+    flex: 1 1 0px;
+    margin: 5px 5% 5px 5%;
+    height: 100%;
+}
+
+.back-button{
+    margin: 20px 20px 20px 20px;
+    padding: 5px;
+}
+
+.back-button img{
+    opacity: .5;
+}
+
+.back-button:hover img{
+    opacity: 1;
+}
+
+.explicacion{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    text-align: center;
+    margin:  0 auto;
+    padding: 0;
+}
+
+.explicacion p{
+    width: 100%;
+    color: rgba(238, 238, 238, .8);
+    margin: 0;
+    font-size: 13px;
+}
+
+.explicacion p sup{
+    margin-left: -5px;
+    font-size: 8px;
+}
+
+.explicacion p sub{
+    font-size: 8px;
+}
+
+#info-button{
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    opacity: 0.5;
+}
+
+#info-button:hover{
+    opacity: 1;
+}
+    
+
+#info-content {
+    position: fixed;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 9999;
+}
