@@ -138,50 +138,57 @@
                       </p>
                   </section>
           
-                <div class="evenly-spaced">
-                  <!-- Trabajos -->
-                  <div class="timeline">
-                    <div class="timeline-item timeline-item-right">
-                      <h4>Backend Developer | Grupo MásMóvil</h4>
-                      <p>April 2023 - present</p>
-                    </div>
-                    <div class="timeline-item timeline-item-right">
-                      <h4>DevOps Data Engineer Trainee | Grupo MásMóvil</h4>
-                      <p>October 2022 - April 2023</p>
-                    </div>
-                    <div class="timeline-item timeline-item-right">
-                      <h4>Reasearcher Developer | Universidad Carlos III de Madrid</h4>
-                      <p>September 2022 - June 2023</p>
-                    </div>
-                    <div class="timeline-item timeline-item-right">
-                      <h4>Reasearcher Developer | Universidad Carlos III de Madrid</h4>
-                      <p>September 2022 - June 2023</p>
-                    </div>
-                    <!-- More timeline items go here -->
-                  </div>
+                  <!-- THE CHALLENGE: -->
+<!-- 1. recreate version 3 (https://codepen.io/cjl750/pen/mXbMyo) with no javascript whatsoever
+     2. make code as abstract as possible (e.g., trying to calc positions that would work with any number of dots instead of hard-coding the container width as we do in our media queries)
+     3. highest browser support possible -->
+<!-- Bonus points: turn v3's pseudo content into actual element content, so it's accessible to screen readers, search engines, etc. -->
 
-                  <!-- Estudios -->
-                  <div class="timeline">
-                    <div class="timeline-item timeline-item-right">
-                      <h4>Backend Developer | Grupo MásMóvil</h4>
-                      <p>April 2023 - present</p>
-                    </div>
-                    <div class="timeline-item timeline-item-right">
-                      <h4>DevOps Data Engineer Trainee | Grupo MásMóvil</h4>
-                      <p>October 2022 - April 2023</p>
-                    </div>
-                    <div class="timeline-item timeline-item-right">
-                      <h4>Reasearcher Developer | Universidad Carlos III de Madrid</h4>
-                      <p>September 2022 - June 2023</p>
-                    </div>
-                    <div class="timeline-item timeline-item-right">
-                      <h4>Reasearcher Developer | Universidad Carlos III de Madrid</h4>
-                      <p>September 2022 - June 2023</p>
-                    </div>
-                    <!-- More timeline items go here -->
-                  </div>
-
-                </div>
+<h1>Work, <span>2017-now</span></h1>
+<div class="flex-parent">
+	<div class="input-flex-container">
+		<input type="radio" name="timeline-dot" data-description="1950">
+		<div class="dot-info" data-description="1950">
+			<span class="year">1950</span>
+			<span class="label">leaf blower</span>
+		</div>
+		<input type="radio" name="timeline-dot" data-description="1960">
+		<div class="dot-info" data-description="1960">
+			<span class="year">1960</span>
+			<span class="label">magnetic stripe card</span>
+		</div>
+		<input type="radio" name="timeline-dot" data-description="1970">
+		<div class="dot-info" data-description="1970">
+			<span class="year">1970</span>
+			<span class="label">wireless LAN</span>
+		</div>
+		<input type="radio" name="timeline-dot" data-description="1980">
+		<div class="dot-info" data-description="1980">
+			<span class="year">1980</span>
+			<span class="label">flash memory</span>
+		</div>
+		<input type="radio" name="timeline-dot" data-description="1990">
+		<div class="dot-info" data-description="1990">
+			<span class="year">1990</span>
+			<span class="label">World Wide Web</span>
+		</div>
+		<input type="radio" name="timeline-dot" data-description="2000">
+		<div class="dot-info" data-description="2000">
+			<span class="year">2000</span>
+			<span class="label">Google AdWords</span>
+		</div>
+		<div id="timeline-descriptions-wrapper">
+			<p data-description="1930">And the world rejoiced.</p>
+			<p data-description="1940">Because building roads is inconvenient.</p>
+			<p data-description="1950">Ain’t nobody got time to rake.</p>
+			<p data-description="1960">Because paper currency is for noobs.</p>
+			<p data-description="1970">Nobody likes cords. Nobody.</p>
+			<p data-description="1980">Brighter than glow memory.</p>
+			<p data-description="1990">To capitalize on an as-yet nascent market for cat photos.</p>
+			<p data-description="2000">Because organic search rankings take work.</p>
+		</div>
+	</div>
+</div>
 
           
                   <!-- Skills -->
@@ -231,6 +238,6 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
-<script src="assets/js/functions-min.js"></script>
+<script src="assets/js/functions.js"></script>
 </body>
 </html>
