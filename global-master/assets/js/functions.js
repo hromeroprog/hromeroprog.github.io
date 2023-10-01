@@ -2,6 +2,26 @@
 
 $( document ).ready(function() {
 
+  const dotInfoElements = document.querySelectorAll('.dot-info');
+
+  // Loop through each dot-info element
+  dotInfoElements.forEach((dotInfoElement) => {
+    // Get the corresponding input element
+    const inputElement = dotInfoElement.querySelector('input[type="radio"]');
+  
+    // Find the span.year and span.label elements
+    const yearElement = dotInfoElement.querySelector('.year');
+    const labelElement = dotInfoElement.querySelector('.label');
+    
+    // Add click event listeners to the span elements
+    [yearElement, labelElement].forEach((element) => {
+      element.addEventListener('click', () => {
+        inputElement.checked = true;
+      });
+    });
+  });
+  
+
   // DOMMouseScroll included for firefox support
   var canScroll = true,
       scrollController = null;
