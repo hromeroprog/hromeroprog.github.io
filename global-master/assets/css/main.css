@@ -1647,12 +1647,12 @@ body {
     margin-left: 0px;
     margin-top: 100px;
     width: 110%;
-    background-color: lightblue;
+    background-color: none;
   }
 
   .input-flex-container .timeline{
     width: calc(100% - 100px);
-    background-color: red;
+    background-color: rgb(92, 92, 92);
     height: 3px;
     position: absolute;
     right: 0;
@@ -1670,7 +1670,7 @@ body {
 
   .input-flex-container .timeline + .dot-info {
     margin-left: 100px;
-    background-color: pink;
+    background-color: none;
 }
 
 
@@ -1680,7 +1680,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: yellow;
+    background-color: none;
     width: 25px;
     height: 50px;
   }
@@ -1689,7 +1689,7 @@ body {
   input {
     width: 25px;
     height: 25px;
-    background-color: red;
+    background-color: rgb(92,92,92);
     position: relative;
     border-radius: 50%;
     display: block;
@@ -1750,43 +1750,25 @@ body {
   #timeline-descriptions-wrapper {
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    min-height: 200px;
-    background-color: blue;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 300;
+    min-height: 150px;
+    background-color: none;
     color:white;
   }
   #timeline-descriptions-wrapper p {
     margin-top: 0;
   }
 
-  input[data-description="BackendDeveloper"]:checked ~ #timeline-descriptions-wrapper p[data-description="BackendDeveloper"] {
-    display: block;
-    background-color: pink;
-}
-
   #timeline-descriptions-wrapper p[data-description] {
     display: none;
   }
+
+    #timeline-descriptions-wrapper p[data-description]:last-child {
+        display: block;
+    }
   
-
-
-input[data-description="ResearchSupportSpecialist"]:checked ~ #timeline-descriptions-wrapper p[data-description="ResearchSupportSpecialist"] {
-    display: block;
-}
-
-input[data-description="MachineLearningResearcher"]:checked ~ #timeline-descriptions-wrapper p[data-description="MachineLearningResearcher"] {
-    display: block;
-}
-
-input[data-description="DevOpsDataEngineerTrainee"]:checked ~ #timeline-descriptions-wrapper p[data-description="DevOpsDataEngineerTrainee"] {
-    display: block;
-}
-
-input[data-description="DigitalBusinessDeveloper"]:checked ~ #timeline-descriptions-wrapper p[data-description="DigitalBusinessDeveloper"] {
-    display: block;
-}
   
 
   @media (max-width: 630px) {
@@ -1858,7 +1840,7 @@ input[data-description="DigitalBusinessDeveloper"]:checked ~ #timeline-descripti
       margin-top: 30px;
       margin-left: 0;
       text-align: center;
-      background-color: #0f33ff;
+      background-color: none;
       min-height: 100px;
     }
   }

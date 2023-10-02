@@ -20,6 +20,12 @@ $( document ).ready(function() {
       });
     });
   });
+
+  $('input[type="radio"][name="timeline-dot"]').change(function(){
+    var description = $(this).attr('data-description');
+    $('#timeline-descriptions-wrapper p').hide(); // Hide all p elements
+    $('#timeline-descriptions-wrapper p[data-description="' + description + '"]').show(); // Show the matching p element
+  });
   
 
   // DOMMouseScroll included for firefox support
