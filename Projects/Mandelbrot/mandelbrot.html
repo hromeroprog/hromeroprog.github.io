@@ -5,33 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mandelbrot Explorer</title>
     <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/general-project-styling.css">
     <link rel="stylesheet" href="mandelbrot.css"/>
-    <script src="../../Assets/Javascripts/jquery-3.5.1.min.js"></script>
+    <script src="../../assets/js/vendor/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <div class="container">
-        <a href="../projects.html" class="back"><i class="fas fa-chevron-left"></i></a>
-        <header>Mandelbrot</header>
-        <div class="explicacion">
+        <a href="../../index.html" class="back-button"><img src="../../assets/img/back-arrow.png" alt="BackArrow"></a>
+        <header>MANDELBROT'S SET</header>
+        <button id="info-button"><img src="../../assets/img/info-icon.png" alt="InfoIcon"></button>
+        <div class="explanation" id="info-content" style="display: none;">
             <p>
-                El conjunto de Mandelbrot es el conjunto fractal más estudiado.
-                Se define en el plano complejo fijando un número complejo c cualquiera.
-                A partir de c, se construye una sucesión por recursión:
+                The Mandelbrot set is the most studied fractal set. It is defined in the complex plane by fixing any complex number c. From c, a sequence is constructed by recursion:
             </p>
             <p>
-                Z<sub>0</sub> = 0 &isin; &#8450;
-                Z<sub>n+1</sub> = Z<sub>n</sub><sup>2</sup> + c
+                \(Z<sub>0</sub> = 0 \) &isin; &#8450; <br>
+                \(Z<sub>n+1</sub> = Z<sub>n</sub><sup>2</sup> + c\)
             </p>
             <p>
-                El conjunto de Mandelbrot es el conjunto de números complejos c para los que la sucesión no diverge.
+                The Mandelbrot set comprises those complex numbers c for which the sequence does not diverge.
             </p>
             <p>
-                En este proyecto, se muestra una representación interactiva del conjunto de Mandelbrot, para explorar el conjunto simplemente haz "click" y se ampliará la zona marcada.
+                In this project, an interactive representation of the Mandelbrot set is displayed. To explore the set, simply click, and the marked area will be magnified.
             </p>
             <p>
-                Tip: ¡Explora los bordes!
+                Tip: Explore the edges to uncover intricate patterns!
             </p>
         </div>
+        
         <div class="canvas_container flex_container">
             <div class="cursor"></div>
             <div class="customize"></div>

@@ -49,18 +49,6 @@ $(document).ready(function(){
         switchCellState($(this));
     });
 
-
-    const infoButton = $('#info-button');
-    const infoContent = $('#info-content');
-
-    infoButton.on('click', () => {
-        if (infoContent.css('display') === 'none') {
-            infoContent.css('display', 'block');
-        } else {
-            infoContent.css('display', 'none');
-        }
-    });
-
     $("div.life_container").on("drag", null);
 
     $(document).mousedown(function() {

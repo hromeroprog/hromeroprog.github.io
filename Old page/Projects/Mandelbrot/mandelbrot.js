@@ -87,17 +87,6 @@ $(document).ready(function(){
 
     });
 
-    const infoButton = $('#info-button');
-    const infoContent = $('#info-content');
-
-    infoButton.on('click', () => {
-        if (infoContent.css('display') === 'none') {
-            infoContent.css('display', 'block');
-        } else {
-            infoContent.css('display', 'none');
-        }
-    });
-
 });
 
 async function parcialMandelbrot(min_x, max_x, min_y){

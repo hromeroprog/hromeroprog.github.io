@@ -8,14 +8,20 @@
 
 #comenzar, #parar{
     margin: 30px 50px 10px 50px;
+    background-color: #333;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+}
+
+#comenzar:hover, #parar:hover{
+    background-color: rgba(238, 238, 238, .4);
 }
 
 header{
     font-size: 28px;
-    font-family: 'Rajdhani', sans-serif;
     color: #eee;
     width: 60%;
-    box-shadow: 0 0 0 2px rgba(238, 238, 238, .7);
     text-align: center;
     padding: 2px;
     margin: 10px auto;
@@ -53,4 +59,6 @@ header{
     align-items: center;
     color: #eee;
 }
+
+
 
